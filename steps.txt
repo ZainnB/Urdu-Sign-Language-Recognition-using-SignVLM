@@ -1,0 +1,17 @@
+conda create -n signClip python=3.10
+conda activate signClip
+# recent version based on the cuda version of the machine
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install matplotlib notebook pandas requests tqdm Pillow
+pip install av
+
+# in the following script, make number of nodes=1 and workers small. You can reduce batch size
+# I had also an issue with the path, so I used the absolute path for each file in the train.txt and val.txt files.
+sh ./scripts/train_ucf101_vitl14_32f_dec4x1024.sh 
+# I had also the following error:
+" AttributeError: module 'av' has no attribute 'from_image'"
+and I fixed it by replacing av.from_image(..) by:
+                container = av.open(frame)
+                # Read the first frame from the container
+                frames.append(next(container.decode(video=0)))
+
