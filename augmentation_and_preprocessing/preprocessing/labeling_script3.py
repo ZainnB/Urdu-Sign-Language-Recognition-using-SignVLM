@@ -13,8 +13,8 @@ import shutil
 # ============================================================================
 # USER CONFIG
 # ============================================================================
-SOURCE_ROOT = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Test")
-TARGET_ROOT = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Test_videos")
+SOURCE_ROOT = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Train_ROI")
+TARGET_ROOT = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Train_roi_vids")
 
 dry_run = False
 
