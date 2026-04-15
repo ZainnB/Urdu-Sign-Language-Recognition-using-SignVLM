@@ -49,6 +49,7 @@ python -u -m torch.distributed.run --nproc_per_node=1 --standalone \
   --decoder_mlp_factor 4.0 \
   --cls_dropout 0.5 \
   --decoder_mlp_dropout 0.5 \
+  --data_root ../data \
   --train_list_path ../dataset_split_text_files/train_signer_signvlm.txt \
   --val_list_path ../dataset_split_text_files/val_signer_signvlm.txt \
   --num_workers 4 \

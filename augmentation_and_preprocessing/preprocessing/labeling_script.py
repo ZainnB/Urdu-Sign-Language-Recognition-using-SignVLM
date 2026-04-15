@@ -2,7 +2,7 @@ from pathlib import Path
 import re
 
 # -------------------- USER CONFIG --------------------
-DATASET_ROOT = Path.home() / "Documents" / "Github-Repos" / "Urdu_Sign_Language_Recognition_using_SignVLM" / "data" / "Final Dataset (with roi augmentation)"
+DATASET_ROOT = Path.home() / "Documents" / "Github-Repos" / "Urdu_Sign_Language_Recognition_using_SignVLM" / "data" / "Test"
 MAX_VIDEOS_PER_LABEL = 30
 dry_run = False
 

@@ -1,312 +1,312 @@
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Afraid/Afraid_16.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Afraid/Afraid_17.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Afraid/Afraid_18.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Angry/Angry_16.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Angry/Angry_17.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Angry/Angry_18.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Autumn/Autumn_16.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Autumn/Autumn_17.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Autumn/Autumn_18.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/best/best_16.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/best/best_17.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/best/best_18.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/body/body_16.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/body/body_17.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/body/body_18.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/brother_or_sister/brother_or_sister_16.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/brother_or_sister/brother_or_sister_17.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/brother_or_sister/brother_or_sister_18.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Car/Car_16.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Car/Car_17.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Car/Car_18.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Come/Come_16.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Come/Come_17.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Come/Come_18.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Down/Down_16.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Down/Down_17.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Down/Down_18.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Drink/Drink_16.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Drink/Drink_17.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Drink/Drink_18.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Eat/Eat_16.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Eat/Eat_17.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Eat/Eat_18.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Father/Father_16.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Father/Father_17.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Father/Father_18.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Five/Five_16.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Five/Five_17.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Five/Five_18.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/food/food_16.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/food/food_17.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/food/food_18.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Forward/Forward_16.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Forward/Forward_17.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Forward/Forward_18.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Four/Four_16.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Four/Four_17.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Four/Four_18.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/free/free_16.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/free/free_17.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/free/free_18.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Friday/Friday_16.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Friday/Friday_17.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Friday/Friday_18.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Go/Go_16.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Go/Go_17.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Go/Go_18.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Happy/Happy_16.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Happy/Happy_17.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Happy/Happy_18.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/He_or_she/He_or_she_16.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/He_or_she/He_or_she_17.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/He_or_she/He_or_she_18.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Healthy/Healthy_16.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Healthy/Healthy_17.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Healthy/Healthy_18.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Hear/Hear_16.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Hear/Hear_17.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Hear/Hear_18.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/hi/hi_16.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/hi/hi_17.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/hi/hi_18.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Home/Home_16.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Home/Home_17.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Home/Home_18.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Hospital/Hospital_16.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Hospital/Hospital_17.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Hospital/Hospital_18.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/I/I_16.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/I/I_17.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/I/I_18.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Internet/Internet_16.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Internet/Internet_17.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Internet/Internet_18.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Left/Left_16.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Left/Left_17.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Left/Left_18.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Medicine/Medicine_16.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Medicine/Medicine_17.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Medicine/Medicine_18.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/meet/meet_16.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/meet/meet_17.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/meet/meet_18.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Mobile_phone/Mobile_phone_16.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Mobile_phone/Mobile_phone_17.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Mobile_phone/Mobile_phone_18.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Monday/Monday_16.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Monday/Monday_17.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Monday/Monday_18.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Mother/Mother_16.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Mother/Mother_17.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Mother/Mother_18.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/One/One_16.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/One/One_17.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/One/One_18.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/other/other_16.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/other/other_17.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/other/other_18.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/please/please_16.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/please/please_17.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/please/please_18.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Read/Read_16.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Read/Read_17.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Read/Read_18.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Right/Right_16.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Right/Right_17.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Right/Right_18.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sad/Sad_16.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sad/Sad_17.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sad/Sad_18.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Saturday/Saturday_16.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Saturday/Saturday_17.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Saturday/Saturday_18.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/See/See_16.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/See/See_17.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/See/See_18.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sick/Sick_16.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sick/Sick_17.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sick/Sick_18.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sleep/Sleep_16.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sleep/Sleep_17.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sleep/Sleep_18.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/son_or_daughter/son_or_daughter_16.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/son_or_daughter/son_or_daughter_17.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/son_or_daughter/son_or_daughter_18.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/sorry/sorry_16.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/sorry/sorry_17.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/sorry/sorry_18.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Speak/Speak_16.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Speak/Speak_17.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Speak/Speak_18.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Spring/Spring_16.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Spring/Spring_17.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Spring/Spring_18.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Summer/Summer_16.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Summer/Summer_17.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Summer/Summer_18.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sunday/Sunday_16.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sunday/Sunday_17.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Sunday/Sunday_18.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Surprised/Surprised_16.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Surprised/Surprised_17.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Surprised/Surprised_18.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Tea/Tea_16.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Tea/Tea_17.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Tea/Tea_18.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/teacher/teacher_16.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/teacher/teacher_17.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/teacher/teacher_18.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/thank_you/thank_you_16.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/thank_you/thank_you_17.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/thank_you/thank_you_18.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Three/Three_16.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Three/Three_17.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Three/Three_18.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Thursday/Thursday_16.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Thursday/Thursday_17.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Thursday/Thursday_18.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Tuesday/Tuesday_16.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Tuesday/Tuesday_17.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Tuesday/Tuesday_18.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/TV/TV_16.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/TV/TV_17.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/TV/TV_18.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Two/Two_16.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Two/Two_17.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Two/Two_18.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Up/Up_16.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Up/Up_17.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Up/Up_18.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Water/Water_16.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Water/Water_17.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Water/Water_18.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/We/We_16.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/We/We_17.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/We/We_18.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Wednesday/Wednesday_16.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Wednesday/Wednesday_17.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Wednesday/Wednesday_18.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/welcome/welcome_16.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/welcome/welcome_17.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/welcome/welcome_18.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/What/What_16.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/What/What_17.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/What/What_18.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/When/When_16.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/When/When_17.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/When/When_18.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Where/Where_16.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Where/Where_17.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Where/Where_18.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Who/Who_16.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Who/Who_17.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Who/Who_18.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Why/Why_16.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Why/Why_17.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Why/Why_18.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Winter/Winter_16.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Winter/Winter_17.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Winter/Winter_18.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Write/Write_16.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Write/Write_17.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/Write/Write_18.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/You/You_16.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/You/You_17.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/You/You_18.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ء/ء_16.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ء/ء_17.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ء/ء_18.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ا/ا_16.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ا/ا_17.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ا/ا_18.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ب/ب_16.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ب/ب_17.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ب/ب_18.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ت/ت_16.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ت/ت_17.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ت/ت_18.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ث/ث_16.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ث/ث_17.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ث/ث_18.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ج/ج_16.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ج/ج_17.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ج/ج_18.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ح/ح_16.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ح/ح_17.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ح/ح_18.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/خ/خ_16.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/خ/خ_17.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/خ/خ_18.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/د/د_16.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/د/د_17.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/د/د_18.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ر/ر_16.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ر/ر_17.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ر/ر_18.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ز/ز_16.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ز/ز_17.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ز/ز_18.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/س/س_16.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/س/س_17.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/س/س_18.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ش/ش_16.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ش/ش_17.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ش/ش_18.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ض/ض_16.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ض/ض_17.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ض/ض_18.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ط/ط_16.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ط/ط_17.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ط/ط_18.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ع/ع_16.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ع/ع_17.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ع/ع_18.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/غ/غ_16.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/غ/غ_17.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/غ/غ_18.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ف/ف_16.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ف/ف_17.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ف/ف_18.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ل/ل_16.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ل/ل_17.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ل/ل_18.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/م/م_16.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/م/م_17.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/م/م_18.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ن/ن_16.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ن/ن_17.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ن/ن_18.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/و/و_16.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/و/و_17.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/و/و_18.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/پ/پ_16.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/پ/پ_17.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/پ/پ_18.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/چ/چ_16.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/چ/چ_17.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/چ/چ_18.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ڈ/ڈ_16.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ڈ/ڈ_17.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ڈ/ڈ_18.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ڑ/ڑ_16.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ڑ/ڑ_17.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ڑ/ڑ_18.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ک/ک_16.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ک/ک_17.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ک/ک_18.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/گ/گ_16.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/گ/گ_17.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/گ/گ_18.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ھ/ھ_16.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ھ/ھ_17.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ھ/ھ_18.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ہ/ہ_16.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ہ/ہ_17.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ہ/ہ_18.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ی/ی_16.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ی/ی_17.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ی/ی_18.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ے/ے_16.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ے/ے_17.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/validation_data/ے/ے_18.mp4	103
+Val_aarij/Afraid/1.mp4	0
+Val_aarij/Afraid/2.mp4	0
+Val_aarij/Afraid/3.mp4	0
+Val_aarij/Angry/1.mp4	1
+Val_aarij/Angry/2.mp4	1
+Val_aarij/Angry/3.mp4	1
+Val_aarij/Autumn/1.mp4	2
+Val_aarij/Autumn/2.mp4	2
+Val_aarij/Autumn/3.mp4	2
+Val_aarij/best/1.mp4	58
+Val_aarij/best/2.mp4	58
+Val_aarij/best/3.mp4	58
+Val_aarij/body/1.mp4	59
+Val_aarij/body/2.mp4	59
+Val_aarij/body/3.mp4	59
+Val_aarij/brother_or_sister/1.mp4	60
+Val_aarij/brother_or_sister/2.mp4	60
+Val_aarij/brother_or_sister/3.mp4	60
+Val_aarij/Car/1.mp4	3
+Val_aarij/Car/2.mp4	3
+Val_aarij/Car/3.mp4	3
+Val_aarij/Come/1.mp4	4
+Val_aarij/Come/2.mp4	4
+Val_aarij/Come/3.mp4	4
+Val_aarij/Down/1.mp4	5
+Val_aarij/Down/2.mp4	5
+Val_aarij/Down/3.mp4	5
+Val_aarij/Drink/1.mp4	6
+Val_aarij/Drink/2.mp4	6
+Val_aarij/Drink/3.mp4	6
+Val_aarij/Eat/1.mp4	7
+Val_aarij/Eat/2.mp4	7
+Val_aarij/Eat/3.mp4	7
+Val_aarij/Father/1.mp4	8
+Val_aarij/Father/2.mp4	8
+Val_aarij/Father/3.mp4	8
+Val_aarij/Five/1.mp4	9
+Val_aarij/Five/2.mp4	9
+Val_aarij/Five/3.mp4	9
+Val_aarij/food/1.mp4	61
+Val_aarij/food/2.mp4	61
+Val_aarij/food/3.mp4	61
+Val_aarij/Forward/1.mp4	10
+Val_aarij/Forward/2.mp4	10
+Val_aarij/Forward/3.mp4	10
+Val_aarij/Four/1.mp4	11
+Val_aarij/Four/2.mp4	11
+Val_aarij/Four/3.mp4	11
+Val_aarij/free/1.mp4	62
+Val_aarij/free/2.mp4	62
+Val_aarij/free/3.mp4	62
+Val_aarij/Friday/1.mp4	12
+Val_aarij/Friday/2.mp4	12
+Val_aarij/Friday/3.mp4	12
+Val_aarij/Go/1.mp4	13
+Val_aarij/Go/2.mp4	13
+Val_aarij/Go/3.mp4	13
+Val_aarij/Happy/1.mp4	14
+Val_aarij/Happy/2.mp4	14
+Val_aarij/Happy/3.mp4	14
+Val_aarij/He_or_she/1.mp4	15
+Val_aarij/He_or_she/2.mp4	15
+Val_aarij/He_or_she/3.mp4	15
+Val_aarij/Healthy/1.mp4	16
+Val_aarij/Healthy/2.mp4	16
+Val_aarij/Healthy/3.mp4	16
+Val_aarij/Hear/1.mp4	17
+Val_aarij/Hear/2.mp4	17
+Val_aarij/Hear/3.mp4	17
+Val_aarij/hi/1.mp4	63
+Val_aarij/hi/2.mp4	63
+Val_aarij/hi/3.mp4	63
+Val_aarij/Home/1.mp4	18
+Val_aarij/Home/2.mp4	18
+Val_aarij/Home/3.mp4	18
+Val_aarij/Hospital/1.mp4	19
+Val_aarij/Hospital/2.mp4	19
+Val_aarij/Hospital/3.mp4	19
+Val_aarij/I/1.mp4	20
+Val_aarij/I/2.mp4	20
+Val_aarij/I/3.mp4	20
+Val_aarij/Internet/1.mp4	21
+Val_aarij/Internet/2.mp4	21
+Val_aarij/Internet/3.mp4	21
+Val_aarij/Left/1.mp4	22
+Val_aarij/Left/2.mp4	22
+Val_aarij/Left/3.mp4	22
+Val_aarij/Medicine/1.mp4	23
+Val_aarij/Medicine/2.mp4	23
+Val_aarij/Medicine/3.mp4	23
+Val_aarij/meet/1.mp4	64
+Val_aarij/meet/2.mp4	64
+Val_aarij/meet/3.mp4	64
+Val_aarij/Mobile_phone/1.mp4	24
+Val_aarij/Mobile_phone/2.mp4	24
+Val_aarij/Mobile_phone/3.mp4	24
+Val_aarij/Monday/1.mp4	25
+Val_aarij/Monday/2.mp4	25
+Val_aarij/Monday/3.mp4	25
+Val_aarij/Mother/1.mp4	26
+Val_aarij/Mother/2.mp4	26
+Val_aarij/Mother/3.mp4	26
+Val_aarij/One/1.mp4	27
+Val_aarij/One/2.mp4	27
+Val_aarij/One/3.mp4	27
+Val_aarij/other/1.mp4	65
+Val_aarij/other/2.mp4	65
+Val_aarij/other/3.mp4	65
+Val_aarij/please/1.mp4	66
+Val_aarij/please/2.mp4	66
+Val_aarij/please/3.mp4	66
+Val_aarij/Read/1.mp4	28
+Val_aarij/Read/2.mp4	28
+Val_aarij/Read/3.mp4	28
+Val_aarij/Right/1.mp4	29
+Val_aarij/Right/2.mp4	29
+Val_aarij/Right/3.mp4	29
+Val_aarij/Sad/1.mp4	30
+Val_aarij/Sad/2.mp4	30
+Val_aarij/Sad/3.mp4	30
+Val_aarij/Saturday/1.mp4	31
+Val_aarij/Saturday/2.mp4	31
+Val_aarij/Saturday/3.mp4	31
+Val_aarij/See/1.mp4	32
+Val_aarij/See/2.mp4	32
+Val_aarij/See/3.mp4	32
+Val_aarij/Sick/1.mp4	33
+Val_aarij/Sick/2.mp4	33
+Val_aarij/Sick/3.mp4	33
+Val_aarij/Sleep/1.mp4	34
+Val_aarij/Sleep/2.mp4	34
+Val_aarij/Sleep/3.mp4	34
+Val_aarij/son_or_daughter/1.mp4	67
+Val_aarij/son_or_daughter/2.mp4	67
+Val_aarij/son_or_daughter/3.mp4	67
+Val_aarij/sorry/1.mp4	68
+Val_aarij/sorry/2.mp4	68
+Val_aarij/sorry/3.mp4	68
+Val_aarij/Speak/1.mp4	35
+Val_aarij/Speak/2.mp4	35
+Val_aarij/Speak/3.mp4	35
+Val_aarij/Spring/1.mp4	36
+Val_aarij/Spring/2.mp4	36
+Val_aarij/Spring/3.mp4	36
+Val_aarij/Summer/1.mp4	37
+Val_aarij/Summer/2.mp4	37
+Val_aarij/Summer/3.mp4	37
+Val_aarij/Sunday/1.mp4	38
+Val_aarij/Sunday/2.mp4	38
+Val_aarij/Sunday/3.mp4	38
+Val_aarij/Surprised/1.mp4	39
+Val_aarij/Surprised/2.mp4	39
+Val_aarij/Surprised/3.mp4	39
+Val_aarij/Tea/1.mp4	41
+Val_aarij/Tea/2.mp4	41
+Val_aarij/Tea/3.mp4	41
+Val_aarij/teacher/1.mp4	69
+Val_aarij/teacher/2.mp4	69
+Val_aarij/teacher/3.mp4	69
+Val_aarij/thank_you/1.mp4	70
+Val_aarij/thank_you/2.mp4	70
+Val_aarij/thank_you/3.mp4	70
+Val_aarij/Three/1.mp4	42
+Val_aarij/Three/2.mp4	42
+Val_aarij/Three/3.mp4	42
+Val_aarij/Thursday/1.mp4	43
+Val_aarij/Thursday/2.mp4	43
+Val_aarij/Thursday/3.mp4	43
+Val_aarij/Tuesday/1.mp4	44
+Val_aarij/Tuesday/2.mp4	44
+Val_aarij/Tuesday/3.mp4	44
+Val_aarij/TV/1.mp4	40
+Val_aarij/TV/2.mp4	40
+Val_aarij/TV/3.mp4	40
+Val_aarij/Two/1.mp4	45
+Val_aarij/Two/2.mp4	45
+Val_aarij/Two/3.mp4	45
+Val_aarij/Up/1.mp4	46
+Val_aarij/Up/2.mp4	46
+Val_aarij/Up/3.mp4	46
+Val_aarij/Water/1.mp4	47
+Val_aarij/Water/2.mp4	47
+Val_aarij/Water/3.mp4	47
+Val_aarij/We/1.mp4	48
+Val_aarij/We/2.mp4	48
+Val_aarij/We/3.mp4	48
+Val_aarij/Wednesday/1.mp4	49
+Val_aarij/Wednesday/2.mp4	49
+Val_aarij/Wednesday/3.mp4	49
+Val_aarij/welcome/1.mp4	71
+Val_aarij/welcome/2.mp4	71
+Val_aarij/welcome/3.mp4	71
+Val_aarij/What/1.mp4	50
+Val_aarij/What/2.mp4	50
+Val_aarij/What/3.mp4	50
+Val_aarij/When/1.mp4	51
+Val_aarij/When/2.mp4	51
+Val_aarij/When/3.mp4	51
+Val_aarij/Where/1.mp4	52
+Val_aarij/Where/2.mp4	52
+Val_aarij/Where/3.mp4	52
+Val_aarij/Who/1.mp4	53
+Val_aarij/Who/2.mp4	53
+Val_aarij/Who/3.mp4	53
+Val_aarij/Why/1.mp4	54
+Val_aarij/Why/2.mp4	54
+Val_aarij/Why/3.mp4	54
+Val_aarij/Winter/1.mp4	55
+Val_aarij/Winter/2.mp4	55
+Val_aarij/Winter/3.mp4	55
+Val_aarij/Write/1.mp4	56
+Val_aarij/Write/2.mp4	56
+Val_aarij/Write/3.mp4	56
+Val_aarij/You/1.mp4	57
+Val_aarij/You/2.mp4	57
+Val_aarij/You/3.mp4	57
+Val_aarij/ء/1.mp4	72
+Val_aarij/ء/2.mp4	72
+Val_aarij/ء/3.mp4	72
+Val_aarij/ا/1.mp4	73
+Val_aarij/ا/2.mp4	73
+Val_aarij/ا/3.mp4	73
+Val_aarij/ب/1.mp4	74
+Val_aarij/ب/2.mp4	74
+Val_aarij/ب/3.mp4	74
+Val_aarij/ت/1.mp4	75
+Val_aarij/ت/2.mp4	75
+Val_aarij/ت/3.mp4	75
+Val_aarij/ث/1.mp4	76
+Val_aarij/ث/2.mp4	76
+Val_aarij/ث/3.mp4	76
+Val_aarij/ج/1.mp4	77
+Val_aarij/ج/2.mp4	77
+Val_aarij/ج/3.mp4	77
+Val_aarij/ح/1.mp4	78
+Val_aarij/ح/2.mp4	78
+Val_aarij/ح/3.mp4	78
+Val_aarij/خ/1.mp4	79
+Val_aarij/خ/2.mp4	79
+Val_aarij/خ/3.mp4	79
+Val_aarij/د/1.mp4	80
+Val_aarij/د/2.mp4	80
+Val_aarij/د/3.mp4	80
+Val_aarij/ر/1.mp4	81
+Val_aarij/ر/2.mp4	81
+Val_aarij/ر/3.mp4	81
+Val_aarij/ز/1.mp4	82
+Val_aarij/ز/2.mp4	82
+Val_aarij/ز/3.mp4	82
+Val_aarij/س/1.mp4	83
+Val_aarij/س/2.mp4	83
+Val_aarij/س/3.mp4	83
+Val_aarij/ش/1.mp4	84
+Val_aarij/ش/2.mp4	84
+Val_aarij/ش/3.mp4	84
+Val_aarij/ض/1.mp4	85
+Val_aarij/ض/2.mp4	85
+Val_aarij/ض/3.mp4	85
+Val_aarij/ط/1.mp4	86
+Val_aarij/ط/2.mp4	86
+Val_aarij/ط/3.mp4	86
+Val_aarij/ع/1.mp4	87
+Val_aarij/ع/2.mp4	87
+Val_aarij/ع/3.mp4	87
+Val_aarij/غ/1.mp4	88
+Val_aarij/غ/2.mp4	88
+Val_aarij/غ/3.mp4	88
+Val_aarij/ف/1.mp4	89
+Val_aarij/ف/2.mp4	89
+Val_aarij/ف/3.mp4	89
+Val_aarij/ل/1.mp4	90
+Val_aarij/ل/2.mp4	90
+Val_aarij/ل/3.mp4	90
+Val_aarij/م/1.mp4	91
+Val_aarij/م/2.mp4	91
+Val_aarij/م/3.mp4	91
+Val_aarij/ن/1.mp4	92
+Val_aarij/ن/2.mp4	92
+Val_aarij/ن/3.mp4	92
+Val_aarij/و/1.mp4	93
+Val_aarij/و/2.mp4	93
+Val_aarij/و/3.mp4	93
+Val_aarij/پ/1.mp4	94
+Val_aarij/پ/2.mp4	94
+Val_aarij/پ/3.mp4	94
+Val_aarij/چ/1.mp4	95
+Val_aarij/چ/2.mp4	95
+Val_aarij/چ/3.mp4	95
+Val_aarij/ڈ/1.mp4	96
+Val_aarij/ڈ/2.mp4	96
+Val_aarij/ڈ/3.mp4	96
+Val_aarij/ڑ/1.mp4	97
+Val_aarij/ڑ/2.mp4	97
+Val_aarij/ڑ/3.mp4	97
+Val_aarij/ک/1.mp4	98
+Val_aarij/ک/2.mp4	98
+Val_aarij/ک/3.mp4	98
+Val_aarij/گ/1.mp4	99
+Val_aarij/گ/2.mp4	99
+Val_aarij/گ/3.mp4	99
+Val_aarij/ھ/1.mp4	100
+Val_aarij/ھ/2.mp4	100
+Val_aarij/ھ/3.mp4	100
+Val_aarij/ہ/1.mp4	101
+Val_aarij/ہ/2.mp4	101
+Val_aarij/ہ/3.mp4	101
+Val_aarij/ی/1.mp4	102
+Val_aarij/ی/2.mp4	102
+Val_aarij/ی/3.mp4	102
+Val_aarij/ے/1.mp4	103
+Val_aarij/ے/2.mp4	103
+Val_aarij/ے/3.mp4	103

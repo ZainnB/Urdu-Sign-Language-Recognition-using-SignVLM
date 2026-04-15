@@ -188,3 +188,28 @@ This avoids run-to-run randomness from `--n_shots`.
   - `--frames_available 0` (decode mp4 via PyAV)
   - `--frames_available 1` (pre-extracted frames in `{video_stem}/frame_*.png|jpg`)
 
+## How to extract frames for your dataset folders (recommended on Windows)
+
+This repo includes `tools/extract_frames_signvlm.py`, which creates the exact
+folder structure that `video_dataset/dataset.py` expects when `--frames_available 1`.
+
+Example (your structure):
+
+```
+data/
+  Train_full/<Label>/1.mp4
+  Val_aarij/<Label>/1.mp4
+  Test/<Label>/1.mp4
+```
+
+Run from repo root:
+
+```bash
+python tools/extract_frames_signvlm.py --dataset-root "data" --splits Train_full Val_aarij Test
+```
+
+Then train with:
+
+- `--frames_available 1`
+- `--data_root "data"`
+

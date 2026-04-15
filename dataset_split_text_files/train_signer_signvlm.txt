@@ -1,1560 +1,1560 @@
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/afraid_1.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_10.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_11.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_12.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_13.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_14.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_15.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/afraid_2.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/afraid_3.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/afraid_4.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/afraid_5.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/afraid_6.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_7.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_8.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Afraid/Afraid_9.mp4	0
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/angry_1.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_10.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_11.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_12.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_13.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_14.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_15.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/angry_2.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/angry_3.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/angry_4.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/angry_5.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/angry_6.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_7.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_8.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Angry/Angry_9.mp4	1
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_1.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_10.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_11.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_12.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_13.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_14.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_15.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_2.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_3.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_4.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_5.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_6.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_7.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/Autumn_8.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Autumn/autumn_9.mp4	2
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_1.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_10.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_11.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_12.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_13.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_14.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_15.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_2.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_3.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_4.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_5.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_6.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_7.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_8.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/best/best_9.mp4	58
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_1.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_10.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_11.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_12.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_13.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_14.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_15.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_2.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_3.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_4.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_5.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_6.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_7.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_8.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/body/body_9.mp4	59
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_1.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_10.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_11.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_12.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_13.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_14.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_15.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_2.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_3.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_4.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_5.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_6.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_7.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_8.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/brother_or_sister/brother_or_sister_9.mp4	60
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/car_1.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_10.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_11.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_12.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_13.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_14.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_15.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/car_2.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/car_3.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/car_4.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/car_5.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/car_6.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_7.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_8.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Car/Car_9.mp4	3
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/come_1.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_10.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_11.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_12.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_13.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_14.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_15.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/come_2.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/come_3.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/come_4.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/come_5.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/come_6.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_7.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_8.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Come/Come_9.mp4	4
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/down_1.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_10.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_11.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_12.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_13.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_14.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_15.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/down_2.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/down_3.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/down_4.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/down_5.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/down_6.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_7.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_8.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Down/Down_9.mp4	5
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/drink_1.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_10.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_11.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_12.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_13.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_14.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_15.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/drink_2.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/drink_3.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/drink_4.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/drink_5.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/drink_6.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_7.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_8.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Drink/Drink_9.mp4	6
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/eat_1.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_10.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_11.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_12.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_13.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_14.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_15.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/eat_2.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/eat_3.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/eat_4.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/eat_5.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/eat_6.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_7.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_8.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Eat/Eat_9.mp4	7
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_1.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_10.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_11.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_12.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_13.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_14.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_15.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_2.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_3.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_4.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_5.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_6.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_7.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/Father_8.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Father/father_9.mp4	8
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_1.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_10.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_11.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_12.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_13.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_14.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_15.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_2.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_3.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_4.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_5.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_6.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_7.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_8.mov	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Five/Five_9.mp4	9
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_1.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_10.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_11.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_12.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_13.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_14.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_15.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_2.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_3.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_4.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_5.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_6.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_7.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_8.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/food/food_9.mp4	61
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_1.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_10.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_11.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_12.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_13.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_14.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_15.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_2.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_3.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_4.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_5.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_6.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_7.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_8.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Forward/Forward_9.mp4	10
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_1.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_10.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_11.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_12.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_13.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_14.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_15.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_2.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_3.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_4.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_5.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_6.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_7.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_8.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Four/Four_9.mp4	11
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_1.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_10.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_11.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_12.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_13.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_14.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_15.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_2.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_3.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_4.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_5.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/Free_6.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_7.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_8.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/free/free_9.mp4	62
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_1.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_10.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_11.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_12.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_13.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_14.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_15.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_2.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_3.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_4.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_5.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_6.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_7.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_8.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Friday/Friday_9.mp4	12
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_1.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_10.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_11.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_12.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_13.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_14.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_15.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_2.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_3.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_4.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_5.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_6.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_7.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_8.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Go/Go_9.mp4	13
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_1.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_10.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_11.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_12.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_13.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_14.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_15.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_2.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_3.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_4.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_5.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_6.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_7.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_8.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Happy/Happy_9.mp4	14
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_1.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_10.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_11.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_12.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_13.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_14.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_15.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_2.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_3.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_4.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_5.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_6.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_7.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_8.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/He_or_she/He_or_she_9.mp4	15
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_1.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_10.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_11.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_12.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_13.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_14.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_15.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_2.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_3.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_4.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_5.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_6.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_7.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_8.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Healthy/Healthy_9.mp4	16
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_1.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_10.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_11.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/hear_12.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_13.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_14.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_15.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_2.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_3.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_4.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_5.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_6.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_7.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_8.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hear/Hear_9.mp4	17
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_1.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_10.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_11.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_12.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_13.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_14.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_15.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_2.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_3.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_4.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_5.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/hi_6.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/Hi_7.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/Hi_8.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/hi/Hi_9.mp4	63
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_1.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_10.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_11.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_12.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_13.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_14.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_15.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_2.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_3.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_4.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_5.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_6.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_7.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_8.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Home/Home_9.mp4	18
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_1.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_10.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_11.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_12.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_13.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_14.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_15.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_2.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_3.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_4.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_5.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_6.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_7.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_8.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Hospital/Hospital_9.mp4	19
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_1.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_10.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_11.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_12.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_13.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_14.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_15.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_2.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_3.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_4.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_5.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_6.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_7.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_8.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/I/I_9.mp4	20
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_1.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_10.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_11.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_12.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_13.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_14.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_15.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_2.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_3.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_4.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_5.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_6.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_7.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_8.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Internet/Internet_9.mp4	21
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_1.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_10.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_11.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_12.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_13.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_14.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_15.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_2.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_3.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_4.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_5.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_6.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_7.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_8.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Left/Left_9.mp4	22
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_1.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_10.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_11.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_12.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_13.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_14.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_15.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_2.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_3.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_4.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_5.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_6.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_7.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_8.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Medicine/Medicine_9.mp4	23
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_1.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_10.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_11.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_12.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_13.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_14.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_15.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_2.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/meet_3.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_4.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_5.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_6.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_7.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_8.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/meet/Meet_9.mp4	64
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_1.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_10.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_11.mov	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_12.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_13.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_14.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_15.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_2.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_3.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_4.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_5.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_6.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_7.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_8.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mobile_phone/Mobile_phone_9.mp4	24
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_1.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_10.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_11.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_12.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_13.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_14.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_15.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_2.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_3.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_4.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_5.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_6.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_7.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_8.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Monday/Monday_9.mp4	25
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_1.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_10.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_11.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_12.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_13.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_14.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_15.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_2.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_3.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_4.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_5.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_6.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_7.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_8.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Mother/Mother_9.mp4	26
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_1.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_10.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_11.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_12.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_13.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_14.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_15.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_2.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_3.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_4.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_5.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_6.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_7.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_8.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/One/One_9.mp4	27
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_1.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_10.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_11.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_12.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_13.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_14.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_15.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_2.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_3.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_4.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_5.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_6.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_7.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_8.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/other/other_9.mp4	65
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_1.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_10.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_11.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_12.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_13.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_14.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_15.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_2.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_3.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_4.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_5.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_6.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_7.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_8.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/please/please_9.mp4	66
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_1.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_10.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_11.mov	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_12.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_13.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_14.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_15.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_2.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_3.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_4.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_5.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_6.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_7.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_8.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Read/Read_9.mp4	28
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_1.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_10.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_11.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_12.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_13.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_14.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_15.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_2.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_3.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_4.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_5.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_6.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_7.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_8.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Right/Right_9.mp4	29
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_1.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_10.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_11.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_12.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_13.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_14.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_15.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_2.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_3.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_4.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_5.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_6.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_7.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/Sad_8.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sad/sad_9.mp4	30
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_1.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_10.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_11.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_12.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_13.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_14.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_15.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_2.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_3.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_4.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_5.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_6.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_7.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_8.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Saturday/Saturday_9.mp4	31
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_1.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_10.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_11.mov	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_12.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_13.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_14.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_15.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_2.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_3.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_4.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_5.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_6.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_7.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_8.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/See/See_9.mp4	32
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_1.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_10.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_11.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_12.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_13.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_14.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_15.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_2.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_3.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_4.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_5.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_6.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_7.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_8.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sick/Sick_9.mp4	33
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_1.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_10.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_11.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_12.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_13.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_14.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_15.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_2.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_3.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_4.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_5.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_6.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_7.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_8.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sleep/Sleep_9.mp4	34
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_1.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_10.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_11.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_12.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_13.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_14.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_15.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_2.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_3.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_4.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/Son_or_daughter_5.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/Son_or_daughter_6.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_7.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_8.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/son_or_daughter/son_or_daughter_9.mp4	67
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_1.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_10.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_11.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_12.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_13.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_14.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_15.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_2.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_3.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_4.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_5.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_6.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/Sorry_7.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_8.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/sorry/sorry_9.mp4	68
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_1.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_10.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_11.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_12.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_13.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_14.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_15.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_2.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_3.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_4.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_5.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_6.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_7.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_8.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Speak/Speak_9.mp4	35
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_1.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_10.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_11.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_12.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_13.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_14.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_15.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_2.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_3.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_4.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_5.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_6.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_7.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_8.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Spring/Spring_9.mp4	36
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_1.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_10.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_11.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_12.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_13.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_14.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_15.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_2.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_3.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_4.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_5.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_6.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_7.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_8.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Summer/Summer_9.mp4	37
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_1.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_10.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_11.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_12.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_13.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_14.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_15.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_2.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_3.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_4.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_5.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_6.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_7.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_8.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Sunday/Sunday_9.mp4	38
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_1.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_10.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_11.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_12.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_13.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_14.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_15.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_2.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_3.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_4.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_5.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_6.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_7.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_8.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Surprised/Surprised_9.mp4	39
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_1.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_10.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_11.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_12.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_13.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_14.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_15.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_2.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_3.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_4.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_5.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_6.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_7.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_8.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tea/Tea_9.mp4	41
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_1.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_10.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_11.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_12.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_13.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_14.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_15.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_2.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_3.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_4.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/Teacher_5.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_6.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_7.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_8.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/teacher/teacher_9.mp4	69
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_1.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_10.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_11.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_12.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_13.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_14.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_15.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_2.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_3.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_4.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/Thank_you_5.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/Thank_you_6.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_7.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_8.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/thank_you/thank_you_9.mp4	70
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_1.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_10.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_11.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_12.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_13.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_14.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_15.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_2.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_3.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_4.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_5.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_6.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_7.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_8.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Three/Three_9.mp4	42
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_1.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_10.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_11.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_12.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_13.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_14.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_15.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_2.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_3.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_4.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_5.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_6.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_7.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_8.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Thursday/Thursday_9.mp4	43
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_1.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_10.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_11.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_12.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_13.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_14.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_15.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_2.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_3.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_4.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_5.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_6.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_7.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_8.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Tuesday/Tuesday_9.mp4	44
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_1.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_10.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_11.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_12.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_13.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_14.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_15.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_2.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_3.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/Tv_4.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/Tv_5.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/Tv_6.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_7.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_8.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/TV/TV_9.mp4	40
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_1.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_10.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_11.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_12.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_13.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_14.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_15.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_2.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_3.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_4.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_5.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_6.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_7.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_8.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Two/Two_9.mp4	45
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_1.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_10.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_11.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_12.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_13.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_14.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_15.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_2.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_3.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_4.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_5.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_6.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_7.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_8.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Up/Up_9.mp4	46
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_1.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_10.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_11.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_12.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_13.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_14.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_15.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_2.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_3.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_4.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_5.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_6.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_7.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_8.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Water/Water_9.mp4	47
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_1.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_10.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_11.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_12.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_13.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_14.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_15.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_2.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_3.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_4.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_5.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_6.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_7.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_8.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/We/We_9.mp4	48
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_1.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_10.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_11.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_12.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_13.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_14.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_15.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_2.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_3.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_4.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_5.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_6.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_7.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_8.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Wednesday/Wednesday_9.mp4	49
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_1.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_10.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_11.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_12.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_13.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_14.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_15.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_2.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_3.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/Welcome_4.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/Welcome_5.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_6.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_7.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_8.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/welcome/welcome_9.mp4	71
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_1.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_10.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_11.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_12.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_13.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_14.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_15.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_2.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_3.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_4.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_5.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_6.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_7.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_8.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/What/What_9.mp4	50
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_1.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_10.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_11.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_12.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_13.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_14.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_15.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_2.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_3.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_4.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_5.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_6.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_7.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_8.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/When/When_9.mp4	51
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_1.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_10.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_11.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_12.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_13.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_14.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_15.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_2.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_3.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_4.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_5.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_6.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_7.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_8.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Where/Where_9.mp4	52
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_1.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_10.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_11.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_12.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_13.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_14.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_15.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_2.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_3.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_4.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_5.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_6.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_7.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_8.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Who/Who_9.mp4	53
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_1.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_10.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_11.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_12.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_13.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_14.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_15.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_2.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_3.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_4.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_5.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_6.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_7.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_8.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Why/Why_9.mp4	54
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_1.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_10.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_11.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_12.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_13.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_14.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_15.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_2.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_3.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_4.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_5.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_6.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_7.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_8.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Winter/Winter_9.mp4	55
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_1.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_10.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_11.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_12.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_13.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_14.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_15.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_2.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_3.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_4.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_5.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_6.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_7.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_8.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/Write/Write_9.mp4	56
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_1.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_10.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_11.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_12.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_13.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_14.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_15.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_2.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_3.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_4.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_5.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_6.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_7.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_8.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/You/You_9.mp4	57
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/5_ء۔ mp4.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_1.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_10.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_11.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_12.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_13.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_14.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_15.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_2.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_3.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_4.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_5.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_6.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ء/ء_7.mp4	72
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_1.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_10.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_11.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_12.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_13.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_14.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_15.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_2.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_3.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_4.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_5.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_6.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_7.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_8.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ا/ا_9.mp4	73
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_1.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_10.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_11.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_12.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_13.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_14.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_15.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_2.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_3.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_4.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_5.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_6.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_7.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_8.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ب/ب_9.mp4	74
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_1.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_10.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_11.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_12.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_13.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_14.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_15.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_2.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_3.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_4.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_5.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_6.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_7.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_8.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ت/ت_9.mp4	75
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_1.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_10.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_11.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_12.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_13.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_14.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_15.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_2.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_3.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_4.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_5.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_6.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_7.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_8.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ث/ث_9.mp4	76
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_1.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_10.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_11.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_12.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_13.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_14.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_15.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_2.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_3.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_4.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_5.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_6.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_7.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_8.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ج/ج_9.mp4	77
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_1.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_10.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_11.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_12.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_13.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_14.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_15.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_2.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_3.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_4.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_5.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_6.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_7.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_8.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ح/ح_9.mp4	78
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_1.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_10.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_11.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_12.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_13.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_14.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_15.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_2.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_3.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_4.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_5.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_6.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_7.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_8.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/خ/خ_9.mp4	79
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_1.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_10.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_11.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_12.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_13.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_14.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_15.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_2.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_3.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_4.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_5.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_6.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_7.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_8.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/د/د_9.mp4	80
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_1.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_10.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_11.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_12.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_13.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_14.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_15.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_2.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_3.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_4.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_5.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_6.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_7.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_8.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ر/ر_9.mp4	81
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_1.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_10.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_11.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_12.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_13.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_14.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_15.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_2.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_3.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_4.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_5.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_6.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_7.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_8.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ز/ز_9.mp4	82
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_1.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_10.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_11.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_12.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_13.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_14.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_15.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_2.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_3.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_4.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_5.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_6.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_7.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_8.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/س/س_9.mp4	83
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_1.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_10.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_11.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_12.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_13.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_14.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_15.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_2.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_3.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_4.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_5.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_6.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_7.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_8.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ش/ش_9.mp4	84
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_1.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_10.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_11.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_12.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_13.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_14.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_15.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_2.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_3.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_4.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_5.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_6.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_7.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_8.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ض/ض_9.mp4	85
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_1.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_10.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_11.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_12.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_13.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_14.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_15.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_2.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_3.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_4.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_5.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_6.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_7.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_8.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ط/ط_9.mp4	86
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_1.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_10.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_11.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_12.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_13.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_14.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_15.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_2.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_3.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_4.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_5.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_6.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_7.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_8.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ع/ع_9.mp4	87
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_1.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_10.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_11.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_12.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_13.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_14.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_15.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_2.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_3.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_4.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_5.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_6.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_7.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_8.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/غ/غ_9.mp4	88
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_1.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_10.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_11.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_12.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_13.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_14.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_15.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_2.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_3.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_4.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_5.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_6.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_7.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_8.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ف/ف_9.mp4	89
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_1.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_10.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_11.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_12.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_13.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_14.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_15.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_2.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_3.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_4.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_5.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_6.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_7.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_8.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ل/ل_9.mp4	90
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_1.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_10.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_11.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_12.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_13.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_14.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_15.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_2.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_3.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_4.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_5.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_6.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_7.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_8.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/م/م_9.mp4	91
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_1.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_10.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_11.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_12.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_13.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_14.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_15.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_2.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_3.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_4.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_5.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_6.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_7.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_8.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ن/ن_9.mp4	92
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_1.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_10.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_11.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_12.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_13.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_14.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_15.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_2.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_3.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_4.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_5.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_6.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_7.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_8.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/و/و_9.mp4	93
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_1.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_10.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_11.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_12.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_13.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_14.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_15.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_2.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_3.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_4.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_5.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_6.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_7.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_8.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/پ/پ_9.mp4	94
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_1.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_10.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_11.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_12.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_13.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_14.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_15.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_2.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_3.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_4.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_5.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_6.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_7.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_8.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/چ/چ_9.mp4	95
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_1.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_10.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_11.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_12.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_13.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_14.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_15.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_2.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_3.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_4.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_5.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_6.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_7.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_8.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڈ/ڈ_9.mp4	96
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_1.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_10.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_11.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_12.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_13.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_14.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_15.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_2.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_3.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_4.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_5.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_6.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_7.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_8.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ڑ/ڑ_9.mp4	97
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_1.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_10.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_11.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_12.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_13.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_14.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_15.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_2.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_3.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_4.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_5.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_6.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_7.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_8.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ک/ک_9.mp4	98
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_1.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_10.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_11.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_12.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_13.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_14.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_15.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_2.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_3.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_4.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_5.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_6.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_7.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_8.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/گ/گ_9.mp4	99
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_1.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_10.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_11.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_12.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_13.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_14.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_15.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_2.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_3.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_4.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_5.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_6.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_7.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_8.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ھ/ھ_9.mp4	100
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_1.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_10.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_11.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_12.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_13.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_14.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_15.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_2.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_3.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_4.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_5.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_6.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_7.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_8.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ہ/ہ_9.mp4	101
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_1.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_10.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_11.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_12.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_13.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_14.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_15.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_2.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_3.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_4.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_5.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_6.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_7.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_8.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ی/ی_9.mp4	102
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_1.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_10.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_11.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_12.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_13.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_14.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_15.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_2.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_3.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_4.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_5.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_6.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_7.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_8.mp4	103
-D:/FAST/zSemesters/7th Semester/FYP-I/Data/train_data/ے/ے_9.mp4	103
+Train_full/Afraid/1.mp4	0
+Train_full/Afraid/2.mp4	0
+Train_full/Afraid/3.mp4	0
+Train_full/Afraid/4.mp4	0
+Train_full/Afraid/5.mp4	0
+Train_full/Afraid/6.mp4	0
+Train_full/Afraid/7.mp4	0
+Train_full/Afraid/8.mp4	0
+Train_full/Afraid/9.mp4	0
+Train_full/Afraid/10.mp4	0
+Train_full/Afraid/11.mp4	0
+Train_full/Afraid/12.mp4	0
+Train_full/Afraid/13.mp4	0
+Train_full/Afraid/14.mp4	0
+Train_full/Afraid/15.mp4	0
+Train_full/Angry/1.mp4	1
+Train_full/Angry/2.mp4	1
+Train_full/Angry/3.mp4	1
+Train_full/Angry/4.mp4	1
+Train_full/Angry/5.mp4	1
+Train_full/Angry/6.mp4	1
+Train_full/Angry/7.mp4	1
+Train_full/Angry/8.mp4	1
+Train_full/Angry/9.mp4	1
+Train_full/Angry/10.mp4	1
+Train_full/Angry/11.mp4	1
+Train_full/Angry/12.mp4	1
+Train_full/Angry/13.mp4	1
+Train_full/Angry/14.mp4	1
+Train_full/Angry/15.mp4	1
+Train_full/Autumn/1.mp4	2
+Train_full/Autumn/2.mp4	2
+Train_full/Autumn/3.mp4	2
+Train_full/Autumn/4.mp4	2
+Train_full/Autumn/5.mp4	2
+Train_full/Autumn/6.mp4	2
+Train_full/Autumn/7.mp4	2
+Train_full/Autumn/8.mp4	2
+Train_full/Autumn/9.mp4	2
+Train_full/Autumn/10.mp4	2
+Train_full/Autumn/11.mp4	2
+Train_full/Autumn/12.mp4	2
+Train_full/Autumn/13.mp4	2
+Train_full/Autumn/14.mp4	2
+Train_full/Autumn/15.mp4	2
+Train_full/best/1.mp4	58
+Train_full/best/2.mp4	58
+Train_full/best/3.mp4	58
+Train_full/best/4.mp4	58
+Train_full/best/5.mp4	58
+Train_full/best/6.mp4	58
+Train_full/best/7.mp4	58
+Train_full/best/8.mp4	58
+Train_full/best/9.mp4	58
+Train_full/best/10.mp4	58
+Train_full/best/11.mp4	58
+Train_full/best/12.mp4	58
+Train_full/best/13.mp4	58
+Train_full/best/14.mp4	58
+Train_full/best/15.mp4	58
+Train_full/body/1.mp4	59
+Train_full/body/2.mp4	59
+Train_full/body/3.mp4	59
+Train_full/body/4.mp4	59
+Train_full/body/5.mp4	59
+Train_full/body/6.mp4	59
+Train_full/body/7.mp4	59
+Train_full/body/8.mp4	59
+Train_full/body/9.mp4	59
+Train_full/body/10.mp4	59
+Train_full/body/11.mp4	59
+Train_full/body/12.mp4	59
+Train_full/body/13.mp4	59
+Train_full/body/14.mp4	59
+Train_full/body/15.mp4	59
+Train_full/brother_or_sister/1.mp4	60
+Train_full/brother_or_sister/2.mp4	60
+Train_full/brother_or_sister/3.mp4	60
+Train_full/brother_or_sister/4.mp4	60
+Train_full/brother_or_sister/5.mp4	60
+Train_full/brother_or_sister/6.mp4	60
+Train_full/brother_or_sister/7.mp4	60
+Train_full/brother_or_sister/8.mp4	60
+Train_full/brother_or_sister/9.mp4	60
+Train_full/brother_or_sister/10.mp4	60
+Train_full/brother_or_sister/11.mp4	60
+Train_full/brother_or_sister/12.mp4	60
+Train_full/brother_or_sister/13.mp4	60
+Train_full/brother_or_sister/14.mp4	60
+Train_full/brother_or_sister/15.mp4	60
+Train_full/Car/1.mp4	3
+Train_full/Car/2.mp4	3
+Train_full/Car/3.mp4	3
+Train_full/Car/4.mp4	3
+Train_full/Car/5.mp4	3
+Train_full/Car/6.mp4	3
+Train_full/Car/7.mp4	3
+Train_full/Car/8.mp4	3
+Train_full/Car/9.mp4	3
+Train_full/Car/10.mp4	3
+Train_full/Car/11.mp4	3
+Train_full/Car/12.mp4	3
+Train_full/Car/13.mp4	3
+Train_full/Car/14.mp4	3
+Train_full/Car/15.mp4	3
+Train_full/Come/1.mp4	4
+Train_full/Come/2.mp4	4
+Train_full/Come/3.mp4	4
+Train_full/Come/4.mp4	4
+Train_full/Come/5.mp4	4
+Train_full/Come/6.mp4	4
+Train_full/Come/7.mp4	4
+Train_full/Come/8.mp4	4
+Train_full/Come/9.mp4	4
+Train_full/Come/10.mp4	4
+Train_full/Come/11.mp4	4
+Train_full/Come/12.mp4	4
+Train_full/Come/13.mp4	4
+Train_full/Come/14.mp4	4
+Train_full/Come/15.mp4	4
+Train_full/Down/1.mp4	5
+Train_full/Down/2.mp4	5
+Train_full/Down/3.mp4	5
+Train_full/Down/4.mp4	5
+Train_full/Down/5.mp4	5
+Train_full/Down/6.mp4	5
+Train_full/Down/7.mp4	5
+Train_full/Down/8.mp4	5
+Train_full/Down/9.mp4	5
+Train_full/Down/10.mp4	5
+Train_full/Down/11.mp4	5
+Train_full/Down/12.mp4	5
+Train_full/Down/13.mp4	5
+Train_full/Down/14.mp4	5
+Train_full/Down/15.mp4	5
+Train_full/Drink/1.mp4	6
+Train_full/Drink/2.mp4	6
+Train_full/Drink/3.mp4	6
+Train_full/Drink/4.mp4	6
+Train_full/Drink/5.mp4	6
+Train_full/Drink/6.mp4	6
+Train_full/Drink/7.mp4	6
+Train_full/Drink/8.mp4	6
+Train_full/Drink/9.mp4	6
+Train_full/Drink/10.mp4	6
+Train_full/Drink/11.mp4	6
+Train_full/Drink/12.mp4	6
+Train_full/Drink/13.mp4	6
+Train_full/Drink/14.mp4	6
+Train_full/Drink/15.mp4	6
+Train_full/Eat/1.mp4	7
+Train_full/Eat/2.mp4	7
+Train_full/Eat/3.mp4	7
+Train_full/Eat/4.mp4	7
+Train_full/Eat/5.mp4	7
+Train_full/Eat/6.mp4	7
+Train_full/Eat/7.mp4	7
+Train_full/Eat/8.mp4	7
+Train_full/Eat/9.mp4	7
+Train_full/Eat/10.mp4	7
+Train_full/Eat/11.mp4	7
+Train_full/Eat/12.mp4	7
+Train_full/Eat/13.mp4	7
+Train_full/Eat/14.mp4	7
+Train_full/Eat/15.mp4	7
+Train_full/Father/1.mp4	8
+Train_full/Father/2.mp4	8
+Train_full/Father/3.mp4	8
+Train_full/Father/4.mp4	8
+Train_full/Father/5.mp4	8
+Train_full/Father/6.mp4	8
+Train_full/Father/7.mp4	8
+Train_full/Father/8.mp4	8
+Train_full/Father/9.mp4	8
+Train_full/Father/10.mp4	8
+Train_full/Father/11.mp4	8
+Train_full/Father/12.mp4	8
+Train_full/Father/13.mp4	8
+Train_full/Father/14.mp4	8
+Train_full/Father/15.mp4	8
+Train_full/Five/1.mp4	9
+Train_full/Five/2.mp4	9
+Train_full/Five/3.mp4	9
+Train_full/Five/4.mp4	9
+Train_full/Five/5.mp4	9
+Train_full/Five/6.mp4	9
+Train_full/Five/7.mp4	9
+Train_full/Five/8.mp4	9
+Train_full/Five/9.mp4	9
+Train_full/Five/10.mp4	9
+Train_full/Five/11.mp4	9
+Train_full/Five/12.mp4	9
+Train_full/Five/13.mp4	9
+Train_full/Five/14.mp4	9
+Train_full/Five/15.mp4	9
+Train_full/food/1.mp4	61
+Train_full/food/2.mp4	61
+Train_full/food/3.mp4	61
+Train_full/food/4.mp4	61
+Train_full/food/5.mp4	61
+Train_full/food/6.mp4	61
+Train_full/food/7.mp4	61
+Train_full/food/8.mp4	61
+Train_full/food/9.mp4	61
+Train_full/food/10.mp4	61
+Train_full/food/11.mp4	61
+Train_full/food/12.mp4	61
+Train_full/food/13.mp4	61
+Train_full/food/14.mp4	61
+Train_full/food/15.mp4	61
+Train_full/Forward/1.mp4	10
+Train_full/Forward/2.mp4	10
+Train_full/Forward/3.mp4	10
+Train_full/Forward/4.mp4	10
+Train_full/Forward/5.mp4	10
+Train_full/Forward/6.mp4	10
+Train_full/Forward/7.mp4	10
+Train_full/Forward/8.mp4	10
+Train_full/Forward/9.mp4	10
+Train_full/Forward/10.mp4	10
+Train_full/Forward/11.mp4	10
+Train_full/Forward/12.mp4	10
+Train_full/Forward/13.mp4	10
+Train_full/Forward/14.mp4	10
+Train_full/Forward/15.mp4	10
+Train_full/Four/1.mp4	11
+Train_full/Four/2.mp4	11
+Train_full/Four/3.mp4	11
+Train_full/Four/4.mp4	11
+Train_full/Four/5.mp4	11
+Train_full/Four/6.mp4	11
+Train_full/Four/7.mp4	11
+Train_full/Four/8.mp4	11
+Train_full/Four/9.mp4	11
+Train_full/Four/10.mp4	11
+Train_full/Four/11.mp4	11
+Train_full/Four/12.mp4	11
+Train_full/Four/13.mp4	11
+Train_full/Four/14.mp4	11
+Train_full/Four/15.mp4	11
+Train_full/free/1.mp4	62
+Train_full/free/2.mp4	62
+Train_full/free/3.mp4	62
+Train_full/free/4.mp4	62
+Train_full/free/5.mp4	62
+Train_full/free/6.mp4	62
+Train_full/free/7.mp4	62
+Train_full/free/8.mp4	62
+Train_full/free/9.mp4	62
+Train_full/free/10.mp4	62
+Train_full/free/11.mp4	62
+Train_full/free/12.mp4	62
+Train_full/free/13.mp4	62
+Train_full/free/14.mp4	62
+Train_full/free/15.mp4	62
+Train_full/Friday/1.mp4	12
+Train_full/Friday/2.mp4	12
+Train_full/Friday/3.mp4	12
+Train_full/Friday/4.mp4	12
+Train_full/Friday/5.mp4	12
+Train_full/Friday/6.mp4	12
+Train_full/Friday/7.mp4	12
+Train_full/Friday/8.mp4	12
+Train_full/Friday/9.mp4	12
+Train_full/Friday/10.mp4	12
+Train_full/Friday/11.mp4	12
+Train_full/Friday/12.mp4	12
+Train_full/Friday/13.mp4	12
+Train_full/Friday/14.mp4	12
+Train_full/Friday/15.mp4	12
+Train_full/Go/1.mp4	13
+Train_full/Go/2.mp4	13
+Train_full/Go/3.mp4	13
+Train_full/Go/4.mp4	13
+Train_full/Go/5.mp4	13
+Train_full/Go/6.mp4	13
+Train_full/Go/7.mp4	13
+Train_full/Go/8.mp4	13
+Train_full/Go/9.mp4	13
+Train_full/Go/10.mp4	13
+Train_full/Go/11.mp4	13
+Train_full/Go/12.mp4	13
+Train_full/Go/13.mp4	13
+Train_full/Go/14.mp4	13
+Train_full/Go/15.mp4	13
+Train_full/Happy/1.mp4	14
+Train_full/Happy/2.mp4	14
+Train_full/Happy/3.mp4	14
+Train_full/Happy/4.mp4	14
+Train_full/Happy/5.mp4	14
+Train_full/Happy/6.mp4	14
+Train_full/Happy/7.mp4	14
+Train_full/Happy/8.mp4	14
+Train_full/Happy/9.mp4	14
+Train_full/Happy/10.mp4	14
+Train_full/Happy/11.mp4	14
+Train_full/Happy/12.mp4	14
+Train_full/Happy/13.mp4	14
+Train_full/Happy/14.mp4	14
+Train_full/Happy/15.mp4	14
+Train_full/He_or_she/1.mp4	15
+Train_full/He_or_she/2.mp4	15
+Train_full/He_or_she/3.mp4	15
+Train_full/He_or_she/4.mp4	15
+Train_full/He_or_she/5.mp4	15
+Train_full/He_or_she/6.mp4	15
+Train_full/He_or_she/7.mp4	15
+Train_full/He_or_she/8.mp4	15
+Train_full/He_or_she/9.mp4	15
+Train_full/He_or_she/10.mp4	15
+Train_full/He_or_she/11.mp4	15
+Train_full/He_or_she/12.mp4	15
+Train_full/He_or_she/13.mp4	15
+Train_full/He_or_she/14.mp4	15
+Train_full/He_or_she/15.mp4	15
+Train_full/Healthy/1.mp4	16
+Train_full/Healthy/2.mp4	16
+Train_full/Healthy/3.mp4	16
+Train_full/Healthy/4.mp4	16
+Train_full/Healthy/5.mp4	16
+Train_full/Healthy/6.mp4	16
+Train_full/Healthy/7.mp4	16
+Train_full/Healthy/8.mp4	16
+Train_full/Healthy/9.mp4	16
+Train_full/Healthy/10.mp4	16
+Train_full/Healthy/11.mp4	16
+Train_full/Healthy/12.mp4	16
+Train_full/Healthy/13.mp4	16
+Train_full/Healthy/14.mp4	16
+Train_full/Healthy/15.mp4	16
+Train_full/Hear/1.mp4	17
+Train_full/Hear/2.mp4	17
+Train_full/Hear/3.mp4	17
+Train_full/Hear/4.mp4	17
+Train_full/Hear/5.mp4	17
+Train_full/Hear/6.mp4	17
+Train_full/Hear/7.mp4	17
+Train_full/Hear/8.mp4	17
+Train_full/Hear/9.mp4	17
+Train_full/Hear/10.mp4	17
+Train_full/Hear/11.mp4	17
+Train_full/Hear/12.mp4	17
+Train_full/Hear/13.mp4	17
+Train_full/Hear/14.mp4	17
+Train_full/Hear/15.mp4	17
+Train_full/hi/1.mp4	63
+Train_full/hi/2.mp4	63
+Train_full/hi/3.mp4	63
+Train_full/hi/4.mp4	63
+Train_full/hi/5.mp4	63
+Train_full/hi/6.mp4	63
+Train_full/hi/7.mp4	63
+Train_full/hi/8.mp4	63
+Train_full/hi/9.mp4	63
+Train_full/hi/10.mp4	63
+Train_full/hi/11.mp4	63
+Train_full/hi/12.mp4	63
+Train_full/hi/13.mp4	63
+Train_full/hi/14.mp4	63
+Train_full/hi/15.mp4	63
+Train_full/Home/1.mp4	18
+Train_full/Home/2.mp4	18
+Train_full/Home/3.mp4	18
+Train_full/Home/4.mp4	18
+Train_full/Home/5.mp4	18
+Train_full/Home/6.mp4	18
+Train_full/Home/7.mp4	18
+Train_full/Home/8.mp4	18
+Train_full/Home/9.mp4	18
+Train_full/Home/10.mp4	18
+Train_full/Home/11.mp4	18
+Train_full/Home/12.mp4	18
+Train_full/Home/13.mp4	18
+Train_full/Home/14.mp4	18
+Train_full/Home/15.mp4	18
+Train_full/Hospital/1.mp4	19
+Train_full/Hospital/2.mp4	19
+Train_full/Hospital/3.mp4	19
+Train_full/Hospital/4.mp4	19
+Train_full/Hospital/5.mp4	19
+Train_full/Hospital/6.mp4	19
+Train_full/Hospital/7.mp4	19
+Train_full/Hospital/8.mp4	19
+Train_full/Hospital/9.mp4	19
+Train_full/Hospital/10.mp4	19
+Train_full/Hospital/11.mp4	19
+Train_full/Hospital/12.mp4	19
+Train_full/Hospital/13.mp4	19
+Train_full/Hospital/14.mp4	19
+Train_full/Hospital/15.mp4	19
+Train_full/I/1.mp4	20
+Train_full/I/2.mp4	20
+Train_full/I/3.mp4	20
+Train_full/I/4.mp4	20
+Train_full/I/5.mp4	20
+Train_full/I/6.mp4	20
+Train_full/I/7.mp4	20
+Train_full/I/8.mp4	20
+Train_full/I/9.mp4	20
+Train_full/I/10.mp4	20
+Train_full/I/11.mp4	20
+Train_full/I/12.mp4	20
+Train_full/I/13.mp4	20
+Train_full/I/14.mp4	20
+Train_full/I/15.mp4	20
+Train_full/Internet/1.mp4	21
+Train_full/Internet/2.mp4	21
+Train_full/Internet/3.mp4	21
+Train_full/Internet/4.mp4	21
+Train_full/Internet/5.mp4	21
+Train_full/Internet/6.mp4	21
+Train_full/Internet/7.mp4	21
+Train_full/Internet/8.mp4	21
+Train_full/Internet/9.mp4	21
+Train_full/Internet/10.mp4	21
+Train_full/Internet/11.mp4	21
+Train_full/Internet/12.mp4	21
+Train_full/Internet/13.mp4	21
+Train_full/Internet/14.mp4	21
+Train_full/Internet/15.mp4	21
+Train_full/Left/1.mp4	22
+Train_full/Left/2.mp4	22
+Train_full/Left/3.mp4	22
+Train_full/Left/4.mp4	22
+Train_full/Left/5.mp4	22
+Train_full/Left/6.mp4	22
+Train_full/Left/7.mp4	22
+Train_full/Left/8.mp4	22
+Train_full/Left/9.mp4	22
+Train_full/Left/10.mp4	22
+Train_full/Left/11.mp4	22
+Train_full/Left/12.mp4	22
+Train_full/Left/13.mp4	22
+Train_full/Left/14.mp4	22
+Train_full/Left/15.mp4	22
+Train_full/Medicine/1.mp4	23
+Train_full/Medicine/2.mp4	23
+Train_full/Medicine/3.mp4	23
+Train_full/Medicine/4.mp4	23
+Train_full/Medicine/5.mp4	23
+Train_full/Medicine/6.mp4	23
+Train_full/Medicine/7.mp4	23
+Train_full/Medicine/8.mp4	23
+Train_full/Medicine/9.mp4	23
+Train_full/Medicine/10.mp4	23
+Train_full/Medicine/11.mp4	23
+Train_full/Medicine/12.mp4	23
+Train_full/Medicine/13.mp4	23
+Train_full/Medicine/14.mp4	23
+Train_full/Medicine/15.mp4	23
+Train_full/meet/1.mp4	64
+Train_full/meet/2.mp4	64
+Train_full/meet/3.mp4	64
+Train_full/meet/4.mp4	64
+Train_full/meet/5.mp4	64
+Train_full/meet/6.mp4	64
+Train_full/meet/7.mp4	64
+Train_full/meet/8.mp4	64
+Train_full/meet/9.mp4	64
+Train_full/meet/10.mp4	64
+Train_full/meet/11.mp4	64
+Train_full/meet/12.mp4	64
+Train_full/meet/13.mp4	64
+Train_full/meet/14.mp4	64
+Train_full/meet/15.mp4	64
+Train_full/Mobile_phone/1.mp4	24
+Train_full/Mobile_phone/2.mp4	24
+Train_full/Mobile_phone/3.mp4	24
+Train_full/Mobile_phone/4.mp4	24
+Train_full/Mobile_phone/5.mp4	24
+Train_full/Mobile_phone/6.mp4	24
+Train_full/Mobile_phone/7.mp4	24
+Train_full/Mobile_phone/8.mp4	24
+Train_full/Mobile_phone/9.mp4	24
+Train_full/Mobile_phone/10.mp4	24
+Train_full/Mobile_phone/11.mp4	24
+Train_full/Mobile_phone/12.mp4	24
+Train_full/Mobile_phone/13.mp4	24
+Train_full/Mobile_phone/14.mp4	24
+Train_full/Mobile_phone/15.mp4	24
+Train_full/Monday/1.mp4	25
+Train_full/Monday/2.mp4	25
+Train_full/Monday/3.mp4	25
+Train_full/Monday/4.mp4	25
+Train_full/Monday/5.mp4	25
+Train_full/Monday/6.mp4	25
+Train_full/Monday/7.mp4	25
+Train_full/Monday/8.mp4	25
+Train_full/Monday/9.mp4	25
+Train_full/Monday/10.mp4	25
+Train_full/Monday/11.mp4	25
+Train_full/Monday/12.mp4	25
+Train_full/Monday/13.mp4	25
+Train_full/Monday/14.mp4	25
+Train_full/Monday/15.mp4	25
+Train_full/Mother/1.mp4	26
+Train_full/Mother/2.mp4	26
+Train_full/Mother/3.mp4	26
+Train_full/Mother/4.mp4	26
+Train_full/Mother/5.mp4	26
+Train_full/Mother/6.mp4	26
+Train_full/Mother/7.mp4	26
+Train_full/Mother/8.mp4	26
+Train_full/Mother/9.mp4	26
+Train_full/Mother/10.mp4	26
+Train_full/Mother/11.mp4	26
+Train_full/Mother/12.mp4	26
+Train_full/Mother/13.mp4	26
+Train_full/Mother/14.mp4	26
+Train_full/Mother/15.mp4	26
+Train_full/One/1.mp4	27
+Train_full/One/2.mp4	27
+Train_full/One/3.mp4	27
+Train_full/One/4.mp4	27
+Train_full/One/5.mp4	27
+Train_full/One/6.mp4	27
+Train_full/One/7.mp4	27
+Train_full/One/8.mp4	27
+Train_full/One/9.mp4	27
+Train_full/One/10.mp4	27
+Train_full/One/11.mp4	27
+Train_full/One/12.mp4	27
+Train_full/One/13.mp4	27
+Train_full/One/14.mp4	27
+Train_full/One/15.mp4	27
+Train_full/other/1.mp4	65
+Train_full/other/2.mp4	65
+Train_full/other/3.mp4	65
+Train_full/other/4.mp4	65
+Train_full/other/5.mp4	65
+Train_full/other/6.mp4	65
+Train_full/other/7.mp4	65
+Train_full/other/8.mp4	65
+Train_full/other/9.mp4	65
+Train_full/other/10.mp4	65
+Train_full/other/11.mp4	65
+Train_full/other/12.mp4	65
+Train_full/other/13.mp4	65
+Train_full/other/14.mp4	65
+Train_full/other/15.mp4	65
+Train_full/please/1.mp4	66
+Train_full/please/2.mp4	66
+Train_full/please/3.mp4	66
+Train_full/please/4.mp4	66
+Train_full/please/5.mp4	66
+Train_full/please/6.mp4	66
+Train_full/please/7.mp4	66
+Train_full/please/8.mp4	66
+Train_full/please/9.mp4	66
+Train_full/please/10.mp4	66
+Train_full/please/11.mp4	66
+Train_full/please/12.mp4	66
+Train_full/please/13.mp4	66
+Train_full/please/14.mp4	66
+Train_full/please/15.mp4	66
+Train_full/Read/1.mp4	28
+Train_full/Read/2.mp4	28
+Train_full/Read/3.mp4	28
+Train_full/Read/4.mp4	28
+Train_full/Read/5.mp4	28
+Train_full/Read/6.mp4	28
+Train_full/Read/7.mp4	28
+Train_full/Read/8.mp4	28
+Train_full/Read/9.mp4	28
+Train_full/Read/10.mp4	28
+Train_full/Read/11.mp4	28
+Train_full/Read/12.mp4	28
+Train_full/Read/13.mp4	28
+Train_full/Read/14.mp4	28
+Train_full/Read/15.mp4	28
+Train_full/Right/1.mp4	29
+Train_full/Right/2.mp4	29
+Train_full/Right/3.mp4	29
+Train_full/Right/4.mp4	29
+Train_full/Right/5.mp4	29
+Train_full/Right/6.mp4	29
+Train_full/Right/7.mp4	29
+Train_full/Right/8.mp4	29
+Train_full/Right/9.mp4	29
+Train_full/Right/10.mp4	29
+Train_full/Right/11.mp4	29
+Train_full/Right/12.mp4	29
+Train_full/Right/13.mp4	29
+Train_full/Right/14.mp4	29
+Train_full/Right/15.mp4	29
+Train_full/Sad/1.mp4	30
+Train_full/Sad/2.mp4	30
+Train_full/Sad/3.mp4	30
+Train_full/Sad/4.mp4	30
+Train_full/Sad/5.mp4	30
+Train_full/Sad/6.mp4	30
+Train_full/Sad/7.mp4	30
+Train_full/Sad/8.mp4	30
+Train_full/Sad/9.mp4	30
+Train_full/Sad/10.mp4	30
+Train_full/Sad/11.mp4	30
+Train_full/Sad/12.mp4	30
+Train_full/Sad/13.mp4	30
+Train_full/Sad/14.mp4	30
+Train_full/Sad/15.mp4	30
+Train_full/Saturday/1.mp4	31
+Train_full/Saturday/2.mp4	31
+Train_full/Saturday/3.mp4	31
+Train_full/Saturday/4.mp4	31
+Train_full/Saturday/5.mp4	31
+Train_full/Saturday/6.mp4	31
+Train_full/Saturday/7.mp4	31
+Train_full/Saturday/8.mp4	31
+Train_full/Saturday/9.mp4	31
+Train_full/Saturday/10.mp4	31
+Train_full/Saturday/11.mp4	31
+Train_full/Saturday/12.mp4	31
+Train_full/Saturday/13.mp4	31
+Train_full/Saturday/14.mp4	31
+Train_full/Saturday/15.mp4	31
+Train_full/See/1.mp4	32
+Train_full/See/2.mp4	32
+Train_full/See/3.mp4	32
+Train_full/See/4.mp4	32
+Train_full/See/5.mp4	32
+Train_full/See/6.mp4	32
+Train_full/See/7.mp4	32
+Train_full/See/8.mp4	32
+Train_full/See/9.mp4	32
+Train_full/See/10.mp4	32
+Train_full/See/11.mp4	32
+Train_full/See/12.mp4	32
+Train_full/See/13.mp4	32
+Train_full/See/14.mp4	32
+Train_full/See/15.mp4	32
+Train_full/Sick/1.mp4	33
+Train_full/Sick/2.mp4	33
+Train_full/Sick/3.mp4	33
+Train_full/Sick/4.mp4	33
+Train_full/Sick/5.mp4	33
+Train_full/Sick/6.mp4	33
+Train_full/Sick/7.mp4	33
+Train_full/Sick/8.mp4	33
+Train_full/Sick/9.mp4	33
+Train_full/Sick/10.mp4	33
+Train_full/Sick/11.mp4	33
+Train_full/Sick/12.mp4	33
+Train_full/Sick/13.mp4	33
+Train_full/Sick/14.mp4	33
+Train_full/Sick/15.mp4	33
+Train_full/Sleep/1.mp4	34
+Train_full/Sleep/2.mp4	34
+Train_full/Sleep/3.mp4	34
+Train_full/Sleep/4.mp4	34
+Train_full/Sleep/5.mp4	34
+Train_full/Sleep/6.mp4	34
+Train_full/Sleep/7.mp4	34
+Train_full/Sleep/8.mp4	34
+Train_full/Sleep/9.mp4	34
+Train_full/Sleep/10.mp4	34
+Train_full/Sleep/11.mp4	34
+Train_full/Sleep/12.mp4	34
+Train_full/Sleep/13.mp4	34
+Train_full/Sleep/14.mp4	34
+Train_full/Sleep/15.mp4	34
+Train_full/son_or_daughter/1.mp4	67
+Train_full/son_or_daughter/2.mp4	67
+Train_full/son_or_daughter/3.mp4	67
+Train_full/son_or_daughter/4.mp4	67
+Train_full/son_or_daughter/5.mp4	67
+Train_full/son_or_daughter/6.mp4	67
+Train_full/son_or_daughter/7.mp4	67
+Train_full/son_or_daughter/8.mp4	67
+Train_full/son_or_daughter/9.mp4	67
+Train_full/son_or_daughter/10.mp4	67
+Train_full/son_or_daughter/11.mp4	67
+Train_full/son_or_daughter/12.mp4	67
+Train_full/son_or_daughter/13.mp4	67
+Train_full/son_or_daughter/14.mp4	67
+Train_full/son_or_daughter/15.mp4	67
+Train_full/sorry/1.mp4	68
+Train_full/sorry/2.mp4	68
+Train_full/sorry/3.mp4	68
+Train_full/sorry/4.mp4	68
+Train_full/sorry/5.mp4	68
+Train_full/sorry/6.mp4	68
+Train_full/sorry/7.mp4	68
+Train_full/sorry/8.mp4	68
+Train_full/sorry/9.mp4	68
+Train_full/sorry/10.mp4	68
+Train_full/sorry/11.mp4	68
+Train_full/sorry/12.mp4	68
+Train_full/sorry/13.mp4	68
+Train_full/sorry/14.mp4	68
+Train_full/sorry/15.mp4	68
+Train_full/Speak/1.mp4	35
+Train_full/Speak/2.mp4	35
+Train_full/Speak/3.mp4	35
+Train_full/Speak/4.mp4	35
+Train_full/Speak/5.mp4	35
+Train_full/Speak/6.mp4	35
+Train_full/Speak/7.mp4	35
+Train_full/Speak/8.mp4	35
+Train_full/Speak/9.mp4	35
+Train_full/Speak/10.mp4	35
+Train_full/Speak/11.mp4	35
+Train_full/Speak/12.mp4	35
+Train_full/Speak/13.mp4	35
+Train_full/Speak/14.mp4	35
+Train_full/Speak/15.mp4	35
+Train_full/Spring/1.mp4	36
+Train_full/Spring/2.mp4	36
+Train_full/Spring/3.mp4	36
+Train_full/Spring/4.mp4	36
+Train_full/Spring/5.mp4	36
+Train_full/Spring/6.mp4	36
+Train_full/Spring/7.mp4	36
+Train_full/Spring/8.mp4	36
+Train_full/Spring/9.mp4	36
+Train_full/Spring/10.mp4	36
+Train_full/Spring/11.mp4	36
+Train_full/Spring/12.mp4	36
+Train_full/Spring/13.mp4	36
+Train_full/Spring/14.mp4	36
+Train_full/Spring/15.mp4	36
+Train_full/Summer/1.mp4	37
+Train_full/Summer/2.mp4	37
+Train_full/Summer/3.mp4	37
+Train_full/Summer/4.mp4	37
+Train_full/Summer/5.mp4	37
+Train_full/Summer/6.mp4	37
+Train_full/Summer/7.mp4	37
+Train_full/Summer/8.mp4	37
+Train_full/Summer/9.mp4	37
+Train_full/Summer/10.mp4	37
+Train_full/Summer/11.mp4	37
+Train_full/Summer/12.mp4	37
+Train_full/Summer/13.mp4	37
+Train_full/Summer/14.mp4	37
+Train_full/Summer/15.mp4	37
+Train_full/Sunday/1.mp4	38
+Train_full/Sunday/2.mp4	38
+Train_full/Sunday/3.mp4	38
+Train_full/Sunday/4.mp4	38
+Train_full/Sunday/5.mp4	38
+Train_full/Sunday/6.mp4	38
+Train_full/Sunday/7.mp4	38
+Train_full/Sunday/8.mp4	38
+Train_full/Sunday/9.mp4	38
+Train_full/Sunday/10.mp4	38
+Train_full/Sunday/11.mp4	38
+Train_full/Sunday/12.mp4	38
+Train_full/Sunday/13.mp4	38
+Train_full/Sunday/14.mp4	38
+Train_full/Sunday/15.mp4	38
+Train_full/Surprised/1.mp4	39
+Train_full/Surprised/2.mp4	39
+Train_full/Surprised/3.mp4	39
+Train_full/Surprised/4.mp4	39
+Train_full/Surprised/5.mp4	39
+Train_full/Surprised/6.mp4	39
+Train_full/Surprised/7.mp4	39
+Train_full/Surprised/8.mp4	39
+Train_full/Surprised/9.mp4	39
+Train_full/Surprised/10.mp4	39
+Train_full/Surprised/11.mp4	39
+Train_full/Surprised/12.mp4	39
+Train_full/Surprised/13.mp4	39
+Train_full/Surprised/14.mp4	39
+Train_full/Surprised/15.mp4	39
+Train_full/Tea/1.mp4	41
+Train_full/Tea/2.mp4	41
+Train_full/Tea/3.mp4	41
+Train_full/Tea/4.mp4	41
+Train_full/Tea/5.mp4	41
+Train_full/Tea/6.mp4	41
+Train_full/Tea/7.mp4	41
+Train_full/Tea/8.mp4	41
+Train_full/Tea/9.mp4	41
+Train_full/Tea/10.mp4	41
+Train_full/Tea/11.mp4	41
+Train_full/Tea/12.mp4	41
+Train_full/Tea/13.mp4	41
+Train_full/Tea/14.mp4	41
+Train_full/Tea/15.mp4	41
+Train_full/teacher/1.mp4	69
+Train_full/teacher/2.mp4	69
+Train_full/teacher/3.mp4	69
+Train_full/teacher/4.mp4	69
+Train_full/teacher/5.mp4	69
+Train_full/teacher/6.mp4	69
+Train_full/teacher/7.mp4	69
+Train_full/teacher/8.mp4	69
+Train_full/teacher/9.mp4	69
+Train_full/teacher/10.mp4	69
+Train_full/teacher/11.mp4	69
+Train_full/teacher/12.mp4	69
+Train_full/teacher/13.mp4	69
+Train_full/teacher/14.mp4	69
+Train_full/teacher/15.mp4	69
+Train_full/thank_you/1.mp4	70
+Train_full/thank_you/2.mp4	70
+Train_full/thank_you/3.mp4	70
+Train_full/thank_you/4.mp4	70
+Train_full/thank_you/5.mp4	70
+Train_full/thank_you/6.mp4	70
+Train_full/thank_you/7.mp4	70
+Train_full/thank_you/8.mp4	70
+Train_full/thank_you/9.mp4	70
+Train_full/thank_you/10.mp4	70
+Train_full/thank_you/11.mp4	70
+Train_full/thank_you/12.mp4	70
+Train_full/thank_you/13.mp4	70
+Train_full/thank_you/14.mp4	70
+Train_full/thank_you/15.mp4	70
+Train_full/Three/1.mp4	42
+Train_full/Three/2.mp4	42
+Train_full/Three/3.mp4	42
+Train_full/Three/4.mp4	42
+Train_full/Three/5.mp4	42
+Train_full/Three/6.mp4	42
+Train_full/Three/7.mp4	42
+Train_full/Three/8.mp4	42
+Train_full/Three/9.mp4	42
+Train_full/Three/10.mp4	42
+Train_full/Three/11.mp4	42
+Train_full/Three/12.mp4	42
+Train_full/Three/13.mp4	42
+Train_full/Three/14.mp4	42
+Train_full/Three/15.mp4	42
+Train_full/Thursday/1.mp4	43
+Train_full/Thursday/2.mp4	43
+Train_full/Thursday/3.mp4	43
+Train_full/Thursday/4.mp4	43
+Train_full/Thursday/5.mp4	43
+Train_full/Thursday/6.mp4	43
+Train_full/Thursday/7.mp4	43
+Train_full/Thursday/8.mp4	43
+Train_full/Thursday/9.mp4	43
+Train_full/Thursday/10.mp4	43
+Train_full/Thursday/11.mp4	43
+Train_full/Thursday/12.mp4	43
+Train_full/Thursday/13.mp4	43
+Train_full/Thursday/14.mp4	43
+Train_full/Thursday/15.mp4	43
+Train_full/Tuesday/1.mp4	44
+Train_full/Tuesday/2.mp4	44
+Train_full/Tuesday/3.mp4	44
+Train_full/Tuesday/4.mp4	44
+Train_full/Tuesday/5.mp4	44
+Train_full/Tuesday/6.mp4	44
+Train_full/Tuesday/7.mp4	44
+Train_full/Tuesday/8.mp4	44
+Train_full/Tuesday/9.mp4	44
+Train_full/Tuesday/10.mp4	44
+Train_full/Tuesday/11.mp4	44
+Train_full/Tuesday/12.mp4	44
+Train_full/Tuesday/13.mp4	44
+Train_full/Tuesday/14.mp4	44
+Train_full/Tuesday/15.mp4	44
+Train_full/TV/1.mp4	40
+Train_full/TV/2.mp4	40
+Train_full/TV/3.mp4	40
+Train_full/TV/4.mp4	40
+Train_full/TV/5.mp4	40
+Train_full/TV/6.mp4	40
+Train_full/TV/7.mp4	40
+Train_full/TV/8.mp4	40
+Train_full/TV/9.mp4	40
+Train_full/TV/10.mp4	40
+Train_full/TV/11.mp4	40
+Train_full/TV/12.mp4	40
+Train_full/TV/13.mp4	40
+Train_full/TV/14.mp4	40
+Train_full/TV/15.mp4	40
+Train_full/Two/1.mp4	45
+Train_full/Two/2.mp4	45
+Train_full/Two/3.mp4	45
+Train_full/Two/4.mp4	45
+Train_full/Two/5.mp4	45
+Train_full/Two/6.mp4	45
+Train_full/Two/7.mp4	45
+Train_full/Two/8.mp4	45
+Train_full/Two/9.mp4	45
+Train_full/Two/10.mp4	45
+Train_full/Two/11.mp4	45
+Train_full/Two/12.mp4	45
+Train_full/Two/13.mp4	45
+Train_full/Two/14.mp4	45
+Train_full/Two/15.mp4	45
+Train_full/Up/1.mp4	46
+Train_full/Up/2.mp4	46
+Train_full/Up/3.mp4	46
+Train_full/Up/4.mp4	46
+Train_full/Up/5.mp4	46
+Train_full/Up/6.mp4	46
+Train_full/Up/7.mp4	46
+Train_full/Up/8.mp4	46
+Train_full/Up/9.mp4	46
+Train_full/Up/10.mp4	46
+Train_full/Up/11.mp4	46
+Train_full/Up/12.mp4	46
+Train_full/Up/13.mp4	46
+Train_full/Up/14.mp4	46
+Train_full/Up/15.mp4	46
+Train_full/Water/1.mp4	47
+Train_full/Water/2.mp4	47
+Train_full/Water/3.mp4	47
+Train_full/Water/4.mp4	47
+Train_full/Water/5.mp4	47
+Train_full/Water/6.mp4	47
+Train_full/Water/7.mp4	47
+Train_full/Water/8.mp4	47
+Train_full/Water/9.mp4	47
+Train_full/Water/10.mp4	47
+Train_full/Water/11.mp4	47
+Train_full/Water/12.mp4	47
+Train_full/Water/13.mp4	47
+Train_full/Water/14.mp4	47
+Train_full/Water/15.mp4	47
+Train_full/We/1.mp4	48
+Train_full/We/2.mp4	48
+Train_full/We/3.mp4	48
+Train_full/We/4.mp4	48
+Train_full/We/5.mp4	48
+Train_full/We/6.mp4	48
+Train_full/We/7.mp4	48
+Train_full/We/8.mp4	48
+Train_full/We/9.mp4	48
+Train_full/We/10.mp4	48
+Train_full/We/11.mp4	48
+Train_full/We/12.mp4	48
+Train_full/We/13.mp4	48
+Train_full/We/14.mp4	48
+Train_full/We/15.mp4	48
+Train_full/Wednesday/1.mp4	49
+Train_full/Wednesday/2.mp4	49
+Train_full/Wednesday/3.mp4	49
+Train_full/Wednesday/4.mp4	49
+Train_full/Wednesday/5.mp4	49
+Train_full/Wednesday/6.mp4	49
+Train_full/Wednesday/7.mp4	49
+Train_full/Wednesday/8.mp4	49
+Train_full/Wednesday/9.mp4	49
+Train_full/Wednesday/10.mp4	49
+Train_full/Wednesday/11.mp4	49
+Train_full/Wednesday/12.mp4	49
+Train_full/Wednesday/13.mp4	49
+Train_full/Wednesday/14.mp4	49
+Train_full/Wednesday/15.mp4	49
+Train_full/welcome/1.mp4	71
+Train_full/welcome/2.mp4	71
+Train_full/welcome/3.mp4	71
+Train_full/welcome/4.mp4	71
+Train_full/welcome/5.mp4	71
+Train_full/welcome/6.mp4	71
+Train_full/welcome/7.mp4	71
+Train_full/welcome/8.mp4	71
+Train_full/welcome/9.mp4	71
+Train_full/welcome/10.mp4	71
+Train_full/welcome/11.mp4	71
+Train_full/welcome/12.mp4	71
+Train_full/welcome/13.mp4	71
+Train_full/welcome/14.mp4	71
+Train_full/welcome/15.mp4	71
+Train_full/What/1.mp4	50
+Train_full/What/2.mp4	50
+Train_full/What/3.mp4	50
+Train_full/What/4.mp4	50
+Train_full/What/5.mp4	50
+Train_full/What/6.mp4	50
+Train_full/What/7.mp4	50
+Train_full/What/8.mp4	50
+Train_full/What/9.mp4	50
+Train_full/What/10.mp4	50
+Train_full/What/11.mp4	50
+Train_full/What/12.mp4	50
+Train_full/What/13.mp4	50
+Train_full/What/14.mp4	50
+Train_full/What/15.mp4	50
+Train_full/When/1.mp4	51
+Train_full/When/2.mp4	51
+Train_full/When/3.mp4	51
+Train_full/When/4.mp4	51
+Train_full/When/5.mp4	51
+Train_full/When/6.mp4	51
+Train_full/When/7.mp4	51
+Train_full/When/8.mp4	51
+Train_full/When/9.mp4	51
+Train_full/When/10.mp4	51
+Train_full/When/11.mp4	51
+Train_full/When/12.mp4	51
+Train_full/When/13.mp4	51
+Train_full/When/14.mp4	51
+Train_full/When/15.mp4	51
+Train_full/Where/1.mp4	52
+Train_full/Where/2.mp4	52
+Train_full/Where/3.mp4	52
+Train_full/Where/4.mp4	52
+Train_full/Where/5.mp4	52
+Train_full/Where/6.mp4	52
+Train_full/Where/7.mp4	52
+Train_full/Where/8.mp4	52
+Train_full/Where/9.mp4	52
+Train_full/Where/10.mp4	52
+Train_full/Where/11.mp4	52
+Train_full/Where/12.mp4	52
+Train_full/Where/13.mp4	52
+Train_full/Where/14.mp4	52
+Train_full/Where/15.mp4	52
+Train_full/Who/1.mp4	53
+Train_full/Who/2.mp4	53
+Train_full/Who/3.mp4	53
+Train_full/Who/4.mp4	53
+Train_full/Who/5.mp4	53
+Train_full/Who/6.mp4	53
+Train_full/Who/7.mp4	53
+Train_full/Who/8.mp4	53
+Train_full/Who/9.mp4	53
+Train_full/Who/10.mp4	53
+Train_full/Who/11.mp4	53
+Train_full/Who/12.mp4	53
+Train_full/Who/13.mp4	53
+Train_full/Who/14.mp4	53
+Train_full/Who/15.mp4	53
+Train_full/Why/1.mp4	54
+Train_full/Why/2.mp4	54
+Train_full/Why/3.mp4	54
+Train_full/Why/4.mp4	54
+Train_full/Why/5.mp4	54
+Train_full/Why/6.mp4	54
+Train_full/Why/7.mp4	54
+Train_full/Why/8.mp4	54
+Train_full/Why/9.mp4	54
+Train_full/Why/10.mp4	54
+Train_full/Why/11.mp4	54
+Train_full/Why/12.mp4	54
+Train_full/Why/13.mp4	54
+Train_full/Why/14.mp4	54
+Train_full/Why/15.mp4	54
+Train_full/Winter/1.mp4	55
+Train_full/Winter/2.mp4	55
+Train_full/Winter/3.mp4	55
+Train_full/Winter/4.mp4	55
+Train_full/Winter/5.mp4	55
+Train_full/Winter/6.mp4	55
+Train_full/Winter/7.mp4	55
+Train_full/Winter/8.mp4	55
+Train_full/Winter/9.mp4	55
+Train_full/Winter/10.mp4	55
+Train_full/Winter/11.mp4	55
+Train_full/Winter/12.mp4	55
+Train_full/Winter/13.mp4	55
+Train_full/Winter/14.mp4	55
+Train_full/Winter/15.mp4	55
+Train_full/Write/1.mp4	56
+Train_full/Write/2.mp4	56
+Train_full/Write/3.mp4	56
+Train_full/Write/4.mp4	56
+Train_full/Write/5.mp4	56
+Train_full/Write/6.mp4	56
+Train_full/Write/7.mp4	56
+Train_full/Write/8.mp4	56
+Train_full/Write/9.mp4	56
+Train_full/Write/10.mp4	56
+Train_full/Write/11.mp4	56
+Train_full/Write/12.mp4	56
+Train_full/Write/13.mp4	56
+Train_full/Write/14.mp4	56
+Train_full/Write/15.mp4	56
+Train_full/You/1.mp4	57
+Train_full/You/2.mp4	57
+Train_full/You/3.mp4	57
+Train_full/You/4.mp4	57
+Train_full/You/5.mp4	57
+Train_full/You/6.mp4	57
+Train_full/You/7.mp4	57
+Train_full/You/8.mp4	57
+Train_full/You/9.mp4	57
+Train_full/You/10.mp4	57
+Train_full/You/11.mp4	57
+Train_full/You/12.mp4	57
+Train_full/You/13.mp4	57
+Train_full/You/14.mp4	57
+Train_full/You/15.mp4	57
+Train_full/ء/1.mp4	72
+Train_full/ء/2.mp4	72
+Train_full/ء/3.mp4	72
+Train_full/ء/4.mp4	72
+Train_full/ء/5.mp4	72
+Train_full/ء/6.mp4	72
+Train_full/ء/7.mp4	72
+Train_full/ء/8.mp4	72
+Train_full/ء/9.mp4	72
+Train_full/ء/10.mp4	72
+Train_full/ء/11.mp4	72
+Train_full/ء/12.mp4	72
+Train_full/ء/13.mp4	72
+Train_full/ء/14.mp4	72
+Train_full/ء/15.mp4	72
+Train_full/ا/1.mp4	73
+Train_full/ا/2.mp4	73
+Train_full/ا/3.mp4	73
+Train_full/ا/4.mp4	73
+Train_full/ا/5.mp4	73
+Train_full/ا/6.mp4	73
+Train_full/ا/7.mp4	73
+Train_full/ا/8.mp4	73
+Train_full/ا/9.mp4	73
+Train_full/ا/10.mp4	73
+Train_full/ا/11.mp4	73
+Train_full/ا/12.mp4	73
+Train_full/ا/13.mp4	73
+Train_full/ا/14.mp4	73
+Train_full/ا/15.mp4	73
+Train_full/ب/1.mp4	74
+Train_full/ب/2.mp4	74
+Train_full/ب/3.mp4	74
+Train_full/ب/4.mp4	74
+Train_full/ب/5.mp4	74
+Train_full/ب/6.mp4	74
+Train_full/ب/7.mp4	74
+Train_full/ب/8.mp4	74
+Train_full/ب/9.mp4	74
+Train_full/ب/10.mp4	74
+Train_full/ب/11.mp4	74
+Train_full/ب/12.mp4	74
+Train_full/ب/13.mp4	74
+Train_full/ب/14.mp4	74
+Train_full/ب/15.mp4	74
+Train_full/ت/1.mp4	75
+Train_full/ت/2.mp4	75
+Train_full/ت/3.mp4	75
+Train_full/ت/4.mp4	75
+Train_full/ت/5.mp4	75
+Train_full/ت/6.mp4	75
+Train_full/ت/7.mp4	75
+Train_full/ت/8.mp4	75
+Train_full/ت/9.mp4	75
+Train_full/ت/10.mp4	75
+Train_full/ت/11.mp4	75
+Train_full/ت/12.mp4	75
+Train_full/ت/13.mp4	75
+Train_full/ت/14.mp4	75
+Train_full/ت/15.mp4	75
+Train_full/ث/1.mp4	76
+Train_full/ث/2.mp4	76
+Train_full/ث/3.mp4	76
+Train_full/ث/4.mp4	76
+Train_full/ث/5.mp4	76
+Train_full/ث/6.mp4	76
+Train_full/ث/7.mp4	76
+Train_full/ث/8.mp4	76
+Train_full/ث/9.mp4	76
+Train_full/ث/10.mp4	76
+Train_full/ث/11.mp4	76
+Train_full/ث/12.mp4	76
+Train_full/ث/13.mp4	76
+Train_full/ث/14.mp4	76
+Train_full/ث/15.mp4	76
+Train_full/ج/1.mp4	77
+Train_full/ج/2.mp4	77
+Train_full/ج/3.mp4	77
+Train_full/ج/4.mp4	77
+Train_full/ج/5.mp4	77
+Train_full/ج/6.mp4	77
+Train_full/ج/7.mp4	77
+Train_full/ج/8.mp4	77
+Train_full/ج/9.mp4	77
+Train_full/ج/10.mp4	77
+Train_full/ج/11.mp4	77
+Train_full/ج/12.mp4	77
+Train_full/ج/13.mp4	77
+Train_full/ج/14.mp4	77
+Train_full/ج/15.mp4	77
+Train_full/ح/1.mp4	78
+Train_full/ح/2.mp4	78
+Train_full/ح/3.mp4	78
+Train_full/ح/4.mp4	78
+Train_full/ح/5.mp4	78
+Train_full/ح/6.mp4	78
+Train_full/ح/7.mp4	78
+Train_full/ح/8.mp4	78
+Train_full/ح/9.mp4	78
+Train_full/ح/10.mp4	78
+Train_full/ح/11.mp4	78
+Train_full/ح/12.mp4	78
+Train_full/ح/13.mp4	78
+Train_full/ح/14.mp4	78
+Train_full/ح/15.mp4	78
+Train_full/خ/1.mp4	79
+Train_full/خ/2.mp4	79
+Train_full/خ/3.mp4	79
+Train_full/خ/4.mp4	79
+Train_full/خ/5.mp4	79
+Train_full/خ/6.mp4	79
+Train_full/خ/7.mp4	79
+Train_full/خ/8.mp4	79
+Train_full/خ/9.mp4	79
+Train_full/خ/10.mp4	79
+Train_full/خ/11.mp4	79
+Train_full/خ/12.mp4	79
+Train_full/خ/13.mp4	79
+Train_full/خ/14.mp4	79
+Train_full/خ/15.mp4	79
+Train_full/د/1.mp4	80
+Train_full/د/2.mp4	80
+Train_full/د/3.mp4	80
+Train_full/د/4.mp4	80
+Train_full/د/5.mp4	80
+Train_full/د/6.mp4	80
+Train_full/د/7.mp4	80
+Train_full/د/8.mp4	80
+Train_full/د/9.mp4	80
+Train_full/د/10.mp4	80
+Train_full/د/11.mp4	80
+Train_full/د/12.mp4	80
+Train_full/د/13.mp4	80
+Train_full/د/14.mp4	80
+Train_full/د/15.mp4	80
+Train_full/ر/1.mp4	81
+Train_full/ر/2.mp4	81
+Train_full/ر/3.mp4	81
+Train_full/ر/4.mp4	81
+Train_full/ر/5.mp4	81
+Train_full/ر/6.mp4	81
+Train_full/ر/7.mp4	81
+Train_full/ر/8.mp4	81
+Train_full/ر/9.mp4	81
+Train_full/ر/10.mp4	81
+Train_full/ر/11.mp4	81
+Train_full/ر/12.mp4	81
+Train_full/ر/13.mp4	81
+Train_full/ر/14.mp4	81
+Train_full/ر/15.mp4	81
+Train_full/ز/1.mp4	82
+Train_full/ز/2.mp4	82
+Train_full/ز/3.mp4	82
+Train_full/ز/4.mp4	82
+Train_full/ز/5.mp4	82
+Train_full/ز/6.mp4	82
+Train_full/ز/7.mp4	82
+Train_full/ز/8.mp4	82
+Train_full/ز/9.mp4	82
+Train_full/ز/10.mp4	82
+Train_full/ز/11.mp4	82
+Train_full/ز/12.mp4	82
+Train_full/ز/13.mp4	82
+Train_full/ز/14.mp4	82
+Train_full/ز/15.mp4	82
+Train_full/س/1.mp4	83
+Train_full/س/2.mp4	83
+Train_full/س/3.mp4	83
+Train_full/س/4.mp4	83
+Train_full/س/5.mp4	83
+Train_full/س/6.mp4	83
+Train_full/س/7.mp4	83
+Train_full/س/8.mp4	83
+Train_full/س/9.mp4	83
+Train_full/س/10.mp4	83
+Train_full/س/11.mp4	83
+Train_full/س/12.mp4	83
+Train_full/س/13.mp4	83
+Train_full/س/14.mp4	83
+Train_full/س/15.mp4	83
+Train_full/ش/1.mp4	84
+Train_full/ش/2.mp4	84
+Train_full/ش/3.mp4	84
+Train_full/ش/4.mp4	84
+Train_full/ش/5.mp4	84
+Train_full/ش/6.mp4	84
+Train_full/ش/7.mp4	84
+Train_full/ش/8.mp4	84
+Train_full/ش/9.mp4	84
+Train_full/ش/10.mp4	84
+Train_full/ش/11.mp4	84
+Train_full/ش/12.mp4	84
+Train_full/ش/13.mp4	84
+Train_full/ش/14.mp4	84
+Train_full/ش/15.mp4	84
+Train_full/ض/1.mp4	85
+Train_full/ض/2.mp4	85
+Train_full/ض/3.mp4	85
+Train_full/ض/4.mp4	85
+Train_full/ض/5.mp4	85
+Train_full/ض/6.mp4	85
+Train_full/ض/7.mp4	85
+Train_full/ض/8.mp4	85
+Train_full/ض/9.mp4	85
+Train_full/ض/10.mp4	85
+Train_full/ض/11.mp4	85
+Train_full/ض/12.mp4	85
+Train_full/ض/13.mp4	85
+Train_full/ض/14.mp4	85
+Train_full/ض/15.mp4	85
+Train_full/ط/1.mp4	86
+Train_full/ط/2.mp4	86
+Train_full/ط/3.mp4	86
+Train_full/ط/4.mp4	86
+Train_full/ط/5.mp4	86
+Train_full/ط/6.mp4	86
+Train_full/ط/7.mp4	86
+Train_full/ط/8.mp4	86
+Train_full/ط/9.mp4	86
+Train_full/ط/10.mp4	86
+Train_full/ط/11.mp4	86
+Train_full/ط/12.mp4	86
+Train_full/ط/13.mp4	86
+Train_full/ط/14.mp4	86
+Train_full/ط/15.mp4	86
+Train_full/ع/1.mp4	87
+Train_full/ع/2.mp4	87
+Train_full/ع/3.mp4	87
+Train_full/ع/4.mp4	87
+Train_full/ع/5.mp4	87
+Train_full/ع/6.mp4	87
+Train_full/ع/7.mp4	87
+Train_full/ع/8.mp4	87
+Train_full/ع/9.mp4	87
+Train_full/ع/10.mp4	87
+Train_full/ع/11.mp4	87
+Train_full/ع/12.mp4	87
+Train_full/ع/13.mp4	87
+Train_full/ع/14.mp4	87
+Train_full/ع/15.mp4	87
+Train_full/غ/1.mp4	88
+Train_full/غ/2.mp4	88
+Train_full/غ/3.mp4	88
+Train_full/غ/4.mp4	88
+Train_full/غ/5.mp4	88
+Train_full/غ/6.mp4	88
+Train_full/غ/7.mp4	88
+Train_full/غ/8.mp4	88
+Train_full/غ/9.mp4	88
+Train_full/غ/10.mp4	88
+Train_full/غ/11.mp4	88
+Train_full/غ/12.mp4	88
+Train_full/غ/13.mp4	88
+Train_full/غ/14.mp4	88
+Train_full/غ/15.mp4	88
+Train_full/ف/1.mp4	89
+Train_full/ف/2.mp4	89
+Train_full/ف/3.mp4	89
+Train_full/ف/4.mp4	89
+Train_full/ف/5.mp4	89
+Train_full/ف/6.mp4	89
+Train_full/ف/7.mp4	89
+Train_full/ف/8.mp4	89
+Train_full/ف/9.mp4	89
+Train_full/ف/10.mp4	89
+Train_full/ف/11.mp4	89
+Train_full/ف/12.mp4	89
+Train_full/ف/13.mp4	89
+Train_full/ف/14.mp4	89
+Train_full/ف/15.mp4	89
+Train_full/ل/1.mp4	90
+Train_full/ل/2.mp4	90
+Train_full/ل/3.mp4	90
+Train_full/ل/4.mp4	90
+Train_full/ل/5.mp4	90
+Train_full/ل/6.mp4	90
+Train_full/ل/7.mp4	90
+Train_full/ل/8.mp4	90
+Train_full/ل/9.mp4	90
+Train_full/ل/10.mp4	90
+Train_full/ل/11.mp4	90
+Train_full/ل/12.mp4	90
+Train_full/ل/13.mp4	90
+Train_full/ل/14.mp4	90
+Train_full/ل/15.mp4	90
+Train_full/م/1.mp4	91
+Train_full/م/2.mp4	91
+Train_full/م/3.mp4	91
+Train_full/م/4.mp4	91
+Train_full/م/5.mp4	91
+Train_full/م/6.mp4	91
+Train_full/م/7.mp4	91
+Train_full/م/8.mp4	91
+Train_full/م/9.mp4	91
+Train_full/م/10.mp4	91
+Train_full/م/11.mp4	91
+Train_full/م/12.mp4	91
+Train_full/م/13.mp4	91
+Train_full/م/14.mp4	91
+Train_full/م/15.mp4	91
+Train_full/ن/1.mp4	92
+Train_full/ن/2.mp4	92
+Train_full/ن/3.mp4	92
+Train_full/ن/4.mp4	92
+Train_full/ن/5.mp4	92
+Train_full/ن/6.mp4	92
+Train_full/ن/7.mp4	92
+Train_full/ن/8.mp4	92
+Train_full/ن/9.mp4	92
+Train_full/ن/10.mp4	92
+Train_full/ن/11.mp4	92
+Train_full/ن/12.mp4	92
+Train_full/ن/13.mp4	92
+Train_full/ن/14.mp4	92
+Train_full/ن/15.mp4	92
+Train_full/و/1.mp4	93
+Train_full/و/2.mp4	93
+Train_full/و/3.mp4	93
+Train_full/و/4.mp4	93
+Train_full/و/5.mp4	93
+Train_full/و/6.mp4	93
+Train_full/و/7.mp4	93
+Train_full/و/8.mp4	93
+Train_full/و/9.mp4	93
+Train_full/و/10.mp4	93
+Train_full/و/11.mp4	93
+Train_full/و/12.mp4	93
+Train_full/و/13.mp4	93
+Train_full/و/14.mp4	93
+Train_full/و/15.mp4	93
+Train_full/پ/1.mp4	94
+Train_full/پ/2.mp4	94
+Train_full/پ/3.mp4	94
+Train_full/پ/4.mp4	94
+Train_full/پ/5.mp4	94
+Train_full/پ/6.mp4	94
+Train_full/پ/7.mp4	94
+Train_full/پ/8.mp4	94
+Train_full/پ/9.mp4	94
+Train_full/پ/10.mp4	94
+Train_full/پ/11.mp4	94
+Train_full/پ/12.mp4	94
+Train_full/پ/13.mp4	94
+Train_full/پ/14.mp4	94
+Train_full/پ/15.mp4	94
+Train_full/چ/1.mp4	95
+Train_full/چ/2.mp4	95
+Train_full/چ/3.mp4	95
+Train_full/چ/4.mp4	95
+Train_full/چ/5.mp4	95
+Train_full/چ/6.mp4	95
+Train_full/چ/7.mp4	95
+Train_full/چ/8.mp4	95
+Train_full/چ/9.mp4	95
+Train_full/چ/10.mp4	95
+Train_full/چ/11.mp4	95
+Train_full/چ/12.mp4	95
+Train_full/چ/13.mp4	95
+Train_full/چ/14.mp4	95
+Train_full/چ/15.mp4	95
+Train_full/ڈ/1.mp4	96
+Train_full/ڈ/2.mp4	96
+Train_full/ڈ/3.mp4	96
+Train_full/ڈ/4.mp4	96
+Train_full/ڈ/5.mp4	96
+Train_full/ڈ/6.mp4	96
+Train_full/ڈ/7.mp4	96
+Train_full/ڈ/8.mp4	96
+Train_full/ڈ/9.mp4	96
+Train_full/ڈ/10.mp4	96
+Train_full/ڈ/11.mp4	96
+Train_full/ڈ/12.mp4	96
+Train_full/ڈ/13.mp4	96
+Train_full/ڈ/14.mp4	96
+Train_full/ڈ/15.mp4	96
+Train_full/ڑ/1.mp4	97
+Train_full/ڑ/2.mp4	97
+Train_full/ڑ/3.mp4	97
+Train_full/ڑ/4.mp4	97
+Train_full/ڑ/5.mp4	97
+Train_full/ڑ/6.mp4	97
+Train_full/ڑ/7.mp4	97
+Train_full/ڑ/8.mp4	97
+Train_full/ڑ/9.mp4	97
+Train_full/ڑ/10.mp4	97
+Train_full/ڑ/11.mp4	97
+Train_full/ڑ/12.mp4	97
+Train_full/ڑ/13.mp4	97
+Train_full/ڑ/14.mp4	97
+Train_full/ڑ/15.mp4	97
+Train_full/ک/1.mp4	98
+Train_full/ک/2.mp4	98
+Train_full/ک/3.mp4	98
+Train_full/ک/4.mp4	98
+Train_full/ک/5.mp4	98
+Train_full/ک/6.mp4	98
+Train_full/ک/7.mp4	98
+Train_full/ک/8.mp4	98
+Train_full/ک/9.mp4	98
+Train_full/ک/10.mp4	98
+Train_full/ک/11.mp4	98
+Train_full/ک/12.mp4	98
+Train_full/ک/13.mp4	98
+Train_full/ک/14.mp4	98
+Train_full/ک/15.mp4	98
+Train_full/گ/1.mp4	99
+Train_full/گ/2.mp4	99
+Train_full/گ/3.mp4	99
+Train_full/گ/4.mp4	99
+Train_full/گ/5.mp4	99
+Train_full/گ/6.mp4	99
+Train_full/گ/7.mp4	99
+Train_full/گ/8.mp4	99
+Train_full/گ/9.mp4	99
+Train_full/گ/10.mp4	99
+Train_full/گ/11.mp4	99
+Train_full/گ/12.mp4	99
+Train_full/گ/13.mp4	99
+Train_full/گ/14.mp4	99
+Train_full/گ/15.mp4	99
+Train_full/ھ/1.mp4	100
+Train_full/ھ/2.mp4	100
+Train_full/ھ/3.mp4	100
+Train_full/ھ/4.mp4	100
+Train_full/ھ/5.mp4	100
+Train_full/ھ/6.mp4	100
+Train_full/ھ/7.mp4	100
+Train_full/ھ/8.mp4	100
+Train_full/ھ/9.mp4	100
+Train_full/ھ/10.mp4	100
+Train_full/ھ/11.mp4	100
+Train_full/ھ/12.mp4	100
+Train_full/ھ/13.mp4	100
+Train_full/ھ/14.mp4	100
+Train_full/ھ/15.mp4	100
+Train_full/ہ/1.mp4	101
+Train_full/ہ/2.mp4	101
+Train_full/ہ/3.mp4	101
+Train_full/ہ/4.mp4	101
+Train_full/ہ/5.mp4	101
+Train_full/ہ/6.mp4	101
+Train_full/ہ/7.mp4	101
+Train_full/ہ/8.mp4	101
+Train_full/ہ/9.mp4	101
+Train_full/ہ/10.mp4	101
+Train_full/ہ/11.mp4	101
+Train_full/ہ/12.mp4	101
+Train_full/ہ/13.mp4	101
+Train_full/ہ/14.mp4	101
+Train_full/ہ/15.mp4	101
+Train_full/ی/1.mp4	102
+Train_full/ی/2.mp4	102
+Train_full/ی/3.mp4	102
+Train_full/ی/4.mp4	102
+Train_full/ی/5.mp4	102
+Train_full/ی/6.mp4	102
+Train_full/ی/7.mp4	102
+Train_full/ی/8.mp4	102
+Train_full/ی/9.mp4	102
+Train_full/ی/10.mp4	102
+Train_full/ی/11.mp4	102
+Train_full/ی/12.mp4	102
+Train_full/ی/13.mp4	102
+Train_full/ی/14.mp4	102
+Train_full/ی/15.mp4	102
+Train_full/ے/1.mp4	103
+Train_full/ے/2.mp4	103
+Train_full/ے/3.mp4	103
+Train_full/ے/4.mp4	103
+Train_full/ے/5.mp4	103
+Train_full/ے/6.mp4	103
+Train_full/ے/7.mp4	103
+Train_full/ے/8.mp4	103
+Train_full/ے/9.mp4	103
+Train_full/ے/10.mp4	103
+Train_full/ے/11.mp4	103
+Train_full/ے/12.mp4	103
+Train_full/ے/13.mp4	103
+Train_full/ے/14.mp4	103
+Train_full/ے/15.mp4	103
