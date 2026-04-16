@@ -102,6 +102,25 @@ def _iter_split_videos(split_dir: Path) -> Iterable[Path]:
             yield v
 
 
+def _iter_split_stems_from_frames(split_dir: Path) -> Iterable[tuple[str, str]]:
+    """
+    Frames-only scan.
+
+    Expected layout:
+      split_dir/<LabelName>/<stem>/frame_*.jpg|png
+
+    Yields (label_name, stem) pairs.
+    """
+    label_dirs = sorted([p for p in split_dir.iterdir() if p.is_dir()], key=lambda p: p.name.casefold())
+    for label_dir in label_dirs:
+        video_dirs = sorted([p for p in label_dir.iterdir() if p.is_dir()], key=lambda p: _video_sort_key(p))
+        for vd in video_dirs:
+            has_frames = any(vd.glob("*.jpg")) or any(vd.glob("*.png"))
+            if not has_frames:
+                continue
+            yield (label_dir.name, vd.name)
+
+
 def _write_split_from_scan(
     *,
     dataset_root: Path,
@@ -125,6 +144,41 @@ def _write_split_from_scan(
             label_int = name_to_id[label_name]
             rel = vid.relative_to(dataset_root).as_posix()
             fout.write(f"{rel}\t{label_int}\n")
+            written += 1
+            counts[label_int] += 1
+
+    return written, counts
+
+
+def _write_split_from_frames_scan(
+    *,
+    dataset_root: Path,
+    split_name: str,
+    split_dir: Path,
+    out_path: Path,
+    name_to_id: Dict[str, int],
+) -> Tuple[int, CounterType[int]]:
+    """
+    Like `_write_split_from_scan`, but scans `.../<Label>/<stem>/frame_*.jpg|png`
+    and writes the *virtual* mp4 path `.../<Label>/<stem>.mp4` to match
+    `video_dataset/dataset.py` logic (it uses stem to locate the frame folder).
+    """
+    counts: CounterType[int] = Counter()
+    written = 0
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with out_path.open("w", encoding="utf-8") as fout:
+        for label_name, stem in _iter_split_stems_from_frames(split_dir):
+            if label_name not in name_to_id:
+                raise SystemExit(
+                    f"[{split_name}] label folder {label_name!r} not present in label map. "
+                    f"Fix your --label-map or rename the folder."
+                )
+            label_int = name_to_id[label_name]
+            # Write a path that `dataset.py` can join with data_root and then derive
+            # the frame folder from: Path(path).parent / Path(path).stem
+            virtual_mp4 = (split_dir.relative_to(dataset_root) / label_name / f"{stem}.mp4").as_posix()
+            fout.write(f"{virtual_mp4}\t{label_int}\n")
             written += 1
             counts[label_int] += 1
 
@@ -165,6 +219,18 @@ def pick_one_shot_video(train_label_dir: Path, stem_prefer: str) -> Path | None:
     return vids[0] if vids else None
 
 
+def pick_one_shot_frame_dir(train_label_dir: Path, stem_prefer: str) -> Path | None:
+    """Frames-only layout: prefer <stem_prefer>/ subdir; else lowest-sorted subdir with frames."""
+    prefer = train_label_dir / stem_prefer
+    if prefer.is_dir() and (any(prefer.glob("*.jpg")) or any(prefer.glob("*.png"))):
+        return prefer
+    subdirs = sorted([p for p in train_label_dir.iterdir() if p.is_dir()], key=_video_sort_key)
+    for sd in subdirs:
+        if any(sd.glob("*.jpg")) or any(sd.glob("*.png")):
+            return sd
+    return None
+
+
 def write_train_1shot(
     *,
     dataset_root: Path,
@@ -172,8 +238,13 @@ def write_train_1shot(
     out_path: Path,
     name_to_id: Dict[str, int],
     stem_prefer: str,
+    frames_only: bool = False,
 ) -> int:
-    """Exactly one line per class id in the label map from train split (deterministic)."""
+    """Exactly one line per class id in the label map from train split (deterministic).
+
+    When ``frames_only=True``, scans ``<label>/<stem>/`` subdirectories instead of
+    ``.mp4`` files and writes a virtual mp4 path so SignVLM can locate the frame folder.
+    """
     inv = id_to_name_map(name_to_id)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     written = 0
@@ -183,11 +254,20 @@ def write_train_1shot(
             label_dir = train_dir / label_name
             if not label_dir.is_dir():
                 raise SystemExit(f"train_1shot: missing label folder: {label_dir}")
-            vid = pick_one_shot_video(label_dir, stem_prefer)
-            if vid is None:
-                raise SystemExit(f"train_1shot: no .mp4 in {label_dir}")
-            rel = vid.relative_to(dataset_root).as_posix()
-            fout.write(f"{rel}\t{i}\n")
+
+            if frames_only:
+                frame_dir = pick_one_shot_frame_dir(label_dir, stem_prefer)
+                if frame_dir is None:
+                    raise SystemExit(f"train_1shot: no frame subdir with images in {label_dir}")
+                # Same virtual-mp4 path convention as _write_split_from_frames_scan
+                virtual_mp4 = (train_dir.relative_to(dataset_root) / label_name / f"{frame_dir.name}.mp4").as_posix()
+                fout.write(f"{virtual_mp4}\t{i}\n")
+            else:
+                vid = pick_one_shot_video(label_dir, stem_prefer)
+                if vid is None:
+                    raise SystemExit(f"train_1shot: no .mp4 in {label_dir}")
+                rel = vid.relative_to(dataset_root).as_posix()
+                fout.write(f"{rel}\t{i}\n")
             written += 1
     print(f"wrote train_1shot ({written} lines, 1 per class id) -> {out_path}")
     return written
@@ -259,6 +339,14 @@ def main() -> None:
     parser.add_argument("--train-dirname", type=str, default="Train", help="Name of training split folder under --dataset-root")
     parser.add_argument("--val-dirname", type=str, default="Val", help="Name of validation split folder under --dataset-root")
     parser.add_argument("--test-dirname", type=str, default="Test", help="Name of test split folder under --dataset-root")
+    parser.add_argument(
+        "--scan-frames-only",
+        action="store_true",
+        help=(
+            "Scan frames-only layout: <Split>/<Label>/<stem>/frame_*.jpg|png instead of *.mp4. "
+            "Writes virtual mp4 paths (<stem>.mp4) so SignVLM can locate the frame folders."
+        ),
+    )
     parser.add_argument(
         "--split-dir",
         type=Path,
@@ -363,13 +451,22 @@ def main() -> None:
 
         for split_name, split_path in (("train", train_dir), ("val", val_dir), ("test", test_dir)):
             dst = outputs[split_name]
-            n, cov = _write_split_from_scan(
-                dataset_root=dataset_root,
-                split_name=split_name,
-                split_dir=split_path,
-                out_path=dst,
-                name_to_id=name_to_id,
-            )
+            if args.scan_frames_only:
+                n, cov = _write_split_from_frames_scan(
+                    dataset_root=dataset_root,
+                    split_name=split_name,
+                    split_dir=split_path,
+                    out_path=dst,
+                    name_to_id=name_to_id,
+                )
+            else:
+                n, cov = _write_split_from_scan(
+                    dataset_root=dataset_root,
+                    split_name=split_name,
+                    split_dir=split_path,
+                    out_path=dst,
+                    name_to_id=name_to_id,
+                )
             all_seen_labels.update(cov)
             unique_in_split = len(cov)
             print(f"{split_name}: wrote {n} lines -> {dst}")
@@ -392,6 +489,7 @@ def main() -> None:
                 out_path=out_dir / "train_1shot.tsv",
                 name_to_id=name_to_id,
                 stem_prefer=args.one_shot_stem,
+                frames_only=args.scan_frames_only,
             )
     else:
         split_dir = args.split_dir.resolve()

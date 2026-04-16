@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Move ALL videos to new dataset, preserving label structure.
-- Reads from: Train_full (each label folder contains 1.mp4, 2.mp4, ... numbered videos)
-- Moves ALL video files (1.mp4, 2.mp4, 3.mp4, etc.)
-- Destination: Train_videos (with same label structure, only videos, no frame folders)
-- Frame folders are NOT moved, only videos
+Unwrap all Chunk folders by moving their contents to parent directory.
+- Reads from: data_only_frames/Train_full
+- Finds all Chunk_<num> folders
+- Moves all files from inside chunks to parent directory
+- Removes empty chunk folders
 """
 
 from pathlib import Path
@@ -13,122 +13,116 @@ import shutil
 # ============================================================================
 # USER CONFIG
 # ============================================================================
-SOURCE_ROOT = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Train_ROI")
-TARGET_ROOT = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Train_roi_vids")
+ROOT_PATH = Path(r"C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\data_only_frames\Train_full")
 
 dry_run = False
 
-VIDEO_EXTS = {".mp4", ".mov", ".mkv", ".avi", ".wmv", ".flv", ".mpg", ".mpeg", ".3gp"}
-
-LABELS = [
-    "Afraid", "Angry", "Autumn", "best", "body", "brother_or_sister", "Car", "Come", "Down", "Drink",
-    "Eat", "Father", "Five", "food", "Forward", "Four", "free", "Friday", "Go", "Happy", "Healthy",
-    "Hear", "He_or_she", "hi", "Home", "Hospital", "I", "Internet", "Left", "Medicine", "meet",
-    "Mobile_phone", "Monday", "Mother", "One", "other", "please", "Read", "Right", "Sad", "Saturday",
-    "See", "Sick", "Sleep", "son_or_daughter", "sorry", "Speak", "Spring", "Summer", "Sunday",
-    "Surprised", "Tea", "teacher", "thank_you", "Three", "Thursday", "Tuesday", "TV", "Two",
-    "Up", "Water", "We", "Wednesday", "welcome", "What", "When", "Where", "Who", "Why", "Winter",
-    "Write", "You",
-    "ء", "ا", "ب", "پ", "ت", "ث", "ج", "چ", "ح", "خ", "د", "ڈ", "ر", "ڑ", "ز", "س", "ش", "ض", "ط",
-    "ع", "غ", "ف", "ک", "گ", "ل", "م", "ن", "ہ", "ھ", "و", "ے", "ی"
-]
-
 # ============================================================================
 
-def extract_number(name: str):
-    """Extract numeric part from filename or folder name (e.g., '1.mp4' -> 1, '3' -> 3)."""
-    stem = Path(name).stem
-    try:
-        return int(stem)
-    except ValueError:
-        return None
-
-def ensure_label_folder(root: Path, label: str):
-    """Create label folder in target root if it doesn't exist."""
-    label_folder = root / label
-    label_folder.mkdir(parents=True, exist_ok=True)
-    return label_folder
-
-def process_dataset():
-    """Main processing function."""
+def process_chunks():
+    """Main processing function to unwrap chunk folders."""
     
     print("=" * 80)
-    print("ALL VIDEOS MOVER (PRESERVING LABEL STRUCTURE)")
+    print("CHUNK FOLDER UNWRAPPER")
     print("=" * 80)
-    print(f"Source root: {SOURCE_ROOT}")
-    print(f"Target root: {TARGET_ROOT}")
-    print(f"Moving: ALL video files (1.mp4, 2.mp4, 3.mp4, etc.)")
-    print(f"Note: Frame folders are NOT moved, only videos")
+    print(f"Working directory: {ROOT_PATH}")
+    print(f"Operation: Move all files from Chunk_* folders to parent, then delete chunks")
     print(f"Dry run: {dry_run}")
     print("=" * 80)
     print()
     
-    # Verify source exists
-    if not SOURCE_ROOT.exists():
-        print(f"❌ Source root not found: {SOURCE_ROOT}")
+    # Verify root exists
+    if not ROOT_PATH.exists():
+        print(f"❌ Root path not found: {ROOT_PATH}")
         return
     
-    total_moved_videos = 0
-    total_labels_processed = 0
+    # Find all Chunk_* folders
+    chunk_folders = sorted([d for d in ROOT_PATH.iterdir() if d.is_dir() and d.name.startswith("Chunk_")])
     
-    for label in LABELS:
-        label_source = SOURCE_ROOT / label
+    if not chunk_folders:
+        print(f"⚠️  No Chunk_* folders found in {ROOT_PATH}")
+        return
+    
+    print(f"Found {len(chunk_folders)} chunk folder(s):")
+    for folder in chunk_folders:
+        print(f"  - {folder.name}")
+    print()
+    
+    total_moved_files = 0
+    total_moved_dirs = 0
+    total_removed_chunks = 0
+    
+    for chunk_folder in chunk_folders:
+        print(f"📦 Processing: {chunk_folder.name}")
         
-        # Check if label folder exists in source
-        if not label_source.exists() or not label_source.is_dir():
-            print(f"⚠️  Label folder not found: {label}")
+        # Get all items inside the chunk folder
+        items = list(chunk_folder.iterdir())
+        
+        if not items:
+            print(f"  ⚠️  Chunk folder is empty")
+            if not dry_run:
+                try:
+                    chunk_folder.rmdir()
+                    print(f"  ✓ Removed empty chunk: {chunk_folder.name}")
+                    total_removed_chunks += 1
+                except Exception as e:
+                    print(f"  ❌ Failed to remove chunk: {e}")
             continue
         
-        # Get all items in label folder
-        all_items = list(label_source.iterdir())
+        print(f"  Found {len(items)} item(s) to move")
         
-        # Collect ALL video files (no filtering for odd/even)
-        videos = []
-        
-        for item in all_items:
-            if item.is_file() and item.suffix.lower() in VIDEO_EXTS:
-                num = extract_number(item.name)
-                videos.append((num if num is not None else 0, item))
-        
-        if not videos:
-            continue
-        
-        total_labels_processed += 1
-        
-        # Sort by number for cleaner output
-        videos.sort(key=lambda x: x[0])
-        
-        print(f"📁 {label}: {len(videos)} videos to move")
-        
-        # Ensure target label folder exists
-        label_target = ensure_label_folder(TARGET_ROOT, label)
-        
-        # Move ALL videos
-        for num, video_path in videos:
-            dest_path = label_target / video_path.name
+        # Move all items from chunk to parent
+        for item in items:
+            dest_path = ROOT_PATH / item.name
             
             if dry_run:
-                print(f"  [DRY-VIDEO] {video_path.name} -> {label}/{video_path.name}")
+                if item.is_file():
+                    print(f"    [DRY-FILE] {item.name}")
+                else:
+                    print(f"    [DRY-DIR] {item.name}/")
             else:
                 try:
-                    shutil.move(str(video_path), str(dest_path))
-                    print(f"  ✓ Moved video: {video_path.name}")
-                    total_moved_videos += 1
+                    # Handle case where destination exists
+                    if dest_path.exists():
+                        print(f"    ⚠️  Destination exists: {item.name}, skipping")
+                        continue
+                    
+                    shutil.move(str(item), str(dest_path))
+                    
+                    if item.is_file():
+                        print(f"    ✓ Moved file: {item.name}")
+                        total_moved_files += 1
+                    else:
+                        print(f"    ✓ Moved dir: {item.name}/")
+                        total_moved_dirs += 1
+                        
                 except Exception as e:
-                    print(f"  ❌ Failed to move video {video_path.name}: {e}")
+                    print(f"    ❌ Failed to move {item.name}: {e}")
+        
+        # Remove the now-empty chunk folder
+        if not dry_run:
+            try:
+                chunk_folder.rmdir()
+                print(f"  ✓ Removed chunk folder: {chunk_folder.name}")
+                total_removed_chunks += 1
+            except Exception as e:
+                print(f"  ❌ Failed to remove chunk folder: {e}")
+        
+        print()
     
     # Print summary
-    print()
     print("=" * 80)
     print("SUMMARY")
     print("=" * 80)
-    print(f"Labels processed: {total_labels_processed}")
-    print(f"Video files moved: {total_moved_videos}")
+    print(f"Chunk folders processed: {len(chunk_folders)}")
+    print(f"Files moved: {total_moved_files}")
+    print(f"Directories moved: {total_moved_dirs}")
+    print(f"Chunk folders removed: {total_removed_chunks}")
     if dry_run:
         print("🔍 DRY RUN - no files were actually moved")
     else:
-        print("✅ All videos successfully moved!")
+        print("✅ All chunks successfully unwrapped!")
     print("=" * 80)
 
 if __name__ == "__main__":
-    process_dataset()
+    process_chunks()
