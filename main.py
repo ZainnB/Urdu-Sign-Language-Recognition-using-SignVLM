@@ -146,7 +146,7 @@ def main():
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=args.lr, weight_decay=args.weight_decay)
     lr_sched = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=args.num_steps)
-    loss_scaler = torch.cuda.amp.grad_scaler.GradScaler(enabled=args.fp16)
+    loss_scaler = torch.amp.GradScaler('cuda', enabled=args.fp16)
     criterion = torch.nn.CrossEntropyLoss()
 
     resume_step = checkpoint.resume_from_checkpoint(model, optimizer, lr_sched, loss_scaler, args)
