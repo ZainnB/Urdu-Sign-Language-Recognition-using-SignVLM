@@ -8,6 +8,22 @@ import torch.distributed as dist
 
 from .dataset import VideoDataset, DummyDataset
 
+
+def _loader_perf_kwargs(args: argparse.Namespace):
+    num_workers = int(getattr(args, 'num_workers', 0))
+    pin_memory = bool(getattr(args, 'pin_memory', True))
+    persistent_workers = bool(getattr(args, 'persistent_workers', num_workers > 0))
+    prefetch_factor = int(getattr(args, 'prefetch_factor', 2))
+
+    kwargs = {
+        'num_workers': num_workers,
+        'pin_memory': pin_memory,
+    }
+    if num_workers > 0:
+        kwargs['persistent_workers'] = persistent_workers
+        kwargs['prefetch_factor'] = prefetch_factor
+    return kwargs
+
 def setup_arg_parser(parser: argparse.ArgumentParser):
     #zain
     parser.add_argument('--frames_available', type=int, default=0, 
@@ -129,7 +145,7 @@ def create_train_loader(args: argparse.Namespace, resume_step: int = 0) -> torch
 
     loader = torch.utils.data.DataLoader(
         dataset, sampler=sampler, batch_size=batch_size_per_gpu,
-        num_workers=args.num_workers, pin_memory=False, drop_last=True,
+        drop_last=True, **_loader_perf_kwargs(args),
     )
 
     return loader
@@ -167,7 +183,7 @@ def create_val_loader(args: argparse.Namespace) -> torch.utils.data.Dataset:
 
     loader = torch.utils.data.DataLoader(
         dataset, sampler=sampler, batch_size=1,
-        num_workers=args.num_workers, pin_memory=False,
+        **_loader_perf_kwargs(args),
     )
 
     return loader

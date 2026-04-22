@@ -164,7 +164,8 @@ def main():
     assert len(train_loader) == args.num_steps - resume_step
     batch_st, train_st = datetime.now(), datetime.now()
     for i, (data, labels) in enumerate(train_loader, resume_step):
-        data, labels = data.cuda(), labels.cuda()
+        data = data.cuda(non_blocking=True)
+        labels = labels.cuda(non_blocking=True)
         #print(labels)
         data_ed = datetime.now()
 
@@ -177,7 +178,7 @@ def main():
             data_slice = data[split_size * j: split_size * (j + 1)]
             labels_slice = labels[split_size * j: split_size * (j + 1)]
 
-            with torch.cuda.amp.autocast(args.fp16):
+            with torch.amp.autocast('cuda', enabled=args.fp16):
                 logits = model(data_slice)
                 loss = criterion(logits, labels_slice)
             #print(labels_slice)    
@@ -238,7 +239,8 @@ def evaluate(model: torch.nn.Module, loader: torch.utils.data.DataLoader):
     tot, hit1, hit5 = 0, 0, 0
     eval_st = datetime.now()
     for data, labels in loader:
-        data, labels = data.cuda(), labels.cuda()
+        data = data.cuda(non_blocking=True)
+        labels = labels.cuda(non_blocking=True)
         assert data.size(0) == 1
         if data.ndim == 6:
             data = data[0] # now the first dimension is number of views
