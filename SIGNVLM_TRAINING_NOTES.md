@@ -27,6 +27,8 @@ data/Final Dataset (with roi augmentation)/
     - `--finetune_backbone` (updates CLIP-ViT weights)
     - `--batch_split` (manual gradient accumulation to avoid OOM)
 
+**Colab notebook (`notebooks/SignVLM_Colab_Training.ipynb`) — high-RAM / tuning:** On **Colab**, **high-RAM DataLoader** is the default (you do not need to set `SIGNVLM_HIGH_RAM=1`); set **`SIGNVLM_HIGH_RAM=0`** or **`SIGNVLM_LOW_RAM=1`** to use a small, conservative loader. Also: `SIGNVLM_NUM_WORKERS`, `SIGNVLM_PREFETCH`, `SIGNVLM_BATCH_SIZE`, `SIGNVLM_LOCAL_HUGE=1` (stronger than default high-RAM on capable hosts; local non-Colab + `SIGNVLM_HIGH_RAM` / `SIGNVLM_LOCAL_HUGE` can default `batch_split=1` in Cell 6), and `SIGNVLM_BATCH_SPLIT` to force micro-batching. On very large GPU VRAM, prefer `batch_split=1` and increase batch size; on OOM, use `batch_split=2` or lower `SIGNVLM_BATCH_SIZE`.
+
 ## Model architecture (what is trained)
 
 - `model.py`
