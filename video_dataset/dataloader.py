@@ -39,6 +39,8 @@ def setup_arg_parser(parser: argparse.ArgumentParser):
                         help='validation samples root directory')
     parser.add_argument('--data_root', type=str, default='',
                         help='training and validation samples root directory, might be overrided by --train_data_root or --val_data_root')
+    parser.add_argument('--local_data_cache', type=str, default='',
+                        help='e.g. /content/signvlm_data_cache: mirror from data_root on first use; leave empty to read from data_root only')
 
     parser.add_argument('--batch_size', type=int,
                         help='training batch size on a all GPUs')
@@ -122,6 +124,7 @@ def create_train_dataset(args: argparse.Namespace) -> torch.utils.data.Dataset:
         num_frames=args.num_frames,
         sampling_rate=-1 if args.tsn_sampling else args.sampling_rate,
         spatial_size=args.spatial_size,
+        local_cache_dir=(getattr(args, 'local_data_cache', None) or '').strip() or None,
         **_parse_mean_and_std(args), n_shots=args.n_shots,
     )
 
@@ -170,6 +173,7 @@ def create_val_dataset(args: argparse.Namespace) -> torch.utils.data.Dataset:
         num_frames=args.num_frames,
         sampling_rate=-1 if args.tsn_sampling else args.sampling_rate,
         spatial_size=args.spatial_size,
+        local_cache_dir=(getattr(args, 'local_data_cache', None) or '').strip() or None,
         **_parse_mean_and_std(args), n_shots=-1,
     )
 
