@@ -24,6 +24,27 @@ def _loader_perf_kwargs(args: argparse.Namespace):
         kwargs['prefetch_factor'] = prefetch_factor
     return kwargs
 
+
+def _loader_eval_memory_kwargs(args: argparse.Namespace) -> dict:
+    """Small worker count / prefetch for eval to limit RAM from loader queues."""
+    nw = int(getattr(args, 'eval_num_workers', 0))
+    if nw <= 0:
+        return {'num_workers': 0, 'pin_memory': False}
+    pf_raw = getattr(args, 'prefetch_factor', 2)
+    pf = min(int(pf_raw) if pf_raw is not None else 2, 2)
+    return {
+        'num_workers': nw,
+        'pin_memory': bool(getattr(args, 'pin_memory', True)),
+        'persistent_workers': False,
+        'prefetch_factor': max(2, pf),
+    }
+
+
+def val_loader_collate_kwargs(args: argparse.Namespace) -> dict:
+    if getattr(args, 'memory_efficient_eval', False):
+        return _loader_eval_memory_kwargs(args)
+    return _loader_perf_kwargs(args)
+
 def setup_arg_parser(parser: argparse.ArgumentParser):
     #zain
     parser.add_argument('--frames_available', type=int, default=0, 
@@ -187,7 +208,7 @@ def create_val_loader(args: argparse.Namespace) -> torch.utils.data.Dataset:
 
     loader = torch.utils.data.DataLoader(
         dataset, sampler=sampler, batch_size=1,
-        **_loader_perf_kwargs(args),
+        **val_loader_collate_kwargs(args),
     )
 
     return loader
