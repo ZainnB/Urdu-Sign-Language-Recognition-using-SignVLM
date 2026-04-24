@@ -27,14 +27,6 @@ END_TRIM = 0.5    # seconds to trim from end
 # ------------------------------------------------
 
 LABELS = [
-    "Afraid","Angry","Autumn","best","body","brother_or_sister","Car","Come","Down","Drink",
-    "Eat","Father","Five","food","Forward","Four","free","Friday","Go","Happy","Healthy",
-    "Hear","He_or_she","hi","Home","Hospital","I","Internet","Left","Medicine","meet",
-    "Mobile_phone","Monday","Mother","One","other","please","Read","Right","Sad","Saturday",
-    "See","Sick","Sleep","son_or_daughter","sorry","Speak","Spring","Summer","Sunday",
-    "Surprised","Tea","teacher","thank_you","Three","Thursday","Tuesday","TV","Two",
-    "Up","Water","We","Wednesday","welcome","What","When","Where","Who","Why","Winter",
-    "Write","You",
     "ء","ا","ب","پ","ت","ث","ج","چ","ح","خ","د","ڈ","ر","ڑ","ز","س","ش","ض","ط",
     "ع","غ","ف","ک","گ","ل","م","ن","ہ","ھ","و","ے","ی"
 ]
