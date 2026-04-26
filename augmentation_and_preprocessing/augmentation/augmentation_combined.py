@@ -278,6 +278,79 @@ def augment_video_random(input_video, output_video, augmentation_types=None):
 # BATCH AUGMENTATION FOR PSL DATASET
 # ==========================================
 
+def label_dir_has_aug_videos(label_folder):
+    """True if folder contains at least one augmented clip (*_aug_*.mp4)."""
+    return any(Path(label_folder).glob("*_aug_*.mp4"))
+
+
+def augment_one_label(label_folder, num_augmented_per_label, verbose=True):
+    """
+    Augment one class folder in-place. Skips if no originals, else generates aug files.
+
+    Returns:
+        (successful_count, failed_count, label_name) or (0, 0, None) if skipped (no originals).
+    """
+    label_folder = Path(label_folder)
+    label_name = label_folder.name
+
+    original_videos = sorted(
+        v for v in label_folder.glob("*.mp4") if "_aug_" not in v.name
+    )
+    if not original_videos:
+        if verbose:
+            print(f"{label_name}: ❌ No original videos found")
+        return 0, 0, label_name
+
+    if verbose:
+        print(f"Label: {label_name} | Original videos: {len(original_videos)} | Generating: {num_augmented_per_label}")
+
+    successful = 0
+    failed = 0
+
+    for aug_idx in range(num_augmented_per_label):
+        source_video = random.choice(original_videos)
+        output_num = 15 + aug_idx + 1
+        output_name = f"{label_name}_aug_{output_num}.mp4"
+        output_path = label_folder / output_name
+
+        if output_path.exists():
+            if verbose:
+                print(f"  [{aug_idx+1}/{num_augmented_per_label}] {output_name} ⏭️  (exists)", end="")
+            continue
+
+        if verbose:
+            print(f"  [{aug_idx+1}/{num_augmented_per_label}] {source_video.name} → {output_name}", end="")
+
+        try:
+            success = augment_video_random(
+                input_video=str(source_video), output_video=str(output_path)
+            )
+            if success:
+                if verbose:
+                    print(" ✓")
+                successful += 1
+            else:
+                if verbose:
+                    print(" ❌")
+                failed += 1
+                if output_path.exists():
+                    output_path.unlink()
+        except Exception as e:
+            if verbose:
+                print(f" ❌ ({str(e)[:40]})")
+            failed += 1
+
+    if verbose:
+        print(f"  → {label_name}: {successful} successful, {failed} failed\n")
+    return successful, failed, label_name
+
+
+def augment_one_label_entry(packed):
+    """Picklable (path_str, n, verbose) for ProcessPoolExecutor or similar."""
+    path, n, verbose = packed
+    return augment_one_label(path, n, verbose=verbose)
+
+
 def batch_augment_original_videos(
     dataset_root,
     num_augmented_per_label=50,
@@ -344,88 +417,15 @@ def batch_augment_original_videos(
     total_failed = 0
     
     for label_idx, label_folder in enumerate(label_folders, 1):
-        label_name = label_folder.name
-        
-        # Get ONLY original videos (not already augmented)
-        # Original: <label>_<num>.mp4
-        # Skip: <label>_aug_<num>.mp4
-        original_videos = sorted([
-            v for v in label_folder.glob("*.mp4")
-            if "_aug_" not in v.name  # Skip already augmented
-        ])
-        
-        if not original_videos:
-            if verbose:
-                print(f"[{label_idx}/{len(label_folders)}] {label_name}: ❌ No original videos found")
-            continue
-        
         if verbose:
             print(f"{'='*70}")
-            print(f"[{label_idx}/{len(label_folders)}] Label: {label_name}")
-            print(f"Original videos: {len(original_videos)}")
-            print(f"Generating: {num_augmented_per_label} augmented versions")
+            print(f"[{label_idx}/{len(label_folders)}] {label_folder.name}")
             print(f"{'='*70}")
-        
-        successful = 0
-        failed = 0
-        
-        # Generate augmented videos
-        for aug_idx in range(num_augmented_per_label):
-            # Random source video
-            source_video = random.choice(original_videos)
-            
-            # Extract base name and number
-            # e.g., "Afraid_1.mp4" -> base="Afraid", num=1
-            video_stem = source_video.stem
-            parts = video_stem.split('_')
-            
-            try:
-                original_num = int(parts[-1])
-            except:
-                original_num = 1
-            
-            # Output numbering: aug_16, aug_17, ... aug_65 (50 total)
-            output_num = 15 + aug_idx + 1  # 16, 17, 18, ...
-            output_name = f"{label_name}_aug_{output_num}.mp4"
-            output_path = label_folder / output_name
-            
-            # Skip if already exists
-            if output_path.exists():
-                if verbose:
-                    print(f"  [{aug_idx+1}/{num_augmented_per_label}] {output_name} ⏭️  (exists)", end="")
-                continue
-            
-            if verbose:
-                print(f"  [{aug_idx+1}/{num_augmented_per_label}] {source_video.name} → {output_name}", end="")
-            
-            try:
-                success = augment_video_random(
-                    input_video=str(source_video),
-                    output_video=str(output_path)
-                )
-                
-                if success:
-                    if verbose:
-                        print(" ✓")
-                    successful += 1
-                else:
-                    if verbose:
-                        print(" ❌")
-                    failed += 1
-                    # Remove failed output if partially created
-                    if output_path.exists():
-                        output_path.unlink()
-            
-            except Exception as e:
-                if verbose:
-                    print(f" ❌ ({str(e)[:40]})")
-                failed += 1
-        
-        if verbose:
-            print(f"\n  → {label_name}: {successful} successful, {failed} failed\n")
-        
-        total_successful += successful
-        total_failed += failed
+        s, f, _ = augment_one_label(
+            label_folder, num_augmented_per_label, verbose=verbose
+        )
+        total_successful += s
+        total_failed += f
     
     # Final summary
     print(f"{'='*70}")
