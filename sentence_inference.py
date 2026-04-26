@@ -70,9 +70,9 @@ from inference import (
 
 # ── Defaults ───────────────────────────────────────────────────────────────
 ROOT       = _DIR.parent
-CHECKPOINT = ROOT / "trained_models_final/signVLM_psl/checkpoint-10000.pth"
-BACKBONE   = ROOT / "signVLM/CLIP_weights/ViT-L/ViT-L-14.pt"
-LABEL_MAP  = ROOT / "trained_models_final/PSL_recognition_label_map.txt"
+CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models\\fullshot_24frames_run1.pth"
+BACKBONE   = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\CLIP_weights/ViT-L/ViT-L-14.pt"
+LABEL_MAP  = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final/PSL_recognition_label_map.txt"
 
 # A sign clip covers (16-1)*4+1 = 61 video frames at 30fps ≈ 2 seconds.
 # We slide every 30 frames (1 second) to get ~50% overlap between windows.
@@ -211,10 +211,80 @@ def infer_sentence_realtime(
     print(f"  Confidence threshold: {conf_threshold:.0%}")
     print("  Press Ctrl-C or 'q' in the window to stop.\n")
 
+    # ── Unicode-aware text renderer using PIL + arabic_reshaper ───────────
+    try:
+        from PIL import Image as _PILImage, ImageDraw as _PILDraw, ImageFont as _PILFont
+        import arabic_reshaper as _reshaper
+        from bidi.algorithm import get_display as _bidi
+
+        _FONT_PATH = r"C:\Windows\Fonts\tahoma.ttf"
+        _font_sm  = _PILFont.truetype(_FONT_PATH, 20)
+        _font_med = _PILFont.truetype(_FONT_PATH, 28)
+        _font_lg  = _PILFont.truetype(_FONT_PATH, 34)
+        _pil_ok = True
+    except Exception:
+        _pil_ok = False
+
+    def _shape(text: str) -> str:
+        """Shape Urdu/Arabic text for correct RTL + ligature rendering."""
+        if not _pil_ok:
+            return text
+        try:
+            return _bidi(_reshaper.reshape(text))
+        except Exception:
+            return text
+
+    def _draw_hud(bgr_frame: np.ndarray, buf_pct: int, pred: str, conf: float,
+                  is_new: bool, sent_text: str, infer_ms: float) -> np.ndarray:
+        """Draw a HUD overlay on the frame. Returns a new BGR numpy array."""
+        if not _pil_ok:
+            # Fallback to basic cv2 ASCII rendering
+            overlay = bgr_frame.copy()
+            cv2.rectangle(overlay, (0, 0), (bgr_frame.shape[1], 110), (30, 30, 30), -1)
+            cv2.addWeighted(overlay, 0.55, bgr_frame, 0.45, 0, bgr_frame)
+            return bgr_frame
+
+        h, w = bgr_frame.shape[:2]
+        # Convert BGR → RGB PIL
+        pil_img = _PILImage.fromarray(cv2.cvtColor(bgr_frame, cv2.COLOR_BGR2RGB))
+
+        # Semi-transparent dark bar at top
+        overlay = _PILImage.new("RGBA", (w, 115), (20, 20, 20, 160))
+        pil_img.paste(overlay, (0, 0), overlay)
+
+        draw = _PILDraw.Draw(pil_img)
+
+        # Row 1 — status (ASCII only, no reshaping needed)
+        status = f"Buffer: {buf_pct}%  |  Inference: {infer_ms:.0f}ms"
+        draw.text((12, 8), status, font=_font_sm, fill=(200, 200, 200))
+
+        # Row 2 — current sign (Urdu label shaped)
+        pred_color = (60, 255, 140) if is_new else (100, 200, 255)
+        conf_str = f"  ({conf:.0%})"
+        shaped_pred = _shape(pred)
+        draw.text((12, 34), shaped_pred + conf_str, font=_font_lg, fill=pred_color)
+
+        # Row 3 — sentence (each label shaped individually, joined with |)
+        parts = [p.strip() for p in sent_text.split("|")] if sent_text != "-" else ["-"]
+        shaped_sent = "  |  ".join(_shape(p) for p in parts)
+        # Truncate to roughly fit width
+        max_chars = max(1, w // 12)
+        if len(shaped_sent) > max_chars:
+            shaped_sent = "..." + shaped_sent[-(max_chars - 3):]
+        draw.text((12, 80), shaped_sent, font=_font_sm, fill=(255, 215, 50))
+
+        # Convert RGB PIL → BGR numpy
+        return cv2.cvtColor(np.array(pil_img), cv2.COLOR_RGB2BGR)
+
+    # ── Main capture loop ──────────────────────────────────────────────────
     buffer: deque[np.ndarray] = deque(maxlen=window_frames)
     sentence: List[Tuple[str, float]] = []
     last_label: Optional[str] = None
     frames_since_last_infer = 0
+    current_pred: str = "Waiting..."
+    current_conf: float = 0.0
+    infer_ms_display: float = 0.0
+    is_new_sign: bool = False
 
     try:
         while True:
@@ -233,19 +303,31 @@ def infer_sentence_realtime(
 
                 t0 = time.perf_counter()
                 label, conf = _infer_window(window, model, label_map, device, conf_threshold)
-                infer_ms = (time.perf_counter() - t0) * 1000
+                infer_ms_display = (time.perf_counter() - t0) * 1000
+                current_conf = conf
 
                 if label is not None and label != last_label:
                     sentence.append((label, conf))
                     last_label = label
+                    current_pred = label
+                    is_new_sign = True
                     current_sentence = " | ".join(lbl for lbl, _ in sentence)
-                    print(f"  [{infer_ms:>4.0f}ms]  NEW SIGN: {label:<22} {conf:>5.0%}  "
+                    print(f"  [{infer_ms_display:>4.0f}ms]  NEW SIGN: {label:<22} {conf:>5.0%}  "
                           f"->  {current_sentence}")
                 else:
+                    is_new_sign = False
+                    current_pred = label if label else f"(low conf: {conf:.0%})"
                     display = label if label else f"(low conf: {conf:.0%})"
-                    print(f"  [{infer_ms:>4.0f}ms]  {display:<30}  (same/below threshold)")
+                    print(f"  [{infer_ms_display:>4.0f}ms]  {display:<30}  (same/below threshold)")
 
-            # Show live feed if display is available
+            # ── Render HUD ─────────────────────────────────────────────────
+            buf_pct = int(len(buffer) / window_frames * 100)
+            sent_text = " | ".join(lbl for lbl, _ in sentence) or "-"
+            frame = _draw_hud(frame, buf_pct, current_pred, current_conf,
+                              is_new_sign, sent_text, infer_ms_display)
+
+            cv2.imshow("SignVLM \u2014 Real-time PSL Inference  (press q to quit)", frame)
+
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
 

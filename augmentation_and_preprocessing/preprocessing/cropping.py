@@ -19,17 +19,14 @@ import shlex
 import shutil
 
 # ---------------- USER CONFIG ----------------
-SRC = Path(r'C:\Users\Dell\Documents\FYP_PSL\data\Final Dataset (without augmented data)')
+SRC = Path(r'C:\Users\Dell\Documents\Github-Repos\Urdu_Sign_Language_Recognition_using_SignVLM\data\Random_test')  # Base directory containing videos directly
 
 VIDEO_EXTS = {".mov", ".mp4", ".mkv", ".avi", ".wmv", ".flv", ".mpg", ".mpeg", ".3gp"}
-START_TRIM = 0.4  # seconds to trim from start
+START_TRIM = 0.0  # seconds to trim from start
 END_TRIM = 0.5    # seconds to trim from end
 # ------------------------------------------------
 
-LABELS = [
-    "ء","ا","ب","پ","ت","ث","ج","چ","ح","خ","د","ڈ","ر","ڑ","ز","س","ش","ض","ط",
-    "ع","غ","ف","ک","گ","ل","م","ن","ہ","ھ","و","ے","ی"
-]
+# Processing single-folder of videos; no LABELS list needed.
 
 def ffprobe_meta(path: Path):
     cmd = ["ffprobe", "-v", "error", "-print_format", "json", "-show_format", "-show_streams", str(path)]
@@ -98,50 +95,36 @@ def list_files_in(folder: Path):
 
 def main():
     print("SRC:", SRC)
-    print("Cropping videos longer than 5 seconds in place...")
+    print("Cropping .mp4 videos in SRC (non-recursive)...")
     print()
 
-    long_videos = {}
-    cropped_videos = {}
+    long_videos = []
+    cropped_videos = []
 
-    for label in LABELS:
-        src_label = SRC / label
-        files = list_files_in(src_label)
-        label_long = []
-        label_cropped = []
-        for file in files:
-            if file.suffix.lower() in VIDEO_EXTS:
-                duration = get_duration(file)
-                if duration and duration > 4:
-                    label_long.append((file.name, duration))
-                    # Crop the video in place
-                    out_path = src_label / file.name
-                    if crop_video(file, out_path, START_TRIM, END_TRIM):
-                        new_duration = duration - START_TRIM - END_TRIM
-                        label_cropped.append((file.name, new_duration))
-        if label_long:
-            long_videos[label] = label_long
-        if label_cropped:
-            cropped_videos[label] = label_cropped
+    files = list_files_in(SRC)
+    for file in files:
+        if file.suffix.lower() == ".mp4":
+            duration = get_duration(file)
+            if duration and duration > 3.5:
+                long_videos.append((file.name, duration))
+                if crop_video(file, file, START_TRIM, END_TRIM):
+                    new_duration = duration - START_TRIM - END_TRIM
+                    cropped_videos.append((file.name, new_duration))
 
     # Output the list of long videos
     print("Original videos longer than 5 seconds:")
-    for label, videos in long_videos.items():
-        print(f"\n{label}:")
-        for name, dur in videos:
-            print(f"  {name} ({dur:.2f}s)")
+    for name, dur in long_videos:
+        print(f"  {name} ({dur:.2f}s)")
 
-    total_long = sum(len(v) for v in long_videos.values())
+    total_long = len(long_videos)
     print(f"\nTotal long videos found: {total_long}")
 
     # Output the list of cropped videos
     print("\nCropped videos (in place):")
-    for label, videos in cropped_videos.items():
-        print(f"\n{label}:")
-        for name, dur in videos:
-            print(f"  {name} ({dur:.2f}s)")
+    for name, dur in cropped_videos:
+        print(f"  {name} ({dur:.2f}s)")
 
-    total_cropped = sum(len(v) for v in cropped_videos.values())
+    total_cropped = len(cropped_videos)
     print(f"\nTotal videos cropped: {total_cropped}")
 
     print("\n✅ Done! Videos cropped in place.")
