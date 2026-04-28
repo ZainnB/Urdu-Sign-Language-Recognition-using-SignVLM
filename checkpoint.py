@@ -39,8 +39,9 @@ def _find_autoresume_path(args: argparse.Namespace):
         print('Did not find a valid checkpoint file.')
     else:
         checkpoint_iters.sort()
-        args.resume_path = os.path.join(args.checkpoint_dir, 'checkpoint-%d.pth' % checkpoint_iters[-1])
-        print(f'Found {len(checkpoint_iters)} checkpoint file(s).')
+        latest = checkpoint_iters[-1]
+        args.resume_path = os.path.join(args.checkpoint_dir, 'checkpoint-%d.pth' % latest)
+        print(f'Found {len(checkpoint_iters)} checkpoint file(s); using latest step {latest}: {args.resume_path}')
 
 
 def resume_from_checkpoint(
