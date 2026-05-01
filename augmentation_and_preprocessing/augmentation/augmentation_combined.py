@@ -442,7 +442,7 @@ def batch_augment_original_videos(
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Batch augmentation for PSL original videos")
     ap.add_argument("dataset", help="PSL dataset root (contains label folders)")
-    ap.add_argument("--num-aug", type=int, default=50, help="Number of augmented videos per label")
+    ap.add_argument("--num-aug", type=int, default=30, help="Number of augmented videos per label")
     ap.add_argument("--test-first-label", action="store_true", help="Test mode: process only first label")
     ap.add_argument("--resume-from", help="Resume from specific label")
     ap.add_argument("--quiet", action="store_true", help="Minimize output")

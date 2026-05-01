@@ -45,12 +45,41 @@ def build_confusion_cmap():
     return wrong_cmap, correct_cmap
 
 
-def load_label_names(label_map_path: Path):
-    if not label_map_path.is_file():
+def load_labels_from_tsv(tsv_path: Path, n_classes: int):
+    """
+    Build an index->label-name list from a dataset TSV file.
+
+    The TSV is expected to contain lines like:
+        relative/path/to/classname/file.mp4\t<label_index>
+    We extract the class name from the parent directory of the file path and map
+    it to the integer label index. If the TSV is missing or an index is not
+    present in the TSV, the numeric string for that index is used as fallback.
+    """
+    if not tsv_path.is_file():
         return None
-    with open(label_map_path, encoding="utf-8") as f:
-        mapping = json.load(f)
-    return [mapping.get(str(i), str(i)) for i in range(len(mapping))]
+    mapping = {}
+    with open(tsv_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            parts = line.split()
+            if len(parts) < 2:
+                continue
+            path_part = parts[0]
+            idx_part = parts[-1]
+            try:
+                idx = int(idx_part)
+            except ValueError:
+                continue
+            # class name is parent directory of the file path
+            try:
+                class_name = Path(path_part).parent.name
+            except Exception:
+                class_name = str(idx)
+            if class_name:
+                mapping.setdefault(idx, class_name)
+    return [mapping.get(i, str(i)) for i in range(n_classes)]
 
 
 def calculate_per_class_accuracy(cm):
@@ -274,10 +303,26 @@ def main():
     val_cm   = np.load("validation_confusion_matrix.npy")
     test_cm  = np.load("test_confusion_matrix.npy")
 
-    labels = load_label_names(LABEL_MAP_FILE)
-    if labels is None:
-        print(f"Label map not found at {LABEL_MAP_FILE}. Using numeric labels.")
-        labels = [str(i) for i in range(train_cm.shape[0])]
+    # Load labels per-split from TSV files (fallback to numeric labels)
+    splits_dir = Path(__file__).resolve().parent.parent / "dataset_split_text_files"
+    train_tsv = splits_dir / "train.tsv"
+    val_tsv = splits_dir / "val.tsv"
+    test_tsv = splits_dir / "test.tsv"
+
+    labels_train = load_labels_from_tsv(train_tsv, train_cm.shape[0]) if train_tsv.is_file() else None
+    if labels_train is None:
+        print(f"train.tsv not found at {train_tsv}. Using numeric labels for training.")
+        labels_train = [str(i) for i in range(train_cm.shape[0])]
+
+    labels_val = load_labels_from_tsv(val_tsv, val_cm.shape[0]) if val_tsv.is_file() else None
+    if labels_val is None:
+        print(f"val.tsv not found at {val_tsv}. Using numeric labels for validation.")
+        labels_val = [str(i) for i in range(val_cm.shape[0])]
+
+    labels_test = load_labels_from_tsv(test_tsv, test_cm.shape[0]) if test_tsv.is_file() else None
+    if labels_test is None:
+        print(f"test.tsv not found at {test_tsv}. Using numeric labels for test.")
+        labels_test = [str(i) for i in range(test_cm.shape[0])]
 
     print(f"Train CM shape : {train_cm.shape}")
     print(f"Val   CM shape : {val_cm.shape}")
@@ -288,18 +333,18 @@ def main():
     val_acc   = calculate_per_class_accuracy(val_cm)
     test_acc  = calculate_per_class_accuracy(test_cm)
 
-    print_per_class_accuracies(train_acc, labels, "Train Per-Class Accuracies:")
-    print_per_class_accuracies(val_acc,   labels, "Validation Per-Class Accuracies:")
-    print_per_class_accuracies(test_acc,  labels, "Test Per-Class Accuracies:")
+    print_per_class_accuracies(train_acc, labels_train, "Train Per-Class Accuracies:")
+    print_per_class_accuracies(val_acc,   labels_val, "Validation Per-Class Accuracies:")
+    print_per_class_accuracies(test_acc,  labels_test, "Test Per-Class Accuracies:")
 
     # ── Plots ─────────────────────────────────────────────────────────────
     print("\nRendering confusion matrices …")
     plot_confusion_matrix(train_cm, "Train Confusion Matrix",
-                          "train_confusion_matrix.png",      labels=labels)
+                          "train_confusion_matrix.png",      labels=labels_train)
     plot_confusion_matrix(val_cm,   "Validation Confusion Matrix",
-                          "validation_confusion_matrix.png", labels=labels)
+                          "validation_confusion_matrix.png", labels=labels_val)
     plot_confusion_matrix(test_cm,  "Test Confusion Matrix",
-                          "test_confusion_matrix.png",       labels=labels)
+                          "test_confusion_matrix.png",       labels=labels_test)
 
 
 if __name__ == "__main__":
