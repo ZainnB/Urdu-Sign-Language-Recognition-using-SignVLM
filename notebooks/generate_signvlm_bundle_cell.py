@@ -1,12 +1,15 @@
-"""Regenerate Cell 2b in SignVLM_Colab_Training.ipynb from repo sources (run from repo root)."""
-import base64
-import io
-import json
+"""Build an optional source zip for offline / manual copy (no notebook mutation).
+
+The Colab notebook uses **git clone** in Cell 2b (`SIGNVLM_GIT_URL`); you normally do not need
+a base64-in-notebook bundle. This script only writes a `.zip` next to this file for ad-hoc use.
+
+Run from repo root:  python notebooks/generate_signvlm_bundle_cell.py
+"""
 import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-NB = Path(__file__).resolve().parent / "SignVLM_Colab_Training.ipynb"
+OUT = Path(__file__).resolve().parent / "signvlm_sources_for_offline.zip"
 
 FILES = [
     "checkpoint.py",
@@ -17,72 +20,22 @@ FILES = [
     "video_dataset/__init__.py",
     "video_dataset/dataloader.py",
     "video_dataset/dataset.py",
+    "video_dataset/drive_to_local_cache.py",
     "video_dataset/transform.py",
     "video_dataset/rand_augment.py",
     "video_dataset/random_erasing.py",
 ]
 
-HEADER = """# Cell 2b: Extract bundled SignVLM Python sources into Colab (run after Cell 1; no repo copy on Drive needed for `import main` / `video_dataset`)
-import base64
-import io
-import os
-import zipfile
-
-CODE_ROOT = globals().get("CODE_ROOT", "/content/signvlm_bundle")
-REPO_ROOT = globals().get("REPO_ROOT", "")
-
-# Alternative to bundle extraction: use repo sources directly when available.
-_repo_main = os.path.join(REPO_ROOT, "main.py") if REPO_ROOT else ""
-if _repo_main and os.path.isfile(_repo_main):
-    CODE_ROOT = REPO_ROOT
-    print("Using SignVLM sources from REPO_ROOT:", CODE_ROOT)
-else:
-    _ZIP_B64 = (
-"""
-
-FOOTER = """
-)
-
-    _buf = io.BytesIO(base64.b64decode(_ZIP_B64.encode("ascii")))
-    os.makedirs(CODE_ROOT, exist_ok=True)
-    with zipfile.ZipFile(_buf) as z:
-        z.extractall(CODE_ROOT)
-    print("Extracted SignVLM sources to", CODE_ROOT)
-"""
-
 
 def main():
-    bio = io.BytesIO()
-    with zipfile.ZipFile(bio, "w", zipfile.ZIP_DEFLATED) as zf:
+    with zipfile.ZipFile(OUT, "w", zipfile.ZIP_DEFLATED) as zf:
         for rel in FILES:
             p = ROOT / rel
+            if not p.is_file():
+                raise FileNotFoundError(f"Missing source file: {p}")
             zf.write(p, rel)
-    raw = base64.b64encode(bio.getvalue()).decode("ascii")
-    # Chunk for readable notebook lines (~96 chars quoted per line)
-    chunk = 96
-    lines = [raw[i : i + chunk] for i in range(0, len(raw), chunk)]
-    quoted = "\n".join(f'    "{line}"' for line in lines)
-
-    cell_src = HEADER + quoted + FOOTER
-    if not cell_src.endswith("\n"):
-        cell_src += "\n"
-    source_lines = cell_src.splitlines(keepends=True)
-
-    nb = json.loads(NB.read_text(encoding="utf-8"))
-    for i, cell in enumerate(nb["cells"]):
-        src = cell.get("source", [])
-        first = src[0] if src else ""
-        if isinstance(first, str) and first.startswith("# Cell 2b:"):
-            nb["cells"][i]["source"] = source_lines
-            if "outputs" in nb["cells"][i]:
-                nb["cells"][i]["outputs"] = []
-            nb["cells"][i]["execution_count"] = None
-            break
-    else:
-        raise SystemExit("Could not find Cell 2b in notebook")
-
-    NB.write_text(json.dumps(nb, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Updated {NB} ({len(raw)} b64 chars, zip {len(bio.getvalue())} bytes)")
+    n = OUT.stat().st_size
+    print(f"Wrote {OUT} ({n} bytes). Unzip to /content and add to sys.path if needed; Colab Cell 2b uses git by default.")
 
 
 if __name__ == "__main__":

@@ -30,16 +30,16 @@ import torch.nn.functional as F
 from inference import load_label_map, load_model, preprocess_video, PSL_NUM_FRAMES
 
 # ── Paths ──────────────────────────────────────────────────────────────────
-ROOT       = Path(__file__).resolve().parent.parent
-CHECKPOINT = ROOT / "trained_models_final/signVLM_psl/checkpoint-10000.pth"
-BACKBONE   = ROOT / "signVLM/CLIP_weights/ViT-L/ViT-L-14.pt"
-LABEL_MAP  = ROOT / "trained_models_final/PSL_recognition_label_map.txt"
-UNSEEN_DIR = ROOT / "Data/Unseen Data"
+ROOT       = _DIR.parent
+CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models\\fullshot_24frames_run1.pth"
+BACKBONE   = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\CLIP_weights/ViT-L/ViT-L-14.pt"
+LABEL_MAP  = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final/PSL_recognition_label_map.txt"
+UNSEEN_DIR = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\Data/Random_test"
 
 # num_frames is FIXED at 16 (matches checkpoint).
 # sampling_rate controls the temporal stride (how spread out the 16 frames are).
 NUM_FRAMES        = PSL_NUM_FRAMES  # 16 -- must match training
-SAMPLING_VARIANTS = [1, 2, 4, 8]   # 4 = trained default
+SAMPLING_VARIANTS = [4]   # 4 = trained default
 
 
 def label_from_filename(stem: str, id_to_name: dict) -> int | None:

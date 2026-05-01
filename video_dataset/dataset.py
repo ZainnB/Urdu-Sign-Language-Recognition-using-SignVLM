@@ -13,6 +13,7 @@ import torch
 from torchvision import transforms
 
 from .transform import create_random_augment, random_resized_crop
+from .drive_to_local_cache import resolve_cached_path
 
 import random
 from collections import defaultdict
@@ -25,10 +26,12 @@ class VideoDataset(torch.utils.data.Dataset):
         num_frames: int, sampling_rate: int, spatial_size: int,
         mean: torch.Tensor, std: torch.Tensor,
         auto_augment: Optional[str] = None, interpolation: str = 'bicubic',
-        mirror: bool = False, n_shots: int = -1
+        mirror: bool = False, n_shots: int = -1,
+        local_cache_dir: Optional[str] = None,
     ):
         self.frames_available = frames_available
         self.data_root = data_root
+        self.local_cache_dir = (local_cache_dir or "").strip() or None
         self.interpolation = interpolation
         self.spatial_size = spatial_size
         self.n_shots = n_shots
@@ -96,10 +99,15 @@ class VideoDataset(torch.utils.data.Dataset):
         try:
             line = self.data_list[idx]
             #print(line)
-            path, label = line.split('\t') #line.split(' ') Hamzah
-            path = os.path.join(self.data_root, path)
+            parts = line.strip().split('\t')
+            relpath, label = parts[0], int(parts[1])  #line.split(' ') Hamzah
+            if self.local_cache_dir:
+                path = resolve_cached_path(
+                    self.frames_available, self.data_root, relpath, self.local_cache_dir
+                )
+            else:
+                path = os.path.join(self.data_root, relpath)
             #print('============== ', path , '**** ', self.frames_available)
-            label = int(label)
             #print('*********** ', len(self.data_list),' **** ',label)
         except:
             print('Error with: ', line)
@@ -129,6 +137,9 @@ class VideoDataset(torch.utils.data.Dataset):
                     frames.append(np.array(Image.open(str(framesNames[i])).convert('RGB')))
 
         else:
+            # Full-file PyAV decode every __getitem__ — costly on slow storage (e.g. Drive). Prefer
+            # local staging, frames_available=1, or a future refactor: seek/sample so only the needed
+            # temporal span is decoded.
             #print('[Hamzah] Path :', path)
             container = av.open(path)
             frames = {}
