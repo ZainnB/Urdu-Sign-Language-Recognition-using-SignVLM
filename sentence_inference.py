@@ -70,7 +70,7 @@ from inference import (
 
 # ── Defaults ───────────────────────────────────────────────────────────────
 ROOT       = _DIR.parent
-CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models\\fullshot_24frames_run1.pth"
+CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models\\run4_24frame_with_augmentation.pth"
 BACKBONE   = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\CLIP_weights/ViT-L/ViT-L-14.pt"
 LABEL_MAP  = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final/PSL_recognition_label_map.txt"
 

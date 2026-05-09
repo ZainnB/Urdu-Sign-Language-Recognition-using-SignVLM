@@ -59,21 +59,69 @@ CLIP_STD = torch.tensor([0.26862954, 0.26130258, 0.27577711])
 
 # ── Label map ──────────────────────────────────────────────────────────────
 def load_label_map(path: str | Path) -> Dict[int, str]:
-    """Load ``ClassName:index`` or ``index: ClassName`` label map."""
+    """Load a label map from a file.
+
+    Supported formats:
+      - "ClassName: index" or "index: ClassName"
+      - whitespace/TSV where the last token is the numeric index and the
+        left-side may contain a path like "Label/filename.mp4" (we take the
+        segment before the first '/').
+    """
     id_to_name: Dict[int, str] = {}
+    import re
+
     with open(path, encoding="utf-8") as f:
         for raw in f:
             line = raw.strip()
-            if not line or ":" not in line:
+            if not line:
                 continue
-            left, right = line.split(":", 1)
-            left, right = left.strip(), right.strip()
-            if left.isdigit():
-                id_to_name[int(left)] = right
-            elif right.isdigit():
-                id_to_name[int(right)] = left
-            else:
+
+            # Colon-separated (preferred)
+            if ":" in line:
+                left, right = line.split(":", 1)
+                left, right = left.strip(), right.strip()
+                if left.isdigit():
+                    id_to_name[int(left)] = right
+                    continue
+                if right.isdigit():
+                    id_to_name[int(right)] = left
+                    continue
                 raise ValueError(f"Unrecognized label map line: {line!r}")
+
+            # Whitespace / TSV style: last token is numeric index
+            parts = line.split()
+            if len(parts) >= 2 and parts[-1].isdigit():
+                idx = int(parts[-1])
+                left_part = " ".join(parts[:-1])
+                # If left part is a path like 'Label/filename.mp4', prefer the
+                # segment before the first '/'. This preserves original label case.
+                if "/" in left_part:
+                    label = left_part.split("/", 1)[0].strip()
+                else:
+                    # Fallback: strip file extension if present
+                    label = left_part
+                    if "." in label:
+                        label = label.split(".")[0]
+                id_to_name[idx] = label
+                continue
+
+            # Fallback regex for lines that end with number
+            m = re.search(r"(.+?)\s+(\d+)$", line)
+            if m:
+                left_part = m.group(1)
+                idx = int(m.group(2))
+                if "/" in left_part:
+                    label = left_part.split("/", 1)[0].strip()
+                else:
+                    label = left_part
+                    if "." in label:
+                        label = label.split(".")[0]
+                id_to_name[idx] = label
+                continue
+
+            # Unknown line format: skip silently
+            continue
+
     return id_to_name
 
 
