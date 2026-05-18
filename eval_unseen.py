@@ -1,7 +1,7 @@
 """
 Batch accuracy evaluation of SignVLM on the Unseen Data folder.
 
-The model was trained with num_frames=16, sampling_rate=4.
+The model was trained with num_frames=24, sampling_rate=4.
 num_frames is baked into the checkpoint (temporal_pos_embed shape), so we
 keep it fixed at 16. We vary sampling_rate to change which 16 frames are
 pulled from each video:
@@ -34,7 +34,7 @@ ROOT       = _DIR.parent
 CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models\\fullshot_24frames_run1.pth"
 BACKBONE   = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\CLIP_weights/ViT-L/ViT-L-14.pt"
 LABEL_MAP  = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final/PSL_recognition_label_map.txt"
-UNSEEN_DIR = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\Data/Random_test"
+UNSEEN_DIR = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\Data/5_unseen_videos"
 
 # num_frames is FIXED at 16 (matches checkpoint).
 # sampling_rate controls the temporal stride (how spread out the 16 frames are).

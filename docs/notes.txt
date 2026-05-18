@@ -1,0 +1,111 @@
+% ============================================================
+% INTRODUCTION ROUGH NOTES / POINTER VERSION
+% Use this as a writing scaffold when expanding Section 1
+% ============================================================
+
+% --- PARAGRAPH 1: What is SLR and why does it matter ---
+70 million people worldwide using more than 300 sign languages for communication, resulting in a vast number of sign language categories.
+% - Sign language = primary communication for deaf/hearing-impaired
+% - Visual language: meaning encoded in hand shape, motion, facial expression, body posture
+% - SLR = automated recognition of these gestures and translation to spoken/written text
+% - Why needed: communication barrier between deaf and hearing world
+%   (most hearing people cannot understand sign language)
+% - SLR systems could bridge this gap in real-time: assistive tech, education, healthcare
+% - Lots of SLR work for well-resourced languages (ASL, CSL) but severe gaps for others
+
+
+Para 2: 
+- add in isolated and countinous slr and include that for now we will focusing on islolated slr which is predmoninantly an many to one classification problem 
+- add dynamic vs static gestures here - (NOT just hand position — this is key difference from static image recognition)
+% - Dynamic nature = needs temporal understanding, not a single frame classifier
+
+
+% --- PARAGRAPH 3: PSL specifically — the underrepresented language ---
+% - PSL = primary sign language of 10M+ hearing-impaired Pakistanis
+- about how sl are not directly related to natural//written langaue itself meaning that psl is v diff for example asl or Chinese so models trained on those will not directly help etc.
+% - Despite societal importance, PSL is severely underrepresented in SLR research
+% - Some prior work exists BUT:
+%   a) Mostly static alphabet / Urdu letter recognition (Imran 2021, Arooj 2024)
+%      → single still image, no temporal modelling, only 36 classes
+%   b) A few dynamic video-based attempts (Hamza & Wali 2023, 2025)
+%      → but evaluated under conditions that inflate accuracy (see below)
+% - None of the prior work provides a robust system that would work in
+%   real-world diverse settings (new signers, different backgrounds/lighting)
+- in this para we cite this source - https://pmc.ncbi.nlm.nih.gov/articles/PMC9044266/#sec5 - "Recognition of Urdu sign language: a systematic review of the machine learning classification" which provides an overview of older prir works in psl slr 
+% --- PARAGRAPH 3: The dataset problem ---
+- most researchers depend on official annotated dataset of sls and for pak https://psl.org.pk/dictionary is where it is
+% - Official PSL Dictionary = only public PSL video resource
+%   → 2 videos per sign, SAME single signer, controlled studio conditions
+%   → Cannot train generalization; scratch trained models even with memory block such as lstm/bilstm residual blocks/ tends to over fit/ learn memorizes signer's specifc cues thus failing to classify unseen signers.
+% - This is the root cause of why PSL SLR is behind other sign languages (Other lanaguages already have large annotated datasets with multiple signer diverse videos per sign)
+
+- in this para we cite previous efforts to produce psl dataset by researchers like this 
+"Dataset of Pakistan Sign Language and Automatic Recognition of Hand Configuration of Urdu Alphabet through Machine Learning
+Ali Imran a , 1 , Abdul Razzaq a , 1 , ∗, Irfan Ahmad Baig b , 1 , Aamir Hussain a , 1 , Sharaiz Shahid a , 1 , Tausif-ur Rehman a , 1
+a Department of Computer Science, Pakistan b Department of Agribusiness and Applied Economics, Muhammad Nawaz Sharif University of Agriculture, Multan, Pakistan" and hafiz and amirs one
+
+
+% - Our response: PSL-104
+%   → 104 classes (most commonly used Urdu words + alphabets)
+%   → 70 of 104 are DYNAMIC gestures (not static poses)
+%   → 6 signers, 3 videos each per label = 18 original videos per label
+%   → Total: 1,872 original videos
+%   → Recorded at standardized 1278x780, 2m shoulder distance, .mp4
+%   → Varied environments AND varied lighting per signer → real-world diversity
+%   → Near 10x more per-class data than PSL Dictionary
+% - We also build a spatial + temporal augmentation pipeline:
+%   → Spatial: lower-body crop, scale up/down, rotation
+%   → Photometric: brightness, BSH (hue/saturation/brightness shifts)
+%   → Temporal: frame jitter, random frame drop
+%   → Expands to: 4,680 train / 1,248 val / 1,046 test clips
+
+% --- PARAGRAPH 4: The evaluation problem --- signer-disjoint ---
+% - Standard practice in prior PSL work = random train/test split
+%   → This allows same signer's videos in both train AND test
+%   → Model can learn: "this background = class X" or "this hand size = signer Y = class Z"
+Signer-Independent (SI) vs. Signer-Dependent (SD): While SD models (same signers in training/test) show higher accuracy, SI models (disjoint sets) are essential for real-world, inclusive applications.Generalization Goal: By forcing the model to learn the underlying movement patterns rather than the specific, unique appearance of a specific person's hands or clothes, the model becomes more robust.
+%   → Called signer leakage / signer-inclusive evaluation
+%   → Accuracy looks high but tells you nothing about real-world use
+% - We introduce: strictly signer-disjoint evaluation
+%   → No signer (and no augmented variant of their video) appears in more than one split
+%   → Reflects real deployment: model will always encounter NEW signers
+%   → This is the LOSO (Leave-One-Signer-Out) standard recommended in literature
+%   → Prior PSL work has not adopted this — our paper is first to enforce it for PSL. and we show it on PSL-104
+
+(find and add papers to cite on importance of signer disjoint evaluation )
+
+% --- PARAGRAPH 5: Why scratch CNN architectures fail under signer-disjoint ---
+% - We first evaluate 3D-CNN + Residual Blocks + BiLSTM (similar class to Hamza 2023's C3D/I3D/TSM)
+% - Under signer-disjoint: 2.88% accuracy (random chance = 0.96% for 104 classes)
+% - Consistent with Marc et al. (2023) findings on LSA64, Hamza & Wali (2023) on PSL
+%   → These models work fine signer-inclusively (83.89% in our own prior FYP work)
+%   → But collapse completely when signer identity is removed from the equation
+% - Root cause: ~15 clips/class is 40x below minimum viable training for 3D-CNNs
+%   → Model has no visual prior → must learn "what hands look like" from 15 examples
+%   → This is impossible; the model memorizes signer identity instead
+% - Also: static sign methods (Imran 2021, Arooj 2024) have the same fundamental
+%   limitation of not modelling dynamics at all
+
+% --- PARAGRAPH 6: SignVLM as the solution ---
+% - Pretrained large video model: CLIP ViT-L/14 (frozen) + EVL temporal decoder (trainable)
+% - CLIP pretrained on 400M image-text pairs → already knows what hands look like
+%   → No need to learn visual priors from PSL data → no data bottleneck
+% - EVL decoder: lightweight temporal transformer → learns PSL-specific motion from limited data
+% - Only temporal decoder trained on PSL; backbone frozen → parameter-efficient
+% - Results (signer-disjoint, 24 frames/clip):
+%   → Val: 83.49%, Test: 83.12% (with augmentation)
+%   → Val: 85.14%, Test: 84.21% (original only, full-shot)
+% - N-shot: 4-shot → 81.25% val; 8-shot → 84.29% val
+%   → Even with 4 videos/class, model achieves practical accuracy
+%   → Huge practical implication: don't need large dataset to deploy
+
+% --- PARAGRAPH 7: Future roadmap / sentence-level ---
+% - Current work: isolated word recognition (104 classes)
+% - Next step: sentence-level PSL translation
+%   → Sliding window activation of SignVLM over continuous signing video
+%   → Accumulate recognized word labels into gloss sequence
+%   → Pass gloss to NLP translation model (Khan et al. 2020: English <-> PSL NLP model)
+%   → Output: grammatically correct Urdu/English text from continuous PSL
+% - Dataset expansion: add more signers + classes (target 300-500 classes)
+%   → Maintain 6-signer diversity protocol to preserve generalization gains
+% - Long-term: on-device real-time deployment (quantize EVL decoder, serve CLIP remotely)
