@@ -31,10 +31,10 @@ from inference import load_label_map, load_model, preprocess_video, PSL_NUM_FRAM
 
 # ── Paths ──────────────────────────────────────────────────────────────────
 ROOT       = _DIR.parent
-CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models\\fullshot_24frames_run1.pth"
+CHECKPOINT = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final\\models/fullshot_16frames.pth"
 BACKBONE   = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\CLIP_weights/ViT-L/ViT-L-14.pt"
-LABEL_MAP  = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final/PSL_recognition_label_map.txt"
-UNSEEN_DIR = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\Data/5_unseen_videos"
+LABEL_MAP  = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\trained_models_final/PSL_recognition_label_map_run0.txt"
+UNSEEN_DIR = ROOT / "Urdu_Sign_Language_Recognition_using_SignVLM\\Data/Random_test"
 
 # num_frames is FIXED at 16 (matches checkpoint).
 # sampling_rate controls the temporal stride (how spread out the 16 frames are).
