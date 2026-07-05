@@ -173,7 +173,16 @@ def main():
 
         assert data.size(0) % args.batch_split == 0
         split_size = data.size(0) // args.batch_split
-        hit1, hit5, loss_value = 0, 0, 0
+        # Logging stats only feed the print block below, gated to 1-in-print_freq steps. Accumulate
+        # them as GPU tensors (no .item()/.sum().item() inside the loop) and skip them entirely on
+        # non-print steps: a .item() call is a hard CUDA sync that blocks the CPU from queuing the
+        # next micro-batch's kernels until the GPU catches up, which was stalling the pipeline on
+        # every one of the batch_split micro-steps of every single step, not just the printed ones.
+        do_log = (i % args.print_freq == 0)
+        if do_log:
+            hit1_t = torch.zeros((), device=data.device)
+            hit5_t = torch.zeros((), device=data.device)
+            loss_t = torch.zeros((), device=data.device)
         for j in range(args.batch_split):
             data_slice = data[split_size * j: split_size * (j + 1)]
             labels_slice = labels[split_size * j: split_size * (j + 1)]
@@ -181,14 +190,18 @@ def main():
             with torch.amp.autocast('cuda', enabled=args.fp16):
                 logits = model(data_slice)
                 loss = criterion(logits, labels_slice)
-            #print(labels_slice)    
-            if labels.dtype == torch.long: # no mixup, can calculate accuracy
-                hit1 += (logits.topk(1, dim=1)[1] == labels_slice.view(-1, 1)).sum().item()
-                hit5 += (logits.topk(5, dim=1)[1] == labels_slice.view(-1, 1)).sum().item()
-            loss_value += loss.item() / args.batch_split
-            
+            #print(labels_slice)
+            if do_log:
+                if labels.dtype == torch.long: # no mixup, can calculate accuracy
+                    hit1_t += (logits.topk(1, dim=1)[1] == labels_slice.view(-1, 1)).sum()
+                    hit5_t += (logits.topk(5, dim=1)[1] == labels_slice.view(-1, 1)).sum()
+                loss_t += loss.detach() / args.batch_split
+
             loss_scaler.scale(loss / args.batch_split).backward()
-        
+
+        if do_log:
+            hit1, hit5, loss_value = hit1_t.item(), hit5_t.item(), loss_t.item()
+
         loss_scaler.step(optimizer)
         loss_scaler.update()
         lr_sched.step()

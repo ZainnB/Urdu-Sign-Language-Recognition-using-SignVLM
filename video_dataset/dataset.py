@@ -152,17 +152,30 @@ class VideoDataset(torch.utils.data.Dataset):
         import time
         self._ram_frames = {}
         total_bytes = 0
+        empty = []
         n = len(self.data_list)
         t0 = time.time()
         for i, line in enumerate(self.data_list):
             relpath = line.strip().split('\t')[0]
             path = self._resolve_path(relpath)
             framesNames = self._list_frame_files(relpath, path)
+            if not framesNames:
+                empty.append(relpath)
             raw = [f.read_bytes() for f in framesNames]
             self._ram_frames[relpath] = raw
             total_bytes += sum(len(b) for b in raw)
             if (i + 1) % 500 == 0 or i + 1 == n:
                 print(f"  preload_to_ram: {i + 1}/{n} clips, {total_bytes / 1e9:.2f} GB, {time.time() - t0:.0f}s")
+        if empty:
+            # Path.glob() on a missing/empty frame dir returns [] rather than raising, so a run
+            # with preload_to_ram=True before frame extraction has happened would otherwise
+            # "succeed" silently with zero bytes cached and train on all-zero fallback tensors.
+            sample = ", ".join(empty[:5])
+            raise RuntimeError(
+                f"preload_to_ram found {len(empty)}/{n} clips with no extracted frames "
+                f"(e.g. {sample}). Run the frame-extraction step first (frames_available requires "
+                f"pre-extracted JPEG/PNG frames), then retry with preload_to_ram=True."
+            )
         print(f"preload_to_ram done: {len(self._ram_frames)} clips, {total_bytes / 1e9:.2f} GB total in {time.time() - t0:.0f}s")
 
 
