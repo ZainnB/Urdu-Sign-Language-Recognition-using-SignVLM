@@ -62,6 +62,14 @@ def setup_arg_parser(parser: argparse.ArgumentParser):
                         help='training and validation samples root directory, might be overrided by --train_data_root or --val_data_root')
     parser.add_argument('--local_data_cache', type=str, default='',
                         help='e.g. /content/signvlm_data_cache: mirror from data_root on first use; leave empty to read from data_root only')
+    parser.add_argument('--preload_to_ram', action='store_true',
+                        help='requires frames_available=1: read every frame JPEG/PNG into RAM once at '
+                             'dataset init instead of re-reading from disk every epoch. Safe to combine '
+                             'with num_workers>0 only on Linux (fork start method, e.g. Colab); on Windows '
+                             'use num_workers=0 or each worker will redo the preload.')
+    parser.add_argument('--preload_val_to_ram', action='store_true',
+                        help='same as --preload_to_ram but for the validation dataset; only worth it '
+                             'when the same val_loader is reused across many epochs (not one-off eval runs).')
 
     parser.add_argument('--batch_size', type=int,
                         help='training batch size on a all GPUs')
@@ -146,6 +154,7 @@ def create_train_dataset(args: argparse.Namespace) -> torch.utils.data.Dataset:
         sampling_rate=-1 if args.tsn_sampling else args.sampling_rate,
         spatial_size=args.spatial_size,
         local_cache_dir=(getattr(args, 'local_data_cache', None) or '').strip() or None,
+        preload_to_ram=bool(getattr(args, 'preload_to_ram', False)),
         **_parse_mean_and_std(args), n_shots=args.n_shots,
     )
 
@@ -195,6 +204,7 @@ def create_val_dataset(args: argparse.Namespace) -> torch.utils.data.Dataset:
         sampling_rate=-1 if args.tsn_sampling else args.sampling_rate,
         spatial_size=args.spatial_size,
         local_cache_dir=(getattr(args, 'local_data_cache', None) or '').strip() or None,
+        preload_to_ram=bool(getattr(args, 'preload_val_to_ram', False)),
         **_parse_mean_and_std(args), n_shots=-1,
     )
 

@@ -37,6 +37,7 @@ class VideoDataset(torch.utils.data.Dataset):
         auto_augment: Optional[str] = None, interpolation: str = 'bicubic',
         mirror: bool = False, n_shots: int = -1,
         local_cache_dir: Optional[str] = None,
+        preload_to_ram: bool = False,
     ):
         self.frames_available = frames_available
         self.data_root = data_root
@@ -47,6 +48,14 @@ class VideoDataset(torch.utils.data.Dataset):
         self.list_path = list_path
         self.mean, self.std = mean, std
         self.num_frames, self.sampling_rate = num_frames, sampling_rate
+        # relpath -> sorted list of frame file Paths. Filled lazily so every epoch (and every
+        # DataLoader worker, once persistent_workers keeps it alive) skips the re-glob after the
+        # first read of a given clip; independent of preload_to_ram below.
+        self._frame_list_cache = {}
+        # relpath -> list[bytes] (raw JPEG/PNG bytes). Only used when frames_available and
+        # preload_to_ram=True. Populated once here so the whole dataset lives in RAM instead of
+        # being re-read from disk every epoch.
+        self._ram_frames = None
 
         if random_sample:
             assert num_spatial_views == 1 and num_temporal_views == 1
@@ -67,6 +76,11 @@ class VideoDataset(torch.utils.data.Dataset):
                 self.data_list = f.read().splitlines()
         #print(self.data_list)
         print(len(self.data_list))
+
+        if preload_to_ram:
+            if not self.frames_available:
+                raise ValueError("preload_to_ram requires frames_available=1 (pre-extracted JPEG/PNG frames)")
+            self._preload_to_ram()
 
 
     def sampleNshots(self):
@@ -102,7 +116,55 @@ class VideoDataset(torch.utils.data.Dataset):
 
     def __len__(self):
         return len(self.data_list)
-    
+
+
+    def _resolve_path(self, relpath):
+        if self.local_cache_dir:
+            return resolve_cached_path(
+                self.frames_available, self.data_root, relpath, self.local_cache_dir
+            )
+        return os.path.join(self.data_root, relpath)
+
+
+    def _list_frame_files(self, relpath, path):
+        """Sorted frame-file listing for relpath, cached after the first glob so repeated epochs
+        (and persistent DataLoader workers) don't re-stat the filesystem for every __getitem__."""
+        cached = self._frame_list_cache.get(relpath)
+        if cached is not None:
+            return cached
+        # Use pathlib.glob — handles Unicode (Arabic/Urdu) folder names on Windows
+        frame_dir = Path(path).parent / Path(path).stem
+        framesNames = sorted(frame_dir.glob("*.png"))
+        if not framesNames:
+            framesNames = sorted(frame_dir.glob("*.jpg"))
+        self._frame_list_cache[relpath] = framesNames
+        return framesNames
+
+
+    def _preload_to_ram(self):
+        """Read every clip's frame bytes into RAM once so later epochs never touch disk again.
+
+        Relies on DataLoader(num_workers>0) forking workers AFTER this dataset (and its populated
+        cache) is constructed: on Linux/Colab, fork's copy-on-write means workers share this cache
+        instead of re-reading it. On Windows (spawn start method) each worker re-imports and
+        re-runs this preload independently, multiplying RAM by num_workers+1 -- use num_workers=0
+        there, or preload only on Colab."""
+        import time
+        self._ram_frames = {}
+        total_bytes = 0
+        n = len(self.data_list)
+        t0 = time.time()
+        for i, line in enumerate(self.data_list):
+            relpath = line.strip().split('\t')[0]
+            path = self._resolve_path(relpath)
+            framesNames = self._list_frame_files(relpath, path)
+            raw = [f.read_bytes() for f in framesNames]
+            self._ram_frames[relpath] = raw
+            total_bytes += sum(len(b) for b in raw)
+            if (i + 1) % 500 == 0 or i + 1 == n:
+                print(f"  preload_to_ram: {i + 1}/{n} clips, {total_bytes / 1e9:.2f} GB, {time.time() - t0:.0f}s")
+        print(f"preload_to_ram done: {len(self._ram_frames)} clips, {total_bytes / 1e9:.2f} GB total in {time.time() - t0:.0f}s")
+
 
     def __getitem__(self, idx):
         try:
@@ -110,30 +172,25 @@ class VideoDataset(torch.utils.data.Dataset):
             #print(line)
             parts = line.strip().split('\t')
             relpath, label = parts[0], int(parts[1])  #line.split(' ') Hamzah
-            if self.local_cache_dir:
-                path = resolve_cached_path(
-                    self.frames_available, self.data_root, relpath, self.local_cache_dir
-                )
-            else:
-                path = os.path.join(self.data_root, relpath)
+            path = self._resolve_path(relpath)
             #print('============== ', path , '**** ', self.frames_available)
             #print('*********** ', len(self.data_list),' **** ',label)
         except:
             print('Error with: ', line)
         presampled = False  # set True by paths that already select final frames (frames_available / partial decode)
         if self.frames_available:
-            # Use pathlib.glob — handles Unicode (Arabic/Urdu) folder names on Windows
-            frame_dir = Path(path).parent / Path(path).stem
-            framesNames = sorted(frame_dir.glob("*.png"))
-            if not framesNames:
-                framesNames = sorted(frame_dir.glob("*.jpg"))
+            ram_frames = self._ram_frames.get(relpath) if self._ram_frames is not None else None
+            if ram_frames is not None:
+                total = len(ram_frames)
+            else:
+                framesNames = self._list_frame_files(relpath, path)
+                total = len(framesNames)
 
             # Sample indices FIRST, then load only the needed frames (not all frames)
             if self.random_sample:
-                frame_idx = self._random_sample_frame_idx(len(framesNames))
+                frame_idx = self._random_sample_frame_idx(total)
             else:
                 # For val/test: evenly spaced indices across all frames
-                total = len(framesNames)
                 seg_len = (self.num_frames - 1) * self.sampling_rate + 1
                 if total < seg_len:
                     frame_idx = self.frames_downUpSamples(total, self.num_frames)
@@ -143,7 +200,11 @@ class VideoDataset(torch.utils.data.Dataset):
 
             frames = []
             for i in frame_idx:
-                if i < len(framesNames):
+                if i >= total:
+                    continue
+                if ram_frames is not None:
+                    frames.append(np.array(Image.open(io.BytesIO(ram_frames[i])).convert('RGB')))
+                else:
                     frames.append(np.array(Image.open(str(framesNames[i])).convert('RGB')))
             presampled = True  # frames_available already selected final frames above
 
