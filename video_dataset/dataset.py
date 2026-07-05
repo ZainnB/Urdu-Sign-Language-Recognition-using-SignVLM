@@ -18,6 +18,15 @@ from .drive_to_local_cache import resolve_cached_path
 import random
 from collections import defaultdict
 
+# Per-process cache of true (decodable) frame counts, learned on first access. This dataset's
+# container nb_frames metadata is unreliable (re-encoded files overcount by 10-30 frames), so we
+# count actual video packets once and reuse it across epochs. A "FULL" sentinel marks files where
+# partial decode can't match full decode (reordered pts / count still mismatches) so later epochs
+# skip straight to the full-decode fallback instead of re-attempting the fast path.
+_FRAME_COUNT_CACHE = {}
+_FULL_DECODE_SENTINEL = "FULL"
+
+
 class VideoDataset(torch.utils.data.Dataset):
 
     def __init__(
@@ -247,26 +256,37 @@ class VideoDataset(torch.utils.data.Dataset):
         holding the whole video in memory. Returns a list of RGB uint8 ndarrays for the sampled
         indices.
 
-        Takes the fast path ONLY when the container reports a frame count (vstream.frames > 0) AND
-        decoded frames arrive with strictly-increasing pts AND the decoded count matches; otherwise
-        it raises and __getitem__ falls back to the original full decode. When the reported count is
-        accurate (standard constant-frame-rate MP4) the selected frames are IDENTICAL to the
-        full-decode path.
+        Frame count comes from a one-time packet demux (header parse, no pixel decode), cached per
+        file, because this dataset's nb_frames metadata is unreliable (re-encoded files overcount).
+        Takes the fast path ONLY when decoded frames arrive with strictly-increasing pts AND the
+        decoded count matches the packet count; otherwise it raises, __getitem__ falls back to the
+        original full decode, and the file is cached as full-decode-only so later epochs skip the
+        retry. When packet count equals decodable count (the normal case) the selected frames are
+        IDENTICAL to the full-decode path.
 
-        Caveat: if a container reports a non-zero but UNDER-counted frame total (rare; some
-        VFR/remuxed files), the fast path still returns a valid random temporal sample of the
-        correct video with the correct label — training stays correct — but the sampling window may
-        differ from the full-decode path (not bit-identical). This is an accepted trade: verifying
-        the true count would require a full extra pass, negating the speedup."""
+        Caveat: if packet count UNDER-counts decodable frames (rare), the fast path still returns a
+        valid random temporal sample of the correct video with the correct label — training stays
+        correct — but the sampling window may differ from the full-decode path (not bit-identical).
+        This is an accepted trade: confirming the true count would require a full decode pass."""
+        cached = _FRAME_COUNT_CACHE.get(path)
+        if cached == _FULL_DECODE_SENTINEL:
+            # Learned on a previous epoch that partial decode can't match full decode for this file
+            # (reordered pts, or packet count still != decodable count) -> go straight to fallback.
+            raise ValueError("file marked full-decode-only from a previous attempt")
+
         container = av.open(path)
         try:
-            vstream = container.streams.video[0]
-            n = int(getattr(vstream, "frames", 0) or 0)
+            if cached is not None:
+                n = cached  # true count learned on a previous epoch -> skip the demux pass entirely
+            else:
+                # nb_frames metadata is unreliable for this dataset (re-encoded files overcount), so
+                # count actual video packets (header parse only, no pixel decode). Much cheaper than
+                # a full decode, and cached below so it runs at most once per file per worker.
+                n = sum(1 for p in container.demux(video=0) if p.size)
+                container.close()
+                container = av.open(path)  # demux consumed the file; reopen to decode from the start
             if n <= 0:
-                # No reliable frame-count metadata (common for some remuxed/VFR containers).
-                # Don't pay for an extra full demux pass just to guess a count that may still be
-                # wrong for these containers -- fall back straight to the proven full-decode path.
-                raise ValueError("no reliable frame count metadata; skipping partial decode")
+                raise ValueError("could not determine frame count")
 
             # SAME sampler the full-decode path uses -> same indices -> same frames selected,
             # PROVIDED decoded-frame count actually equals n (checked via the loop below).
@@ -288,6 +308,7 @@ class VideoDataset(torch.utils.data.Dataset):
             for frame in container.decode(video=0):
                 pts = frame.pts
                 if pts is None or (prev_pts is not None and pts <= prev_pts):
+                    _FRAME_COUNT_CACHE[path] = _FULL_DECODE_SENTINEL  # deterministic property; don't retry partial
                     raise ValueError("missing/duplicate/non-monotonic pts during partial decode")
                 prev_pts = pts
                 if cur in needed:
@@ -299,13 +320,15 @@ class VideoDataset(torch.utils.data.Dataset):
                     break
 
             if len(collected) != len(needed):
-                # Metadata said n frames but decode produced fewer -> our sample indices don't
-                # match what the full-decode path would have computed. Fall back for consistency
-                # rather than silently return a different temporal sample.
+                # Counted n frames but decode produced fewer -> our sample indices don't match what
+                # the full-decode path would compute. Mark the file full-decode-only (deterministic)
+                # so we don't waste a partial attempt next epoch, then fall back for consistency.
+                _FRAME_COUNT_CACHE[path] = _FULL_DECODE_SENTINEL
                 raise ValueError(
-                    f"frame count mismatch: metadata said {n}, only decoded {cur} "
+                    f"frame count mismatch: counted {n}, only decoded {cur} "
                     f"({len(collected)}/{len(needed)} needed frames found)"
                 )
+            _FRAME_COUNT_CACHE[path] = n  # true count confirmed -> reuse next epoch, skip demux
             return [collected[i] for i in frame_idx]
         finally:
             container.close()
