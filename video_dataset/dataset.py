@@ -111,6 +111,7 @@ class VideoDataset(torch.utils.data.Dataset):
             #print('*********** ', len(self.data_list),' **** ',label)
         except:
             print('Error with: ', line)
+        presampled = False  # set True by paths that already select final frames (frames_available / partial decode)
         if self.frames_available:
             # Use pathlib.glob — handles Unicode (Arabic/Urdu) folder names on Windows
             frame_dir = Path(path).parent / Path(path).stem
@@ -135,27 +136,52 @@ class VideoDataset(torch.utils.data.Dataset):
             for i in frame_idx:
                 if i < len(framesNames):
                     frames.append(np.array(Image.open(str(framesNames[i])).convert('RGB')))
+            presampled = True  # frames_available already selected final frames above
 
         else:
-            # Full-file PyAV decode every __getitem__ — costly on slow storage (e.g. Drive). Prefer
-            # local staging, frames_available=1, or a future refactor: seek/sample so only the needed
-            # temporal span is decoded.
-            #print('[Hamzah] Path :', path)
-            container = av.open(path)
-            frames = {}
-            for frame in container.decode(video=0):
-                frames[frame.pts] = frame
-            container.close()
-            frames = [frames[k] for k in sorted(frames.keys())]
-            #print(len(frames))
+            if self.random_sample:
+                # Training path: decode ONLY the frames the sampler selects, without ever holding
+                # the whole video in memory. Big videos previously forced a full-video decode every
+                # step (the epoch bottleneck). On ANY problem this falls back to the original full
+                # decode below, so a decode quirk degrades to "slow but correct", never wrong.
+                try:
+                    frames = self._decode_sampled_frames_train(path)  # list of RGB ndarrays, already sampled
+                    presampled = True
+                except Exception as _partial_e:
+                    print('[partial-decode fallback] Path :', path, 'error:', _partial_e)
+                    try:
+                        # Full-decode fallback must itself be crash-proof: a corrupt/missing file
+                        # must degrade to the zero-tensor path below, never kill the worker.
+                        _container = av.open(path)
+                        try:
+                            _fr = {}
+                            for frame in _container.decode(video=0):
+                                _fr[frame.pts] = frame
+                        finally:
+                            _container.close()
+                        frames = [_fr[k] for k in sorted(_fr.keys())]  # av.VideoFrame list, sampled below
+                        presampled = False
+                    except Exception as _fallback_e:
+                        print('[full-decode also failed] Path :', path, 'error:', _fallback_e)
+                        frames = []
+                        presampled = True  # signal "already final" so the block below skips re-sampling an empty list
+            else:
+                # Val/test path: unchanged — multi-view temporal crops need the full frame sequence.
+                container = av.open(path)
+                frames = {}
+                for frame in container.decode(video=0):
+                    frames[frame.pts] = frame
+                container.close()
+                frames = [frames[k] for k in sorted(frames.keys())]
+                presampled = False
         #print('[Hamzah] Path :', path, ' : ', len(frames))
         if self.random_sample:
             try:
-                if not self.frames_available:
-                    # Video-decode path: frames are av or PIL objects, need sampling + conversion
+                if not presampled:
+                    # Full-decode fallback path: frames are av or PIL objects, need sampling + conversion
                     frame_idx = self._random_sample_frame_idx(len(frames))
                     frames = [np.array(frames[x]) if isinstance(frames[x], Image.Image) else frames[x].to_rgb().to_ndarray() for x in frame_idx]
-                # frames_available path: already sampled numpy arrays from above
+                # presampled path (frames_available / partial decode): already sampled numpy arrays from above
                 frames = torch.as_tensor(np.stack(frames)).float() / 255.
 
                 if self.auto_augment is not None:
@@ -212,8 +238,77 @@ class VideoDataset(torch.utils.data.Dataset):
             if len(frames) > 1:
                 frames = torch.stack(frames)
 
-        #print('[Hamzah] Path :', path, " ", frames.shape) 
+        #print('[Hamzah] Path :', path, " ", frames.shape)
         return frames, label
+
+
+    def _decode_sampled_frames_train(self, path):
+        """Training-path partial decode: decode ONLY the frames the sampler selects, without ever
+        holding the whole video in memory. Returns a list of RGB uint8 ndarrays for the sampled
+        indices.
+
+        Takes the fast path ONLY when the container reports a frame count (vstream.frames > 0) AND
+        decoded frames arrive with strictly-increasing pts AND the decoded count matches; otherwise
+        it raises and __getitem__ falls back to the original full decode. When the reported count is
+        accurate (standard constant-frame-rate MP4) the selected frames are IDENTICAL to the
+        full-decode path.
+
+        Caveat: if a container reports a non-zero but UNDER-counted frame total (rare; some
+        VFR/remuxed files), the fast path still returns a valid random temporal sample of the
+        correct video with the correct label — training stays correct — but the sampling window may
+        differ from the full-decode path (not bit-identical). This is an accepted trade: verifying
+        the true count would require a full extra pass, negating the speedup."""
+        container = av.open(path)
+        try:
+            vstream = container.streams.video[0]
+            n = int(getattr(vstream, "frames", 0) or 0)
+            if n <= 0:
+                # No reliable frame-count metadata (common for some remuxed/VFR containers).
+                # Don't pay for an extra full demux pass just to guess a count that may still be
+                # wrong for these containers -- fall back straight to the proven full-decode path.
+                raise ValueError("no reliable frame count metadata; skipping partial decode")
+
+            # SAME sampler the full-decode path uses -> same indices -> same frames selected,
+            # PROVIDED decoded-frame count actually equals n (checked via the loop below).
+            frame_idx = [int(i) for i in self._random_sample_frame_idx(n)]
+            if not frame_idx:
+                raise ValueError("empty frame index")
+            needed = set(frame_idx)
+            max_idx = max(needed)
+
+            # Positional index (cur) equals display index ONLY while decoded frames arrive in
+            # strictly increasing presentation (pts) order with no duplicates -- the same
+            # assumption the original path's "sorted(dict-by-pts)" relies on. Any duplicate,
+            # out-of-order, or missing pts means our positional count could diverge from the
+            # original's post-sort indexing, so we bail to the full-decode fallback rather than
+            # risk returning different frames.
+            collected = {}
+            cur = 0
+            prev_pts = None
+            for frame in container.decode(video=0):
+                pts = frame.pts
+                if pts is None or (prev_pts is not None and pts <= prev_pts):
+                    raise ValueError("missing/duplicate/non-monotonic pts during partial decode")
+                prev_pts = pts
+                if cur in needed:
+                    collected[cur] = frame.to_rgb().to_ndarray()
+                    if len(collected) == len(needed):
+                        break
+                cur += 1
+                if cur > max_idx:
+                    break
+
+            if len(collected) != len(needed):
+                # Metadata said n frames but decode produced fewer -> our sample indices don't
+                # match what the full-decode path would have computed. Fall back for consistency
+                # rather than silently return a different temporal sample.
+                raise ValueError(
+                    f"frame count mismatch: metadata said {n}, only decoded {cur} "
+                    f"({len(collected)}/{len(needed)} needed frames found)"
+                )
+            return [collected[i] for i in frame_idx]
+        finally:
+            container.close()
 
 
     def _generate_temporal_crops(self, frames):
