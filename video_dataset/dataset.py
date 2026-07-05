@@ -156,8 +156,8 @@ class VideoDataset(torch.utils.data.Dataset):
                 try:
                     frames = self._decode_sampled_frames_train(path)  # list of RGB ndarrays, already sampled
                     presampled = True
-                except Exception as _partial_e:
-                    print('[partial-decode fallback] Path :', path, 'error:', _partial_e)
+                except Exception:
+                    # Partial decode not usable for this file -> fall back to full decode silently.
                     try:
                         # Full-decode fallback must itself be crash-proof: a corrupt/missing file
                         # must degrade to the zero-tensor path below, never kill the worker.
