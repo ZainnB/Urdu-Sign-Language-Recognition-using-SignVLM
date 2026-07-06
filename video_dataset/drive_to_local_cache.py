@@ -139,6 +139,21 @@ def _sanitize_rel(rel: str) -> str:
     return p
 
 
+def _split_cache_subdir(data_root: str) -> str:
+    """Readable + collision-safe namespace for one data_root inside a shared local_cache_dir.
+
+    Different splits (train/val/test/unseen) each have their own data_root but routinely contain
+    identically-named files (e.g. every split's ClassA folder has a "1.mp4", numbered independently).
+    Without this, two splits sharing one local_cache_dir would resolve to the SAME destination path
+    and silently alias/overwrite each other's videos -- e.g. val's "ClassA/1.mp4" could end up
+    serving train's cached "ClassA/1.mp4" content under val's label, with no error at all.
+    """
+    resolved = str(Path(data_root).resolve())
+    h = hashlib.sha256(resolved.encode("utf-8", errors="surrogateescape")).hexdigest()[:8]
+    name = Path(data_root).name or "root"
+    return f"{name}_{h}"
+
+
 def resolve_cached_path(
     frames_available: int,
     data_root: str,
@@ -152,9 +167,10 @@ def resolve_cached_path(
     if not local_cache_dir or not str(local_cache_dir).strip():
         return os.path.join(data_root, relpath)
     rel = _sanitize_rel(relpath)
+    split_subdir = _split_cache_subdir(data_root)
     source_file = Path(data_root) / rel
-    dest_file = Path(local_cache_dir) / rel
-    lock_key = f"{int(bool(frames_available))}\0{rel}"
+    dest_file = Path(local_cache_dir) / split_subdir / rel
+    lock_key = f"{int(bool(frames_available))}\0{split_subdir}\0{rel}"
 
     if not frames_available:
         if dest_file.is_file() and dest_file.stat().st_size > 0:
