@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SignVLM for Urdu/Pakistani Sign Language — Architecture &amp; Pipeline Summary</title>
+<style>
+  @page { size: A4; margin: 14mm 13mm; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 10.5pt; line-height: 1.45; color: #1a1a1a;
+    margin: 0;
+  }
+  h1 { font-size: 18pt; margin: 0 0 4px; }
+  h2 { font-size: 13.5pt; margin: 18px 0 8px; border-bottom: 2px solid #1f77b4; padding-bottom: 3px; }
+  .runline { color: #444; margin-bottom: 6px; font-size: 9.5pt; }
+  code { font-family: Consolas, monospace; font-size: 9pt; background: #f2f2f2; padding: 0 3px; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 14px; font-size: 9pt; }
+  th, td { border: 1px solid #c9c9c9; padding: 3px 6px; text-align: left; vertical-align: top; }
+  th { background: #eaf1f8; }
+  tr:nth-child(even) td { background: #f7f9fb; }
+  ul, ol { margin: 6px 0; padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .pagebreak { page-break-before: always; }
+  .note { font-size: 9.5pt; color: #333; font-style: italic; }
+  strong, b { color: #000; }
+  p { margin: 6px 0; }
+</style>
+</head>
+<body>
+
+<h1>SignVLM for Urdu/Pakistani Sign Language — Architecture &amp; Pipeline Summary</h1>
+<p class="runline"><b>Reference paper:</b> Luqman (2025), <i>SignVLM: A pre-trained large vision model for sign
+language recognition</i>, PeerJ Comput. Sci. 11:e3112 (PMC12453763).<br>
+<b>Our run:</b> PSL-104 signer-disjoint fine-tune — full metrics in
+<code>docs/retrain_details/signvlm_report/SignVLM_Retrain_Report.md</code>.<br>
+Training details below come from the actual training notebook (<code>notebooks/SignVLM_Colab_Training.ipynb</code>)
+and the dataloader code (<code>video_dataset/</code>), not from the paper.</p>
+
+<h2>1. Architecture</h2>
+<p>SignVLM = <b>frozen CLIP image encoder + lightweight EVL-style temporal decoder + linear classifier</b>.
+Only the decoder and classifier are trained; the visual backbone is never updated.</p>
+<table>
+<tr><th>Stage</th><th>What we used (Cell 5, <code>EVLTransformer</code>)</th><th>Notes</th></tr>
+<tr><td>Visual backbone</td><td><b>OpenAI CLIP ViT-L/14</b> (<code>ViT-L/14-lnpre</code>, weights from
+<code>ViT-L-14.pt</code>), mode <code>freeze_fp16</code></td><td>Frozen, run in fp16; encodes each frame
+independently</td></tr>
+<tr><td>Temporal decoder</td><td>4 decoder layers, qkv_dim 1024, 16 heads,
+<code>decoder_mlp_dropout=0.5</code></td><td>EVL-style: per-layer depthwise temporal conv + temporal positional
+embeddings + cross-frame attention</td></tr>
+<tr><td>Head</td><td>LayerNorm → Dropout (<code>cls_dropout=0.5</code>) → Linear → <b>104 logits</b></td>
+<td>PSL-104 (English gloss words + Urdu alphabet letters)</td></tr>
+</table>
+<p>Input tensor: <code>[B, 3, T=24, 224, 224]</code> — frames are flattened to 2D images for the backbone, the
+last 4 layers' token features are reshaped per-frame and fed to the decoder; prediction comes from the decoder's
+final class token. The paper reports <b>58.6M trainable parameters</b> (decoder + head only).</p>
+
+<h2>2. Which pretrained model? (the &ldquo;Arabic model&rdquo; question)</h2>
+<p><b>No — there is no Arabic (or any sign-language) pretrained SignVLM checkpoint, and we did not start from
+one.</b> The &ldquo;pre-trained large vision model&rdquo; in the name is <b>generic CLIP</b>, not a model
+pretrained on sign language. In the paper, each language (Arabic KArSL, American WLASL-100, Turkish AUTSL,
+Argentinian LSA64) is fine-tuned <b>independently, always starting from the same frozen CLIP encoder</b> with a
+freshly initialized decoder — there is no cross-language transfer and no released per-language checkpoint.</p>
+<p>We did exactly the same: <b>OpenAI CLIP ViT-L/14 frozen backbone + decoder/head trained from random
+initialization on our PSL-104 data</b>. No KArSL/Arabic weights were involved.</p>
+
+<h2>3. Preprocessing (offline, dataset construction)</h2>
+<ol>
+<li><b>Clip trimming</b> — <code>augmentation_and_preprocessing/preprocessing/cropping.py</code>: ffmpeg-based
+in-place trimming of recording lead-in/lead-out on over-long clips (~0.5&nbsp;s from clip edges).</li>
+<li><b>Signer ROI cropping</b> — <code>mediapipe_roi.py</code> + <code>batch_roi_extraction.py</code>: MediaPipe
+person/upper-body detection per frame, padded bounding box with EMA smoothing across frames, letterbox resize to
+a square crop centred on the signer. (Per-class clip preparation was carried further by the second group on top
+of this.)</li>
+<li><b>Per-class folders + splits</b> — <code>&lt;split&gt;/&lt;label&gt;/&lt;clip&gt;.mp4</code>; Cell 4 emits
+<code>train.tsv / val.tsv / test.tsv</code> (path + integer label). Split sizes: <b>4,368 train / 1,244 val /
+1,248 test</b>, test set <b>signer-disjoint</b> (a held-out signer).</li>
+<li><b>Frame extraction</b> — ffmpeg extracts JPEG frames per clip (idempotent Cell 4 step), so the dataloader
+reads frames directly (<code>frames_available=1</code>) instead of decoding video.</li>
+</ol>
+
+<h2>4. How variable-length / variable-size clips become fixed model input</h2>
+<p>The model itself <b>always receives exactly <code>[3, 24, 224, 224]</code></b> — all variability is absorbed
+by the dataloader (<code>video_dataset/dataset.py</code>):</p>
+<p><b>Temporal (different clip lengths, dropped frames).</b> Training uses
+<code>_random_sample_frame_idx</code> (<code>dataset.py:453</code>): if the clip has ≥ 4×(24−1)+1 = <b>93</b>
+frames, a random start is chosen and 24 frames are taken at stride 4; if the clip is <b>shorter</b> (e.g. after
+the offline frame-drop augmentation, or a short recording), <code>frames_downUpSamples</code>
+(<code>dataset.py:475</code>) linearly re-indexes the available N frames onto 24 target slots
+(<code>index[i] = int(N/24 × i)</code>) — repeating frames when N &lt; 24 and skipping when 24 ≤ N &lt; 93. So a
+clip that lost 5–15% of its frames to augmentation produces the <b>same tensor shape</b>; the only effect is that
+the surviving content is sampled at slightly different time points — i.e. the frame-drop augmentation acts as a
+<b>signing-speed / timing perturbation</b>, teaching the temporal decoder to tolerate irregular frame timing. At
+evaluation, <code>_generate_temporal_crops</code> (<code>dataset.py:411</code>) instead pads short clips by
+repeating the last frame and takes 3 evenly spaced temporal windows (<code>num_temporal_views=3</code>),
+averaging the softmax over views.</p>
+<p><b>Spatial (different resolutions).</b> Training: <code>random_resized_crop(frames, 224, 224)</code>
+(<code>transform.py:544</code>) samples a random sub-region covering 8–100% of the source frame area with aspect
+ratio between 3:4 and 4:3, then bilinearly resizes it to 224×224 — any input resolution works. Evaluation: an
+aspect-preserving bilinear resize sets the short side to 224 (<code>dataset.py:308–317</code>), followed by a
+center crop (<code>num_spatial_views=1</code>). 224×224 is required because CLIP ViT-L/14 cuts the image into
+fixed 14×14-pixel patches (16×16 = 256 tokens + CLS) matching its pretrained positional embeddings.</p>
+<p><b>Normalization</b> (both paths): CLIP statistics passed explicitly in Cell 4 —
+<code>mean=[0.48145466, 0.4578275, 0.40821073]</code>, <code>std=[0.26862954, 0.26130258, 0.27577711]</code>.</p>
+
+<div class="pagebreak"></div>
+<h2>5. Augmentation</h2>
+<p><b>(a) Offline video-level augmentation</b> — <code>augmentation_combined.py</code> generates extra
+<code>.mp4</code> files per class folder; each augmented clip applies <b>1 or 2 randomly chosen techniques</b>
+from:</p>
+<table>
+<tr><th>Technique</th><th>Range</th></tr>
+<tr><td>Lower-body crop</td><td>remove bottom 20% of frame</td></tr>
+<tr><td>Scale</td><td>0.8× (down) or 1.2× (up)</td></tr>
+<tr><td>Brightness</td><td>×U(0.7, 1.4)</td></tr>
+<tr><td>Rotation</td><td>±10°</td></tr>
+<tr><td>Brightness/saturation/hue shift</td><td>preset (90, 110, +10) or (85, 115, −10)</td></tr>
+<tr><td>Temporal frame jitter</td><td>offset 1–3 frames</td></tr>
+<tr><td>Random frame drop</td><td>5–15% of frames</td></tr>
+</table>
+<p>Output clips are padded to a minimum of 30 frames. The Colab batch notebook
+(<code>SignVLM_Data_Augmentation_Colab.ipynb</code>) adds <b>9 augmented clips per class</b>
+(<code>*_aug_16 … _aug_24</code>) to the validation/test/unseen splits; the train split's
+<code>*_aug_1 … _aug_15</code> clips came from an earlier pass.</p>
+<p><b>(b) Online training-time augmentation (what the code actually applies, train split only):</b></p>
+<ul>
+<li><b>Random temporal window</b> — random 24-frame window at stride 4 per epoch (see &sect;4).</li>
+<li><b>Random resized crop</b> — random 8–100%-area crop, aspect 3:4–4:3, resized to 224×224.</li>
+<li><b>RandAugment (<code>auto_augment</code>) — removed for this training run</b> (set to <code>None</code>).</li>
+</ul>
+<p>Evaluation applies none of the above — deterministic resize + center crop, 3 temporal views averaged.</p>
+
+<h2>6. Training settings (as configured in the notebook)</h2>
+<table>
+<tr><th>Setting</th><th>Value</th><th>Where</th></tr>
+<tr><td>Backbone mode</td><td><code>freeze_fp16</code> (frozen CLIP, fp16)</td><td>Cell 5</td></tr>
+<tr><td>Epochs</td><td>46 (<code>NUM_EPOCHS = round(10,000 legacy steps / 218 steps-per-epoch)</code>)</td><td>Cell 4</td></tr>
+<tr><td>Steps</td><td>218 steps/epoch × 46 = 10,028 total (<code>drop_last=True</code>)</td><td>Cell 4</td></tr>
+<tr><td>Batch size</td><td>20 (<code>max_speed</code> profile), <code>batch_split=1</code> on A100 (2 on smaller GPUs)</td><td>Cells 4/6</td></tr>
+<tr><td>Optimizer</td><td>AdamW, lr = 4e-5, weight_decay = 0.05</td><td>Cell 6</td></tr>
+<tr><td>LR schedule</td><td><code>CosineAnnealingLR(T_max = 10,028)</code> → decays to ~1e-8, no warmup</td><td>Cell 6</td></tr>
+<tr><td>Loss</td><td>CrossEntropyLoss</td><td>Cell 7</td></tr>
+<tr><td>Precision</td><td>AMP fp16 (<code>GradScaler</code> + <code>autocast</code>)</td><td>Cells 6/7</td></tr>
+<tr><td>Dropout</td><td><code>cls_dropout=0.5</code>, <code>decoder_mlp_dropout=0.5</code></td><td>Cell 5</td></tr>
+<tr><td>DataLoader</td><td><code>num_workers=6</code>, <code>prefetch_factor=4</code>, persistent workers, local
+<code>/content</code> data cache</td><td>Cell 4</td></tr>
+<tr><td>Validation</td><td>every 5th epoch (<code>EVAL_EVERY_N_EPOCHS=5</code>), eval-mode, 1 spatial × 3 temporal
+views, batch 1</td><td>Cells 6/7</td></tr>
+<tr><td>Checkpointing</td><td>every epoch (<code>SAVE_EVERY_N_EPOCHS=1</code>), auto-resume from latest on Drive</td><td>Cells 6/7</td></tr>
+</table>
+<p><b>Results (best checkpoint, epoch 45):</b> train 98.01% &middot; validation <b>94.53%</b> &middot;
+same-signer test 93.75% &middot; <b>signer-disjoint test 78.12%</b> top-1 (val top-5 ≈ 99.4%). The −15.6-point
+signer-shift gap concentrates in a few visually adjacent sign cliques (Hear/Healthy/He_or_she; Why/Where/Four) —
+see the retrain report &sect;5–6.</p>
+
+</body>
+</html>
